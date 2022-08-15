@@ -1,0 +1,146 @@
+/*** Fuentes del sitio ***/
+
+$fuentes: (
+  mayor: bold,
+  medio: normal,
+  menor: lighter,
+);
+
+@each $medida, $valor in $fuentes {
+  .texto-#{$medida} {
+    font-weight: $valor;
+  }
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-toggler {
+  font-size: 12px;
+}
+
+.navbar-collapse {
+  font-family: "Kalam", cursive;
+  font-size: 17px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 13px;
+  }
+}
+
+.titulo-tiare,
+.titulo-servicios,
+.titulo-reserva,
+.titulo-empresa {
+  font-family: "Kalam", cursive;
+  font-size: 35px;
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 20px;
+  }
+}
+
+.parrafo-tiare,
+.parrafo-reserva,
+.parrafo-empresa {
+  font-size: 20px;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.button-uno {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 13px;
+  }
+}
+
+.subtitulo-servicio {
+  font-family: "Kalam", cursive;
+  font-size: 22px;
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+}
+
+.texto-servicio {
+  font-size: 18px;
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
+  }
+}
+
+.opcion {
+  font-size: 18px;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.scroll a {
+  font-size: 40px;
+}
+
+.titulo-footer {
+  font-family: "Kalam", cursive;
+  font-size: 35px;
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 19px;
+  }
+}
+
+.subtitulo-footer {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 13px;
+  }
+}
+
+[class^="footer-item"] a {
+  font-size: 30px;
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 20px;
+  }
+}
+
+.derechos {
+  font-size: 15px;
+  @media screen and (max-width: 767px) {
+    font-size: 13px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 11px;
+  }
+}

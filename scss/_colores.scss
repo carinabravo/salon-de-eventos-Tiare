@@ -1,0 +1,69 @@
+/*** Colores del sitio ***/
+
+$basePrimaria-color: #000000;
+$baseSecundaria-color: #fff;
+$baseTerciaria-color: #cd6032;
+$fuentePrimaria-color: #fff;
+$fuenteSecundaria-color: #000000;
+$fuenteSombra-primaria-color: #151515;
+$fuenteSombra-secundaria-color: #2c2c2c;
+
+.navbar > .container {
+  background-color: $basePrimaria-color !important;
+}
+
+.button-uno {
+  background-color: $basePrimaria-color;
+  box-shadow: 5px 8px 15px $fuenteSombra-secundaria-color;
+}
+
+.bg-light,
+.servicios,
+.reservas,
+.footer {
+  background-color: $basePrimaria-color;
+}
+
+.header,
+.nuestra-empresa {
+  background-color: $baseSecundaria-color;
+}
+
+.nav-link:hover {
+  background-color: $baseTerciaria-color !important;
+}
+
+[class^="footer-item"] a,
+.scroll a {
+  color: $baseTerciaria-color;
+}
+
+.navbar-toggler,
+.navbar-light,
+.nav-link {
+  color: $fuentePrimaria-color !important;
+}
+
+.button-uno,
+.titulo-servicios,
+.item,
+.reservas,
+.texto-reservas,
+.footer,
+.texto-footer {
+  color: $fuentePrimaria-color;
+}
+
+.textos-tiare,
+.nuestra-empresa {
+  color: $fuenteSecundaria-color;
+}
+
+.img,
+.img-empresa {
+  box-shadow: 5px 10px 18px $fuenteSombra-primaria-color;
+}
+
+.img-servicios {
+  box-shadow: 5px 8px 15px $fuenteSombra-secundaria-color;
+}
