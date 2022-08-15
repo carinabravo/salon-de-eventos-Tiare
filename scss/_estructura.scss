@@ -1,0 +1,134 @@
+/*** Estructura del sitio ***/
+
+$textAlineacion-primaria: center;
+$textAlineacion-secundaria: justify;
+$alineacionItem-primario: center;
+$justifyContent-primario: center;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  align-items: $alineacionItem-primario;
+  overflow: hidden;
+  @media screen and (max-width: 400px) {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-salon-eventos {
+  grid-column: 7/12;
+  @media screen and (max-width: 767px) {
+    grid-column: 2/-2;
+  }
+  @media screen and (max-width: 400px) {
+    grid-column: 2/-2;
+  }
+}
+
+.parrafo-reserva,
+.derechos {
+  text-align: $textAlineacion-primaria;
+}
+
+.parrafo-tiare,
+.texto-servicio,
+.opcion,
+.parrafo-empresa {
+  text-align: $textAlineacion-secundaria;
+}
+
+.textos-tiare {
+  grid-column: 2/6;
+}
+
+.button-uno {
+  display: inline-block;
+  text-align: $textAlineacion-primaria;
+  text-decoration: none;
+}
+
+.titulo-servicios {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: $justifyContent-primario;
+}
+
+.items {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  justify-content: $justifyContent-primario;
+  text-align: $textAlineacion-primaria;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.texto-reservas {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+}
+
+.opcion-de-reserva {
+  grid-column: 2/-2;
+  display: flex;
+  @media screen and (max-width: 767px) {
+    grid-column: 2/-2;
+  }
+  @media screen and (max-width: 400px) {
+    grid-column: 1/-1;
+  }
+}
+
+.nuestra-empresa {
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+}
+
+.textos-nuestra-empresa {
+  grid-column: 7/-2;
+  grid-row: 1/-1;
+  @media screen and (max-width: 767px) {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    text-align: $textAlineacion-secundaria;
+  }
+}
+
+.img-nuestra-empresa {
+  grid-column: 2/6;
+  grid-row: 2/-1;
+  @media screen and (max-width: 767px) {
+    grid-column: 2/-1;
+    grid-row: 2/3;
+  }
+}
+
+.scroll a {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.float {
+  position: fixed;
+}
+
+.texto-footer {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+}
+
+[class^="footer-item"] {
+  grid-column: span 4;
+  @media screen and (max-width: 400px) {
+    grid-column: span 2;
+  }
+}

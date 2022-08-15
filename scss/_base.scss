@@ -1,0 +1,19 @@
+/*** Base del sitio ***/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  margin: auto;
+}
+
