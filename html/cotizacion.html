@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta / Keywords -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salón de eventos Tiare</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../Images/logos/logo.jpg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Style-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/formularios.css">
+</head>
+
+<body>
+    <!--Logo de la empresa-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container d-flex">
+            <img class="img-logo" src="../Images/logos/logo.jpg" alt="logo">
+        </div>
+    </nav>
+
+    <seccion class="formulario__dos grid">
+        <!--Sección 1 -->
+        <!--Comienzo del formulario de cotización-->
+        <form id="formulario" class="formulario">
+            <h1 class="titulo_cotizacion">Formulario de Cotización</h1>
+            <h2 class=" texto_cotizacion">Recuerde indicar en cada caso lo que desea para el alquiler del salón
+                y
+                así
+                cotizar correctamente su
+                próximo evento.</h2>
+            <!--Opciones de evento-->
+            <div id="opciones"><b>Seleccione la opción deseada:</b>
+                <div class="opciones_evento"></div>
+                <p class="formulario__input-error__tres">Ingrese una opción.</p>
+            </div>
+            <div class="servicios_dos">
+                <!-- Selección de turno -->
+                <div id="turnos"><b>Turnos disponibles:</b>
+                    <div class="turnos"></div>
+                    <p class="formulario__input-error__tres">Ingrese un turno.</p>
+                </div>
+                <!-- Selección de servicios -->
+                <div id="grupo__servicios" class="servicios_salon">
+                    <label for="servicios" class="palabra_servicio">&nbsp;Servicios de salón:&nbsp;</label>
+                    <select id="servicios" name="servicios" class="servicio">
+                        <option value="seleccione"><b>Seleccione</b></option>
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                    <p class="formulario__input-error__tres">Ingrese una opción de servicio.</p>
+                </div>
+            </div>
+            <!--Indicaciones para cotizar alquiler de salón-->
+            <div>
+                <div class="opciones_tres">
+                    <!--Calendario-->
+                    <div id="grupo__fechaEvento" class="fecha_evento">
+                        <label for="fechaEvento" class="palabra_fecha">Fecha del evento:&nbsp;</label>
+                        <input type="date" id="fecha" name="fecha" value="fecha" class="fecha">
+                        <p class="formulario__input-error__tres">Ingrese fecha.</p>
+                    </div>
+                    <!--Selección de c/horas-->
+                    <div id="grupo__numHoras" class="cantidad_horas">
+                        <label for="numHoras" class="palabra_horas">Cantidad de horas:&nbsp;</label>
+                        <input type="number" id="numHoras" class="numHoras">
+                        <p class="formulario__input-error__tres">Ingrese número de horas (Máximo 8Hs)</p>
+                    </div>
+                    <!--Selección de c/invitados-->
+                    <div id="grupo__numPersonas" class="cantidad_personas">
+                        <label for="numPersonas" class="palabra_invitados">&nbsp;Cantidad de
+                            invitados:&nbsp;</label>
+                        <input type="number" id="numPersonas" class="numPersonas">
+                        <p class="formulario__input-error__tres">Ingrese número de invitados (desde 10 hasta
+                            1.800)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--Botón para calcular cotización-->
+            <div class="btn_uno">
+                <a href="index.html"><input type="button" value="Volver" class="btn-volver"></input></a>
+                <input type="button" onclick="limpiarForm()" value="Limpiar Formulario" class="boton_cotizar">
+                <input type="button" onclick="obtenerCotizacionConReserva()" value="Cotizar Evento"
+                    class="boton_cotizar">
+                <span id="result" class="result"></span>
+                <P class="texto_reserva">Reserva:</P>
+                <span id="result-reserva" class="result_reserva"></span>
+                <a href="reserva.html" class="disabled-link"><input type="button" value="Reservar Evento"
+                        class="boton_reservar"></input></a>
+            </div>
+        </form>
+        <!--Fin del formulario de cotización-->
+        <!--Fin de sección 1-->
+    </seccion>
+
+    <footer id="redes-sociales" class="footer">
+        <!--Sección 2 -->
+        <div class="grid">
+            <!--Redes sociales-->
+            <div class="texto-footer texto-medio">
+                <h2 class="titulo-footer texto-mayor" data-aos="zoom-in" data-aos-duration="1000">Salón de
+                    Eventos
+                    Tiare</h2>
+                <h3 class="subtitulo-footer texto-medio">Seguinos en nuestras redes y enterate de todas las
+                    novedades que tenemos para vos!</h3>
+            </div>
+            <div class="footer-item1">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="footer-item2">
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer-item3">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="texto-footer-uno">
+            <h4 class="derechos texto-medio">© 2022 Company, Tiare. All rights reserved.</h4>
+        </div>
+        <!--Fin de sección 2-->
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!--Js.-->
+    <script src="../js/cotizacion.js"></script>
+</body>
+
+</html>
