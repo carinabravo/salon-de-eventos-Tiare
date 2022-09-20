@@ -6,15 +6,15 @@ $baseTerciaria-color: #cd6032;
 $fuentePrimaria-color: #fff;
 $fuenteSecundaria-color: #000000;
 $fuenteSombra-primaria-color: #151515;
-$fuenteSombra-secundaria-color: #2c2c2c;
+$fuenteSombra-secundaria-color: #a3a3a366;
 
 .navbar > .container {
   background-color: $basePrimaria-color !important;
 }
 
 .button-uno {
-  background-color: $basePrimaria-color;
-  box-shadow: 5px 8px 15px $fuenteSombra-secundaria-color;
+  background-color: $baseTerciaria-color;
+  box-shadow: 3px 0px 30px $fuenteSombra-secundaria-color;
 }
 
 .bg-light,
@@ -40,6 +40,7 @@ $fuenteSombra-secundaria-color: #2c2c2c;
 
 .navbar-toggler,
 .navbar-light,
+.reservas,
 .nav-link {
   color: $fuentePrimaria-color !important;
 }
@@ -47,7 +48,6 @@ $fuenteSombra-secundaria-color: #2c2c2c;
 .button-uno,
 .titulo-servicios,
 .item,
-.reservas,
 .texto-reservas,
 .footer,
 .texto-footer {
