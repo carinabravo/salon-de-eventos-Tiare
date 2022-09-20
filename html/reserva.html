@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta / Keywords -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salón de eventos Tiare</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../Images/logos/logo.jpg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Style-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/formularios.css">
+</head>
+
+<body>
+    <!--Logo de la empresa-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container d-flex">
+            <img class="img-logo" src="../Images/logos/logo.jpg" alt="logo">
+        </div>
+    </nav>
+
+    <section class="formulario__tres grid">
+        <!--Sección 1 -->
+        <!--Comienzo del formulario de reserva-->
+        <form id="formulario__reservar" class="formulario__reservar">
+            <h1 class="titulo_reservar">Formulario de Reserva</h1>
+            <!-- Datos personales -->
+            <h2 class="texto_reservar_uno">Información de Contacto</h2>
+            <!-- Nombre y Apellido -->
+            <div class="formulario__grupo__dos" id="grupo__nombre__dos">
+                <label for="nombre__dos" class="formulario__label__dos">Nombre y Apellido</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="text" class="formulario__input__dos" name="nombre__dos" id="nombre__dos"
+                        placeholder="Ingrese nombre completo">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener
+                    letras.</p>
+            </div>
+            <!-- Correo Electronico -->
+            <div class="formulario__grupo__dos" id="grupo__correo__dos">
+                <label for="correo__dos" class="formulario__label__dos">Correo electrónico</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="email" class="formulario__input__dos" name="correo__dos" id="correo__dos"
+                        placeholder="nombre@correo.com">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener letras, numeros, puntos,
+                    guiones y guion bajo.</p>
+            </div>
+            <!-- Teléfono / Celular -->
+            <div class="formulario__grupo__dos" id="grupo__telefono__dos">
+                <label for="telefono" class="formulario__label__dos">Teléfono</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="text" class="formulario__input__dos" name="telefono__dos" id="telefono__dos"
+                        placeholder="221.1234567">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números y punto.</p>
+            </div>
+            <!-- Datos de la tarjeta -->
+            <h2 class="texto_reservar_dos">Información de Pago</h2>
+            <!-- Nombre completo del titular -->
+            <div class="formulario__grupo__dos" id="grupo__nombre__tres">
+                <label for="nombre__tres" class="formulario__label__dos">Nombre y Apellido del titular</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="text" class="formulario__input__dos" name="nombre__tres" id="nombre__tres"
+                        placeholder="Ingrese nombre completo del titular">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener
+                    letras.</p>
+            </div>
+            <!-- DNI del titular -->
+            <div class="formulario__grupo__dos" id="grupo__dni">
+                <label for="numeroDni" class="formulario__label__dos">DNI</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="text" class="formulario__input__dos" name="dni" id="dni" placeholder="12.123.456">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números y puntos.</p>
+            </div>
+            <!-- Número de tarjeta de crédito/débito -->
+            <div class="formulario__grupo__dos" id="grupo__tarjeta">
+                <label for="numeroTarjeta" class="formulario__label__dos">Tarjeta de crédito o
+                    débito</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="number" class="formulario__input__dos" name="tarjeta" id="tarjeta"
+                        placeholder="Ingrese número de la tarjeta">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números.</p>
+            </div>
+            <!-- Fecha de vencimiento de la tarjeta -->
+            <div class="formulario__grupo__dos" id="grupo__mesAnio">
+                <label for="vencimiento" class="formulario__label__dos">Vencimiento de la tarjeta</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="text" class="formulario__input__dos" name="mesAnio" id="mesAnio" placeholder="mm/aa">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números y barra.</p>
+            </div>
+            <!-- Clave de la tarjeta -->
+            <div class="formulario__grupo__dos" id="grupo__clave">
+                <label for="cvv" class="formulario__label__dos">CVV</label>
+                <div class="formulario__grupo-input__dos">
+                    <input type="number" class="formulario__input__dos" name="clave" id="clave"
+                        placeholder="Ingrese clave de la tarjeta">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números.</p>
+            </div>
+            <!-- Monto de Reserva-->
+            <div class="formulario__grupo__dos" id="grupo__monto">
+                <label for="monto" class="formulario__label__dos">Pago de reserva</label>
+                <div class="formulario__grupo-input__dos">
+                    <input disabled type="number" class="formulario__input__dos" name="monto" id="monto"
+                        placeholder="monto de reserva">
+                    <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error__dos">Solo debe contener números.</p>
+            </div>
+            <!-- Botones -->
+            <div class="btn__tres">
+                <div class="formulario__grupo__dos formulario__grupo-btn-limpiar__dos">
+                    <a href="index.html"><input type="button" value="Salir" class="btn_salir"></input></a>
+                </div>
+                <div>
+                    <button type="button" onclick="limpiarFormReservar()" value="Limpiar formulario"
+                        class="formulario__btn__dos">Cancelar Reserva</button>
+                </div>
+                <div class="formulario__grupo__dos formulario__grupo-btn-enviar__dos">
+                    <button type="submit" class="formulario__btn__dos">Confirmar Reserva</button>
+                </div>
+            </div>
+        </form>
+        <!--Fin de formulario de contacto-->
+        <!--Fin de sección 1-->
+    </section>
+
+    <!--Sección 2 -->
+    <section class="scroll">
+        <!--Scroll-->
+        <div class="scroll float">
+            <a href="#"><i class="fa fa-chevron-circle-up"></i></a>
+        </div>
+        <!--Fin de sección 2-->
+    </section>
+
+    <footer id="redes-sociales" class="footer">
+        <!--Sección 3 -->
+        <div class="grid">
+            <!--Redes sociales-->
+            <div class="texto-footer texto-medio">
+                <h2 class="titulo-footer texto-mayor" data-aos="zoom-in" data-aos-duration="1000">Salón de
+                    Eventos
+                    Tiare</h2>
+                <h3 class="subtitulo-footer texto-medio">Seguinos en nuestras redes y enterate de todas las
+                    novedades que tenemos para vos!</h3>
+            </div>
+            <div class="footer-item1">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="footer-item2">
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer-item3">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="texto-footer-uno">
+            <h4 class="derechos texto-medio">© 2022 Company, Tiare. All rights reserved.</h4>
+        </div>
+        <!--Fin de sección 3-->
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!--Js.-->
+    <script src="../js/reserva.js"></script>
+</body>
+
+</html>
