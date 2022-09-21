@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 70px 50px 70px 50px;
+  padding: 90px 50px 90px 50px;
 }
 
 .formulario__contactanos {
@@ -201,7 +201,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 70px 20px 70px 20px;
+  padding: 90px 20px 90px 20px;
 }
 
 .formulario {
@@ -434,7 +434,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 70px 50px 70px 50px;
+  padding: 90px 50px 90px 50px;
 }
 
 .formulario__reservar {
