@@ -195,7 +195,7 @@ body {
 
 .servicios {
   background-color: #000000;
-  height: 920px;
+  height: 960px;
   padding: 20px;
 }
 
@@ -423,6 +423,7 @@ body {
 
   .titulo-reserva {
     font-size: 30px;
+    margin-top: 30px;
   }
 
   .parrafo-reserva {
@@ -430,6 +431,8 @@ body {
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .button-dos {
@@ -677,13 +680,14 @@ body {
 
   .titulo-reserva {
     font-size: 20px;
+    margin-top: 30px;
   }
 
   .parrafo-reserva {
     font-size: 15px;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .opcion {
