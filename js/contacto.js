@@ -101,6 +101,8 @@ form_contactanos.addEventListener("submit", (e) => {
       title: "Perfecto",
       text: "El formulario se envió correctamente!", //uso del sweet alert
     });
+    /** Se elimina el local storage.*/
+    localStorage.clear();
   } else {
     Swal.fire({
       icon: "error",
