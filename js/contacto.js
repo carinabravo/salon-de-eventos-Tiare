@@ -14,7 +14,7 @@ const expresiones = {
   nombre: /^[a-zA-ZÀ-ÿ\s]{5,30}$/, // Letras y espacios, pueden llevar acentos.
   correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
   telefono: /^\d.{10}$/, // Número de área más números.
-  consulta: /^[a-zA-ZÀ-ÿ\s]{10,200}$/, // Letras y espacios, pueden llevar acentos.
+  consulta: /^[a-zA-ZÀ-ÿ\s.?",!]{10,200}$/, // Letras y espacios, pueden llevar acentos.
 };
 
 const nombreElementos = ["nombre", "correo", "telefono", "consulta"];
@@ -89,25 +89,56 @@ form_contactanos.addEventListener("submit", (e) => {
     nombre: inputs.find((i) => i.id == "nombre").value,
     correo: inputs.find((i) => i.id == "correo").value,
     telefono: inputs.find((i) => i.id == "telefono").value,
+    consulta: inputs.find((i) => i.id == "consulta").value,
+    terminos: inputs.find((i) => i.id == "terminos").checked,
   };
 
   localStorage.setItem("form_contactanos", JSON.stringify(camposParaGuardar));
 
-  if (campos.nombre && campos.telefono && campos.correo && campos.consulta) {
-    form_contactanos.reset();
+  if (campos.nombre && campos.correo && campos.telefono && campos.consulta) {
+    /** Api para formulario de contacto. */
+    fetch("https://formspree.io/f/xrgdqqpr", {
+      method: "POST",
+      body: JSON.stringify({
+        title: "Mensaje de Contacto",
+        body: camposParaGuardar,
+        userId: 1,
+      }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => {
+        // en caso de estar todo ok.
+        console.log(response.json());
 
-    Swal.fire({
-      icon: "success",
-      title: "Perfecto",
-      text: "El formulario se envió correctamente!", //uso del sweet alert
-    });
-    /** Se elimina el local storage.*/
-    localStorage.clear();
+        form_contactanos.reset();
+
+        Swal.fire({
+          icon: "success",
+          title: "Perfecto",
+          text: "El formulario se envió correctamente!", //uso de sweet alert.
+        });
+
+        /** Se elimina el local storage.*/
+        localStorage.clear();
+        return response;
+      })
+      .catch((err) => {
+        // en caso de haber un error en el servidor.
+        console.error(err);
+
+        Swal.fire({
+          icon: "error",
+          title: "Error",
+          text: "Ocurrió un error en el servidor, intente nuevamente.",
+        });
+      });
   } else {
     Swal.fire({
       icon: "error",
       title: "Error",
-      text: "Debe completar el formulario correctamente!", //uso del sweet alert
+      text: "Debe completar el formulario correctamente!", //uso de sweet alert
     });
   }
 });
