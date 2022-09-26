@@ -994,6 +994,15 @@ input[type="checkbox"] {
   border: 2px solid #bb2929;
 }
 
+/* Vista para TABLET */
+@media screen and (max-width: 767px) {
+}
+
+/* Vista para MOBILE */
+
+@media screen and (max-width: 400px) {
+}
+
 /*** Formulario de cotización ***/
 
 .formulario__dos {
@@ -1227,6 +1236,15 @@ input[type="checkbox"] {
   display: block;
 }
 
+/* Vista para TABLET */
+@media screen and (max-width: 767px) {
+}
+
+/* Vista para MOBILE */
+
+@media screen and (max-width: 400px) {
+}
+
 /*** Formulario de reserva ***/
 
 .formulario__tres {
@@ -1389,4 +1407,18 @@ input:disabled {
 
 .formulario__grupo-incorrecto__dos .formulario__input__dos {
   border: 2px solid #bb2929;
+}
+
+
+
+
+
+
+/* Vista para TABLET */
+@media screen and (max-width: 767px) {
+}
+
+/* Vista para MOBILE */
+
+@media screen and (max-width: 400px) {
 }

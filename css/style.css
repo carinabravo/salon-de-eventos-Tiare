@@ -1694,6 +1694,8 @@ input[type=checkbox] {
   border: 2px solid #bb2929;
 }
 
+/* Vista para TABLET */
+/* Vista para MOBILE */
 /*** Formulario de cotización ***/
 .formulario__dos {
   display: flex;
@@ -1927,6 +1929,8 @@ input[type=checkbox] {
   display: block;
 }
 
+/* Vista para TABLET */
+/* Vista para MOBILE */
 /*** Formulario de reserva ***/
 .formulario__tres {
   display: flex;
@@ -2091,5 +2095,8 @@ input:disabled {
 .formulario__grupo-incorrecto__dos .formulario__input__dos {
   border: 2px solid #bb2929;
 }
+
+/* Vista para TABLET */
+/* Vista para MOBILE */
 
 /*# sourceMappingURL=style.css.map */
