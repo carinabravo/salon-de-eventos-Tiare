@@ -1709,7 +1709,7 @@ input[type=checkbox] {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #fff;
-  width: 70%;
+  width: 80%;
   height: auto;
   padding: 20px 50px 30px 50px;
 }
@@ -1792,10 +1792,11 @@ input[type=checkbox] {
 }
 
 .fecha {
-  width: 120px;
+  width: 135px;
   height: 30px;
   border-radius: 5px;
   font-size: 14px;
+  padding-left: 10px;
 }
 
 .fecha_evento {
@@ -1803,8 +1804,9 @@ input[type=checkbox] {
 }
 
 .numHoras {
-  width: 70px;
+  width: 50px;
   height: 30px;
+  padding-left: 10px;
   border-radius: 5px;
   font-size: 14px;
 }
@@ -1814,8 +1816,9 @@ input[type=checkbox] {
 }
 
 .numPersonas {
-  width: 70px;
+  width: 75px;
   height: 30px;
+  padding-left: 10px;
   border-radius: 5px;
   font-size: 14px;
 }
