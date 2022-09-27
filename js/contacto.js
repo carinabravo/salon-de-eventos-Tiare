@@ -14,7 +14,7 @@ const expresiones = {
   nombre: /^[a-zA-ZÀ-ÿ\s]{5,30}$/, // Letras y espacios, pueden llevar acentos.
   correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
   telefono: /^\d.{10}$/, // Número de área más números.
-  consulta: /^[a-zA-ZÀ-ÿ\s.?",!]{10,200}$/, // Letras y espacios, pueden llevar acentos.
+  consulta: /^[a-zA-ZÀ-ÿ\s.?",!]{30,800}$/, // Letras y espacios, pueden llevar acentos.
 };
 
 const nombreElementos = ["nombre", "correo", "telefono", "consulta"];
