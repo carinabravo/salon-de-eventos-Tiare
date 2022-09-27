@@ -110,8 +110,6 @@ form_contactanos.addEventListener("submit", (e) => {
     })
       .then((response) => {
         // en caso de estar todo ok.
-        console.log(response.json());
-
         form_contactanos.reset();
 
         Swal.fire({
@@ -126,7 +124,6 @@ form_contactanos.addEventListener("submit", (e) => {
       })
       .catch((err) => {
         // en caso de haber un error en el servidor.
-        console.error(err);
 
         Swal.fire({
           icon: "error",
