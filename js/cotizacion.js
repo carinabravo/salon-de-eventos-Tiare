@@ -174,7 +174,8 @@ function obtenerCotizacionConReserva() {
   localStorage.setItem("formulario", JSON.stringify(camposGuardar));
 
   /** quita clase disabled-link al link del botón de reservar */
-  document.querySelector(".disabled-link").classList.remove("disabled-link");
+  document.getElementById("disabled-link").classList.remove("disabled-link");
+  document.getElementById("disabled-reserva").classList.remove("disabled-reserva");
 }
 
 /** Arrays - retorna "radios" con ciclo For of para seleccionar un evento */
@@ -264,6 +265,8 @@ function limpiarForm() {
   document.getElementById("formulario").reset();
   document.getElementById("result").innerText = "";
   document.getElementById("result-reserva").innerText = "";
+  document.getElementById("disabled-link").classList.add("disabled-link"); 
+  document.getElementById("disabled-reserva").classList.add("disabled-reserva");
 
   /** Limpia mensajes de error de validación del formulario de cotización */
   document.querySelector("#grupo__numHoras p").style.display = "none";
