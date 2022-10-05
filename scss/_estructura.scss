@@ -4,6 +4,8 @@ $textAlineacion-primaria: center;
 $textAlineacion-secundaria: justify;
 $alineacionItem-primario: center;
 $justifyContent-primario: center;
+$justifyContent-secundario: space-evenly;
+$justifyContent-terciario: flex-end;
 
 .grid {
   display: grid;
@@ -51,6 +53,7 @@ $justifyContent-primario: center;
   display: inline-block;
   text-align: $textAlineacion-primaria;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .titulo-servicios {
@@ -131,4 +134,287 @@ $justifyContent-primario: center;
   @media screen and (max-width: 400px) {
     grid-column: span 2;
   }
+}
+
+/* Formulario de Contacto */
+
+.formulario__uno {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justifyContent-primario;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.formulario__contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justifyContent-secundario;
+}
+
+.titulo_contactanos {
+  display: flex;
+  flex-direction: column;
+  align-items: $alineacionItem-primario;
+}
+
+.texto_contactanos {
+  display: flex;
+  text-align: $textAlineacion-secundaria;
+  @media screen and (max-width: 767px) {
+    text-align: $textAlineacion-secundaria;
+  }
+}
+
+.formulario__label {
+  display: block;
+}
+
+.formulario__label {
+  cursor: pointer;
+}
+
+.formulario__grupo-input {
+  position: relative;
+}
+
+.formulario__input-error {
+  display: none;
+}
+
+.formulario__input:focus {
+  outline: none;
+}
+
+.formulario__input-error-activo {
+  display: block;
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+}
+
+.casilla__consulta:focus {
+  outline: none;
+}
+
+.btn__dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justifyContent-terciario;
+  @media screen and (max-width: 400px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.btn_volver {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.formulario__btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Formulario de Cotización */
+
+.formulario__dos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: $alineacionItem-primario;
+  overflow: hidden;
+}
+
+.formulario {
+  grid-column: 1/-1;
+}
+
+.titulo_cotizacion {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+}
+
+.texto_cotizacion {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+  @media screen and (max-width: 767px) {
+    text-align: $textAlineacion-secundaria;
+  }
+  @media screen and (max-width: 400px) {
+    text-align: $textAlineacion-secundaria;
+  }
+}
+
+#opciones {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+}
+
+.opciones_evento {
+  display: inline-block;
+  @media screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    text-align: $textAlineacion-primaria;
+  }
+}
+
+.servicios_dos {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  align-items: $alineacionItem-primario;
+  justify-content: $justifyContent-primario;
+  text-align: $textAlineacion-primaria;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
+}
+
+.turnos {
+  display: inline-block;
+}
+
+.opciones_tres {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  align-items: $alineacionItem-primario;
+  text-align: $textAlineacion-primaria;
+  justify-content: $justifyContent-primario;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
+}
+
+.btn_uno {
+  grid-column: 1/-1;
+  align-items: $alineacionItem-primario;
+  text-align: $textAlineacion-primaria;
+  justify-content: $justifyContent-terciario;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 767px) {
+    justify-content: $justifyContent-primario;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 400px) {
+    justify-content: $justifyContent-primario;
+    flex-direction: column;
+  }
+}
+
+.btn-volver {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.boton_cotizar {
+  cursor: pointer;
+}
+
+.disabled-link {
+  pointer-events: none;
+  display: none;
+}
+
+.boton_reservar {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.disabled-reserva.texto_reserva {
+  pointer-events: none;
+  display: none;
+}
+
+.texto_reserva {
+  display: inline-block;
+}
+
+.formulario__input-error__tres {
+  display: none;
+  align-items: $alineacionItem-primario;
+  text-align: $textAlineacion-primaria;
+  justify-content: $justifyContent-primario;
+}
+
+.formulario__input-error-activo__tres {
+  display: block;
+}
+
+/* Formulario de Reserva */
+
+.formulario__tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justifyContent-primario;
+  @media screen and (max-width: 400px) {
+    justify-content: $justifyContent-primario;
+  }
+}
+
+.formulario__reservar {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justifyContent-secundario;
+}
+
+.titulo_reservar {
+  display: flex;
+  flex-direction: column;
+  align-items: $alineacionItem-primario;
+  @media screen and (max-width: 767px) {
+    text-align: $textAlineacion-primaria;
+  }
+}
+
+.formulario__label__dos {
+  display: block;
+  cursor: pointer;
+}
+
+.formulario__grupo-input__dos {
+  position: relative;
+}
+
+.formulario__input__dos:focus {
+  outline: none;
+}
+
+.formulario__input-error__dos {
+  display: none;
+}
+
+.formulario__input-error-activo__dos {
+  display: block;
+}
+
+.formulario__validacion-estado__dos {
+  position: absolute;
+}
+
+.btn__tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justifyContent-terciario;
+  @media screen and (max-width: 400px) {
+    flex-direction: column-reverse;
+    justify-content: $justifyContent-primario;
+  }
+}
+
+.btn_salir,
+.formulario__btn__dos {
+  display: inline-block;
+  cursor: pointer;
 }

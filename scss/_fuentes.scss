@@ -144,3 +144,252 @@ body {
     font-size: 11px;
   }
 }
+
+/* Formulario de Contacto */
+
+.titulo_contactanos {
+  font-size: 30px;
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 22px;
+  }
+}
+
+.texto_contactanos {
+  font-size: 18px;
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.formulario__label {
+  font-size: 15px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
+  }
+}
+
+.formulario__input {
+  font-family: "Kalam", cursive;
+}
+
+.formulario__input-error {
+  font-size: 13px;
+}
+
+.formulario__validacion-estado {
+  font-size: 15px;
+}
+
+.btn_volver,
+.formulario__btn {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+/* Formulario de Cotización */
+
+.titulo_cotizacion {
+  font-size: 30px;
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 22px;
+  }
+}
+
+.texto_cotizacion {
+  font-size: 19px;
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 17px;
+  }
+}
+
+.palabra_servicio,
+.palabra_fecha,
+.palabra_horas,
+.palabra_invitados {
+  font-size: 16px;
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.opciones_evento {
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+}
+
+.texto-turnos {
+  font-size: 16px;
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.turnos {
+  font-family: "Kalam", cursive;
+}
+
+.servicios_salon {
+  font-size: 16px;
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.servicio {
+  font-size: 14px;
+  font-family: "Kalam", cursive;
+}
+
+.fecha {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.numHoras {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.numPersonas {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.btn-volver {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+
+.boton_cotizar {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.boton_reservar {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 400px) {
+    font-size: 15px;
+  }
+}
+
+.result {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+  @media screen and (max-width: 400px) {
+    font-size: 16px;
+  }
+}
+
+.result_reserva {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+  @media screen and (max-width: 400px) {
+    font-size: 16px;
+  }
+}
+
+.texto_reserva {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  @media screen and (max-width: 400px) {
+    font-size: 17px;
+  }
+}
+
+.formulario__input-error__tres {
+  font-size: 13px;
+  @media screen and (max-width: 400px) {
+  }
+}
+
+/* Formulario de Reserva */
+
+.titulo_reservar {
+  font-size: 30px;
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+  }
+}
+
+.texto_reservar_uno,
+.texto_reservar_dos {
+  font-size: 20px;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
+}
+
+.formulario__label__dos {
+  font-size: 15px;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+.formulario__input__dos {
+  font-family: "Kalam", cursive;
+}
+
+.formulario__input-error__dos {
+  font-size: 13px;
+}
+
+.formulario__validacion-estado__dos {
+  font-size: 15px;
+}
+
+.btn_salir,
+.formulario__btn__dos {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+}

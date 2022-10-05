@@ -1,10 +1,44 @@
- /*** Animaciones del sitio ***/
+/*** Animaciones del sitio ***/
 
 .nav-link:hover {
   transition: 0.5s;
 }
 
 .button-uno {
-  cursor: pointer;
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Contacto */
+
+input[type="checkbox"] {
+  transition: all 0.4s;
+}
+
+.formulario__input,
+.casilla__consulta {
+  transition: 0.3s ease all;
+}
+
+.btn_volver,
+.formulario__btn {
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Cotización */
+
+.btn-volver,
+.boton_cotizar,
+.boton_reservar {
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Reserva */
+
+.formulario__input__dos {
+  transition: 0.3s ease all;
+}
+
+.btn_salir,
+.formulario__btn__dos {
   transition: 0.2s ease all;
 }
