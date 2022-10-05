@@ -282,9 +282,12 @@
 }
 
 [class^="footer-item"] {
-  margin-left: 50%;
+  margin-left: 47%;
   @media screen and (max-width: 767px) {
-    margin-left: 40%;
+    margin-left: 41%;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 48%;
   }
 }
 
