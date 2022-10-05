@@ -96,7 +96,7 @@ body {
 }
 
 .img {
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -121,11 +121,11 @@ body {
 }
 
 .button-uno {
-  box-shadow: 5px 8px 15px #2c2c2c;
+  box-shadow: 5px 10px 15px #2c2c2c;
 }
 
 .button-uno:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 /* Main - Reservas */
@@ -227,7 +227,7 @@ body {
 .img-servicio {
   width: 44%;
   border-radius: 10px;
-  box-shadow: 5px 8px 15px #2c2c2c;
+  box-shadow: 5px 10px 15px #2c2c2c;
 }
 
 .subtitulo-servicio {
@@ -276,7 +276,7 @@ body {
   width: 100%;
   height: auto;
   margin-right: 30px;
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
   border-radius: 10px;
 }
 
@@ -486,7 +486,7 @@ body {
   .img-servicio {
     width: 30%;
     border-radius: 10px;
-    box-shadow: 5px 8px 15px #2c2c2c;
+    box-shadow: 5px 10px 15px #2c2c2c;
   }
 
   .subtitulo-servicio {
@@ -729,7 +729,7 @@ body {
   .img-servicio {
     width: 30%;
     border-radius: 10px;
-    box-shadow: 5px 8px 15px #2c2c2c;
+    box-shadow: 5px 10px 15px #2c2c2c;
   }
 
   .subtitulo-servicio {
@@ -816,13 +816,13 @@ body {
 
 /*** FORMULARIOS ***/
 
-/* Formulario de contacto */
+/* Formulario de Contacto */
 
 .formulario__uno {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 90px 50px 90px 50px;
+  padding: 90px 45px 90px 45px;
 }
 
 .formulario__contactanos {
@@ -830,15 +830,15 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #fff;
-  width: 60%;
+  width: 70%;
   height: auto;
-  padding: 20px 50px 20px 50px;
+  padding: 20px 60px 20px 60px;
 }
 
 .formulario__contactanos {
   border-color: #cd6032;
   border-style: solid;
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
   border-radius: 10px;
   border-width: 3px;
 }
@@ -847,13 +847,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 28px;
+  font-size: 30px;
   padding: 20px 0 10px 0;
 }
 .texto_contactanos {
   display: flex;
   font-size: 18px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: justify;
 }
 
 input[type="checkbox"]:checked {
@@ -869,7 +870,7 @@ input[type="checkbox"] {
   display: block;
   font-weight: bold;
   font-size: 15px;
-  padding: 20px 0 10px 0;
+  padding: 15px 0 2px 0;
   cursor: pointer;
 }
 
@@ -878,6 +879,7 @@ input[type="checkbox"] {
 }
 
 .formulario__input {
+  font-family: "Kalam", cursive;
   width: 100%;
   background: #fff;
   border: 1px solid;
@@ -891,7 +893,7 @@ input[type="checkbox"] {
 .formulario__input:focus {
   border: 2px solid #0075ff;
   outline: none;
-  box-shadow: 3px 0px 30px #a3a3a366;
+  box-shadow: 3px 10px 30px #a3a3a366;
 }
 
 .formulario__input-error {
@@ -923,24 +925,25 @@ input[type="checkbox"] {
 .casilla__consulta:focus {
   border: 3px solid #0075ff;
   outline: none;
-  box-shadow: 3px 0px 30px #a3a3a366;
+  box-shadow: 3px 10px 30px #a3a3a366;
 }
 
 .btn__dos {
   display: flex;
   flex-direction: row;
-  padding: 10px 0 20px 40px;
+  padding: 10px 10px 20px 0;
   justify-content: flex-end;
 }
 
 .btn_volver {
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 90px;
-  margin-left: 15px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 20px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -950,11 +953,12 @@ input[type="checkbox"] {
 .formulario__btn {
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 150px;
-  margin-left: 15px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -963,15 +967,15 @@ input[type="checkbox"] {
 
 .btn_volver,
 .formulario__btn {
-  box-shadow: 5px 8px 15px #2c2c2c;
+  box-shadow: 5px 10px 15px #2c2c2c;
 }
 
 .formulario__btn:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 .btn_volver:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 /* -----  Estilos para Validacion ----- */
@@ -994,53 +998,148 @@ input[type="checkbox"] {
   border: 2px solid #bb2929;
 }
 
+/*** Media Queris ***/
+
 /* Vista para TABLET */
 @media screen and (max-width: 767px) {
+  .formulario__uno {
+    padding: 70px 20px 70px 20px;
+  }
+
+  .formulario__contactanos {
+    flex-direction: column;
+    width: 97%;
+    height: auto;
+    padding: 20px 35px 20px 35px;
+  }
+
+  .titulo_contactanos {
+    font-size: 28px;
+    padding: 20px 0 10px 0;
+  }
+
+  .texto_contactanos {
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+
+  .formulario__label {
+    font-size: 14px;
+  }
+
+  .btn__dos {
+    padding: 10px 10px 20px 0;
+  }
+
+  .btn_volver {
+    height: 45px;
+    width: 90%;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    font-size: 15px;
+  }
+
+  .formulario__btn {
+    height: 45px;
+    width: 90%;
+    margin: 0 20px 0 20px;
+    padding: 5px;
+    font-size: 15px;
+  }
 }
 
 /* Vista para MOBILE */
 
 @media screen and (max-width: 400px) {
+  .formulario__uno {
+    padding: 40px 25px 40px 25px;
+  }
+
+  .formulario__contactanos {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px 25px 20px 25px;
+  }
+
+  .titulo_contactanos {
+    font-size: 22px;
+    padding: 10px 0 10px 0;
+  }
+
+  .texto_contactanos {
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+
+  .formulario__label {
+    font-size: 14px;
+  }
+
+  .casilla__consulta {
+    height: 80%;
+    width: 100%;
+  }
+
+  .btn__dos {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 20px 10px 0;
+  }
+
+  .btn_volver {
+    height: 40px;
+    width: 90%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .formulario__btn {
+    height: 40px;
+    width: 90%;
+    margin: 10px 20px 0 20px;
+    padding: 5px;
+    font-size: 15px;
+  }
 }
 
-/*** Formulario de cotización ***/
+/* Formulario de Cotización */
 
 .formulario__dos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 90px 20px 90px 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  overflow: hidden;
+  padding: 90px 40px 90px 40px;
 }
 
 .formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  grid-column: 1/-1;
   background-color: #fff;
-  width: 80%;
   height: auto;
-  padding: 20px 50px 30px 50px;
-}
-
-.formulario {
+  padding: 20px 10px 20px 10px;
   border-color: #cd6032;
   border-style: solid;
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
   border-radius: 10px;
   border-width: 3px;
 }
 
 .titulo_cotizacion {
-  display: flex;
-  flex-direction: column;
-  font-size: 28px;
-  padding: 20px 0 10px 0;
-  align-items: center;
+  grid-column: 1/-1;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .texto_cotizacion {
-  font-size: 18px;
-  padding: 0 10px 20px 5px;
+  font-size: 19px;
+  grid-column: 1/-1;
+  text-align: center;
+  padding: 0 10px 0 10px;
 }
 
 .palabra_servicio,
@@ -1052,119 +1151,152 @@ input[type="checkbox"] {
 }
 
 #opciones {
-  padding: 5px;
+  grid-column: 1/-1;
+  text-align: center;
+  margin-right: 30px;
+  padding-top: 30px;
+  margin-bottom: 15px;
 }
 
 .opciones_evento {
-  font-size: 15px;
-  padding: 10px 0 10px 0;
+  font-size: 20px;
   display: inline-block;
+  font-family: "Kalam", cursive;
 }
 
 .opciones_evento > input {
-  margin: 0 5px 0 20px;
+  margin: 0 8px 0 20px;
 }
 
 .servicios_dos {
+  grid-column: 1/-1;
   display: flex;
-  flex-direction: row; /*column para mobile*/
-  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto-turnos {
+  margin-left: 5px;
+  font-size: 16px;
 }
 
 .turnos {
-  font-size: 15px;
-  margin: 10px 0 10px 0;
   display: inline-block;
+  font-family: "Kalam", cursive;
 }
 
 .turnos > input {
-  margin: 0 5px 0 20px;
+  margin: 0 7px 0 10px;
+}
+
+.palabra_servicio {
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .servicios_salon {
-  font-size: 15px;
-  margin: 5px 5px 0 40px;
+  font-size: 16px;
+  margin: 0 7px 0 10px;
 }
 
 .servicio {
   width: 100px;
   height: 30px;
+  padding-left: 5px;
   border-radius: 5px;
   font-size: 14px;
+  font-family: "Kalam", cursive;
 }
 
 .opciones_tres {
+  grid-column: 1/-1;
   display: flex;
-  flex-direction: row; /* column para mobile*/
-  padding: 5px 5px 15px 5px;
-}
-
-.fecha {
-  width: 135px;
-  height: 30px;
-  border-radius: 5px;
-  font-size: 14px;
-  padding-left: 10px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .fecha_evento {
-  margin-right: 50px;
-}
-
-.numHoras {
-  width: 50px;
-  height: 30px;
-  padding-left: 10px;
-  border-radius: 5px;
-  font-size: 14px;
+  margin-right: 10px;
+  margin-left: 17px;
 }
 
 .cantidad_horas {
-  margin-right: 50px;
-}
-
-.numPersonas {
-  width: 75px;
-  height: 30px;
-  padding-left: 10px;
-  border-radius: 5px;
-  font-size: 14px;
+  margin-right: 10px;
 }
 
 .cantidad_personas {
-  margin-right: 50px;
+  margin-right: 10px;
+}
+
+.fecha {
+  font-family: "Kalam", cursive;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+}
+
+.numHoras {
+  font-family: "Kalam", cursive;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+}
+
+.numPersonas {
+  font-family: "Kalam", cursive;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
 }
 
 .btn_uno {
+  grid-column: 1/-1;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
-  padding: 20px 0 10px 0;
-  justify-content: flex-end;
 }
 
 .btn-volver {
+  display: inline-block;
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 90px;
-  margin: 5px 15px 0 0;
+  width: 70px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
-  display: inline-block;
   cursor: pointer;
   transition: 0.2s ease all;
 }
+
 .boton_cotizar {
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 170px;
-  margin: 5px 15px 0 0;
+  width: 80px;
+  margin: 0 0 0 10px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
-  display: inline-block;
   cursor: pointer;
   transition: 0.2s ease all;
 }
@@ -1175,86 +1307,481 @@ input[type="checkbox"] {
 }
 
 .boton_reservar {
+  display: inline-block;
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 170px;
-  margin: 5px 0 10px 25px;
+  width: 95px;
+  margin-right: 8px;
   background-color: #cd6032;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   border-color: #cd6032;
-  display: inline-block;
   cursor: pointer;
   transition: 0.2s ease all;
 }
 
+.result {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+  margin: 0 0 0 15px;
+}
+
+.result_reserva {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+  margin: 0 15px 0 0;
+}
+
+.disabled-reserva.texto_reserva {
+  pointer-events: none;
+  display: none;
+}
+
+.texto_reserva {
+  font-family: "Kalam", cursive;
+  display: inline-block;
+  color: #cd6032;
+  font-size: 20px;
+  margin: 0 10px 0 15px;
+  font-weight: bold;
+}
 .btn-volver,
 .boton_reservar,
 .boton_cotizar {
-  box-shadow: 5px 8px 15px #2c2c2c;
+  box-shadow: 5px 10px 15px #2c2c2c;
 }
 
 .btn-volver:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 .boton_reservar:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 .boton_cotizar:hover {
   box-shadow: 5px 8px 15px #cd6032;
 }
 
-.result {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 17px 20px 12px 10px;
-}
-
-.result_reserva {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 17px 0 12px 10px;
-}
-
-.texto_reserva {
-  font-size: 15px;
-  font-weight: bold;
-  color: #cd6032;
-  margin-top: 18px;
-  margin-right: 5px;
-}
-
 .formulario__input-error__tres {
   color: #bb2929;
   font-size: 13px;
-  margin-top: 4px;
-  margin-bottom: 7px;
+  margin-top: 5px;
   display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .formulario__input-error-activo__tres {
   display: block;
 }
 
+/*** Media Queris ***/
+
 /* Vista para TABLET */
 @media screen and (max-width: 767px) {
+  .formulario__dos {
+    padding: 70px 20px 70px 20px;
+  }
+
+  .formulario {
+    grid-column: 1/-1;
+    height: auto;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .titulo_cotizacion {
+    grid-column: 1/-1;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+  }
+
+  .texto_cotizacion {
+    font-size: 17px;
+    grid-column: 1/-1;
+    text-align: center;
+    text-align: justify;
+    padding: 0 30px 0 30px;
+  }
+
+  .palabra_servicio,
+  .palabra_fecha,
+  .palabra_horas,
+  .palabra_invitados {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #opciones {
+    grid-column: 1/-1;
+    text-align: center;
+    margin-right: 30px;
+    padding-top: 30px;
+    margin-bottom: 16px;
+  }
+
+  .opciones_evento {
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .opciones_evento > input {
+    margin: 0 6px 0 25px;
+  }
+
+  .servicios_dos {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .texto-turnos {
+    font-size: 16px;
+    margin-right: 13px;
+  }
+
+  .turnos {
+    display: inline-block;
+  }
+
+  .turnos > input {
+    margin: 0 5px 20px 10px;
+  }
+
+  .palabra_servicio {
+    margin-right: 13px;
+    margin-left: 0;
+  }
+
+  .servicios_salon {
+    font-size: 16px;
+  }
+
+  .servicio {
+    width: 132px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .opciones_tres {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .fecha_evento {
+    margin-left: 10px;
+  }
+
+  .cantidad_horas {
+    margin-left: 9px;
+  }
+
+  .cantidad_personas {
+    margin-left: 8px;
+  }
+
+  .fecha {
+    width: 141px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .numHoras {
+    width: 122px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .numPersonas {
+    width: 106px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .btn_uno {
+    grid-column: 1/-1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-volver {
+    display: inline-block;
+    height: 45px;
+    width: 90px;
+    margin: 0 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .boton_cotizar {
+    height: 45px;
+    width: 90px;
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+  }
+
+  .result {
+    font-size: 18px;
+    margin: 10px 0 10px 25px;
+  }
+
+  .result_reserva {
+    font-size: 18px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .texto_reserva {
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 31px 20px 25px;
+  }
+
+  .boton_reservar {
+    height: 45px;
+    width: 300px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+  .formulario__input-error__tres {
+    font-size: 13px;
+    margin-top: 5px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 /* Vista para MOBILE */
 
 @media screen and (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .formulario {
+    grid-column: 1/-1;
+    height: auto;
+    padding: 20px 5px 20px 5px;
+    min-width: 265px;
+  }
+
+  .titulo_cotizacion {
+    grid-column: 1/-1;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 25px 0 25px;
+  }
+
+  .texto_cotizacion {
+    font-size: 17px;
+    grid-column: 1/-1;
+    text-align: center;
+    text-align: justify;
+    padding: 0 30px 0 30px;
+  }
+
+  .palabra_servicio,
+  .palabra_fecha,
+  .palabra_horas,
+  .palabra_invitados {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #opciones {
+    grid-column: 1/-1;
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .opciones_evento {
+    font-size: 18px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .opciones_evento > input {
+    margin: 20px 0 5px 0;
+  }
+
+  .servicios_dos {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .texto-turnos {
+    font-size: 15px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+  }
+
+  .turnos {
+    display: inline-block;
+  }
+
+  .turnos > input {
+    margin: 0 5px 10px 10px;
+  }
+
+  .palabra_servicio {
+    margin: 0 13px 5px 0;
+  }
+
+  .servicios_salon {
+    font-size: 15px;
+  }
+
+  .servicio {
+    width: 132px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .opciones_tres {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .fecha_evento {
+    margin-left: 10px;
+  }
+
+  .cantidad_horas {
+    margin-left: 9px;
+  }
+
+  .cantidad_personas {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+  .fecha {
+    width: 141px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .numHoras {
+    width: 122px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .numPersonas {
+    width: 106px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0 10px 10px;
+    padding: 10px;
+  }
+
+  .btn_uno {
+    grid-column: 1/-1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-volver {
+    display: inline-block;
+    height: 45px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+
+  .boton_cotizar {
+    height: 45px;
+    width: 100%;
+    margin: 0 10px 10px 0;
+    font-size: 15px;
+  }
+
+  .result {
+    font-size: 16px;
+    margin: 10px 0 10px 19px;
+  }
+
+  .result_reserva {
+    font-size: 16px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .texto_reserva {
+    display: inline-block;
+    font-size: 17px;
+    margin: 20px 2px 20px 2px;
+  }
+
+  .boton_reservar {
+    height: 45px;
+    width: 67%;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+  }
 }
 
-/*** Formulario de reserva ***/
+/* Formulario de Reserva */
 
 .formulario__tres {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 90px 50px 90px 50px;
+  padding: 90px 45px 90px 45px;
 }
 
 .formulario__reservar {
@@ -1262,14 +1789,15 @@ input[type="checkbox"] {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #fff;
-  width: 60%;
+  width: 70%;
   height: auto;
-  padding: 20px 50px 20px 50px;
+  padding: 20px 60px 20px 60px;
 }
+
 .formulario__reservar {
   border-color: #cd6032;
   border-style: solid;
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
   border-radius: 10px;
   border-width: 3px;
 }
@@ -1277,7 +1805,7 @@ input[type="checkbox"] {
 .titulo_reservar {
   display: flex;
   flex-direction: column;
-  font-size: 28px;
+  font-size: 30px;
   padding: 20px 0 30px 0;
   align-items: center;
 }
@@ -1296,7 +1824,7 @@ input[type="checkbox"] {
   display: block;
   font-weight: bold;
   font-size: 15px;
-  padding: 20px 0 10px 0;
+  padding: 15px 0 2px 0;
   cursor: pointer;
 }
 
@@ -1305,6 +1833,7 @@ input[type="checkbox"] {
 }
 
 .formulario__input__dos {
+  font-family: "Kalam", cursive;
   background: #fff;
   border: 1px solid;
   border-radius: 3px;
@@ -1318,7 +1847,7 @@ input[type="checkbox"] {
 .formulario__input__dos:focus {
   border: 2px solid #0075ff;
   outline: none;
-  box-shadow: 3px 0px 30px #a3a3a366;
+  box-shadow: 3px 10px 30px #a3a3a366;
 }
 
 .formulario__input-error__dos {
@@ -1348,18 +1877,19 @@ input:disabled {
 .btn__tres {
   display: flex;
   flex-direction: row;
-  padding: 30px 0 20px 40px;
+  padding: 30px 8px 20px 0;
   justify-content: flex-end;
 }
 
 .btn_salir {
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 90px;
-  margin-left: 15px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 17px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -1369,11 +1899,12 @@ input:disabled {
 .formulario__btn__dos {
   font-family: "Kalam", cursive;
   height: 45px;
-  width: 180px;
-  margin-left: 15px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
   background-color: #000000;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -1382,15 +1913,15 @@ input:disabled {
 
 .btn_salir,
 .formulario__btn__dos {
-  box-shadow: 5px 8px 15px #2c2c2c;
+  box-shadow: 5px 10px 15px #2c2c2c;
 }
 
 .btn_salir:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 .formulario__btn__dos:hover {
-  box-shadow: 5px 8px 15px #cd6032;
+  box-shadow: 5px 10px 15px #cd6032;
 }
 
 /* -----  Estilos para Validacion de formulario de reserva ----- */
@@ -1413,16 +1944,116 @@ input:disabled {
   border: 2px solid #bb2929;
 }
 
-
-
-
-
+/*** Media Queris ***/
 
 /* Vista para TABLET */
 @media screen and (max-width: 767px) {
+  .formulario__tres {
+    justify-content: center;
+    padding: 70px 20px 70px 20px;
+  }
+
+  .formulario__reservar {
+    width: 97%;
+    height: auto;
+    padding: 20px 35px 20px 35px;
+  }
+
+  .titulo_reservar {
+    font-size: 28px;
+    padding: 20px 0 30px 0;
+    align-items: center;
+    text-align: center;
+  }
+  .texto_reservar_uno {
+    font-size: 18px;
+  }
+
+  .texto_reservar_dos {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
+  .formulario__label__dos {
+    font-size: 14px;
+  }
+
+  .btn__tres {
+    padding: 30px 7px 20px 0;
+  }
+
+  .btn_salir {
+    height: 45px;
+    width: 90%;
+    padding: 5px;
+    margin: 0 17px 0 17px;
+    font-size: 15px;
+  }
+
+  .formulario__btn__dos {
+    height: 45px;
+    width: 90%;
+    margin: 0 17px 0 18px;
+    padding: 5px;
+    font-size: 15px;
+  }
 }
 
 /* Vista para MOBILE */
 
 @media screen and (max-width: 400px) {
+  .formulario__tres {
+    justify-content: center;
+    padding: 40px 25px 40px 25px;
+  }
+
+  .formulario__reservar {
+    width: 100%;
+    height: auto;
+    padding: 20px 25px 20px 25px;
+  }
+
+  .titulo_reservar {
+    font-size: 22px;
+    padding: 20px 0 30px 0;
+    align-items: center;
+  }
+  .texto_reservar_uno {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .texto_reservar_dos {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+  .formulario__label__dos {
+    font-size: 14px;
+  }
+
+  .btn__tres {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px 20px 10px 0;
+    justify-content: center;
+  }
+
+  .btn_salir {
+    font-family: "Kalam", cursive;
+    height: 40px;
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .formulario__btn__dos {
+    font-family: "Kalam", cursive;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 15px;
+  }
 }
