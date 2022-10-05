@@ -25,11 +25,12 @@
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <!--Sweet Alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Style-css -->
+    <!-- Style-css/scss -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="../css/style.css" />
+     <!-- <link rel="stylesheet" href="../scss/style.scss" /> -->
 </head>
 
 <body>
@@ -46,10 +47,10 @@
         <form id="formulario__reservar" class="formulario__reservar">
             <h1 class="titulo_reservar">Formulario de Reserva</h1>
             <!-- Datos personales -->
-            <h2 class="texto_reservar_uno">Información de Contacto</h2>
+            <h2 class="texto_reservar_uno texto-mayor">Información de Contacto</h2>
             <!-- Nombre y Apellido -->
             <div class="formulario__grupo__dos" id="grupo__nombre__dos">
-                <label for="nombre__dos" class="formulario__label__dos">Nombre y Apellido</label>
+                <label for="nombre__dos" class="formulario__label__dos texto-mayor">Nombre y Apellido</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="text" class="formulario__input__dos" name="nombre__dos" id="nombre__dos"
                         placeholder="Ingrese nombre completo">
@@ -60,7 +61,7 @@
             </div>
             <!-- Correo Electronico -->
             <div class="formulario__grupo__dos" id="grupo__correo__dos">
-                <label for="correo__dos" class="formulario__label__dos">Correo electrónico</label>
+                <label for="correo__dos" class="formulario__label__dos texto-mayor">Correo electrónico</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="email" class="formulario__input__dos" name="correo__dos" id="correo__dos"
                         placeholder="nombre@correo.com">
@@ -71,7 +72,7 @@
             </div>
             <!-- Teléfono / Celular -->
             <div class="formulario__grupo__dos" id="grupo__telefono__dos">
-                <label for="telefono" class="formulario__label__dos">Teléfono</label>
+                <label for="telefono" class="formulario__label__dos texto-mayor">Teléfono</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="text" class="formulario__input__dos" name="telefono__dos" id="telefono__dos"
                         placeholder="221.1234567">
@@ -80,10 +81,10 @@
                 <p class="formulario__input-error__dos">Solo debe contener números y punto.</p>
             </div>
             <!-- Datos de la tarjeta -->
-            <h2 class="texto_reservar_dos">Información de Pago</h2>
+            <h2 class="texto_reservar_dos texto-mayor">Información de Pago</h2>
             <!-- Nombre completo del titular -->
             <div class="formulario__grupo__dos" id="grupo__nombre__tres">
-                <label for="nombre__tres" class="formulario__label__dos">Nombre y Apellido del titular</label>
+                <label for="nombre__tres" class="formulario__label__dos texto-mayor">Nombre y Apellido del titular</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="text" class="formulario__input__dos" name="nombre__tres" id="nombre__tres"
                         placeholder="Ingrese nombre completo del titular">
@@ -94,7 +95,7 @@
             </div>
             <!-- DNI del titular -->
             <div class="formulario__grupo__dos" id="grupo__dni">
-                <label for="numeroDni" class="formulario__label__dos">DNI</label>
+                <label for="numeroDni" class="formulario__label__dos texto-mayor">DNI</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="text" class="formulario__input__dos" name="dni" id="dni" placeholder="12.123.456">
                     <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
@@ -103,7 +104,7 @@
             </div>
             <!-- Número de tarjeta de crédito/débito -->
             <div class="formulario__grupo__dos" id="grupo__tarjeta">
-                <label for="numeroTarjeta" class="formulario__label__dos">Tarjeta de crédito o
+                <label for="numeroTarjeta" class="formulario__label__dos texto-mayor">Tarjeta de crédito o
                     débito</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="number" class="formulario__input__dos" name="tarjeta" id="tarjeta"
@@ -114,7 +115,7 @@
             </div>
             <!-- Fecha de vencimiento de la tarjeta -->
             <div class="formulario__grupo__dos" id="grupo__mesAnio">
-                <label for="vencimiento" class="formulario__label__dos">Vencimiento de la tarjeta</label>
+                <label for="vencimiento" class="formulario__label__dos texto-mayor">Vencimiento de la tarjeta</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="text" class="formulario__input__dos" name="mesAnio" id="mesAnio" placeholder="mm/aa">
                     <i class="formulario__validacion-estado__dos fas fa-times-circle"></i>
@@ -123,7 +124,7 @@
             </div>
             <!-- Clave de la tarjeta -->
             <div class="formulario__grupo__dos" id="grupo__clave">
-                <label for="cvv" class="formulario__label__dos">CVV</label>
+                <label for="cvv" class="formulario__label__dos texto-mayor">CVV</label>
                 <div class="formulario__grupo-input__dos">
                     <input type="number" class="formulario__input__dos" name="clave" id="clave"
                         placeholder="Ingrese clave de la tarjeta">
@@ -133,7 +134,7 @@
             </div>
             <!-- Monto de Reserva-->
             <div class="formulario__grupo__dos" id="grupo__monto">
-                <label for="monto" class="formulario__label__dos">Pago de reserva en $</label>
+                <label for="monto" class="formulario__label__dos texto-mayor">Pago de reserva en $</label>
                 <div class="formulario__grupo-input__dos">
                     <input disabled type="number" class="formulario__input__dos" name="monto" id="monto"
                         placeholder="monto de reserva">
