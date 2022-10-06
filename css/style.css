@@ -70,6 +70,7 @@ body {
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .titulo-servicios {
@@ -162,6 +163,315 @@ body {
   [class^=footer-item] {
     grid-column: span 2;
   }
+}
+
+/* Formulario de Contacto */
+.formulario__uno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .formulario__uno {
+    flex-direction: column;
+  }
+}
+
+.formulario__contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.titulo_contactanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto_contactanos {
+  display: flex;
+  text-align: justify;
+}
+@media screen and (max-width: 767px) {
+  .texto_contactanos {
+    text-align: justify;
+  }
+}
+
+.formulario__label {
+  display: block;
+}
+
+.formulario__label {
+  cursor: pointer;
+}
+
+.formulario__grupo-input {
+  position: relative;
+}
+
+.formulario__input-error {
+  display: none;
+}
+
+.formulario__input:focus {
+  outline: none;
+}
+
+.formulario__input-error-activo {
+  display: block;
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+}
+
+.casilla__consulta:focus {
+  outline: none;
+}
+
+.btn__dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 400px) {
+  .btn__dos {
+    flex-direction: column-reverse;
+  }
+}
+
+.btn_volver {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.formulario__btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Formulario de Cotización */
+.formulario__dos {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  overflow: hidden;
+}
+
+.formulario {
+  grid-column: 1/-1;
+}
+
+.titulo_cotizacion {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.texto_cotizacion {
+  grid-column: 1/-1;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .texto_cotizacion {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto_cotizacion {
+    text-align: justify;
+  }
+}
+
+#opciones {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.opciones_evento {
+  display: inline-block;
+}
+@media screen and (max-width: 400px) {
+  .opciones_evento {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.servicios_dos {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .servicios_dos {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .servicios_dos {
+    flex-direction: column;
+  }
+}
+
+.turnos {
+  display: inline-block;
+}
+
+.opciones_tres {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .opciones_tres {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .opciones_tres {
+    flex-direction: column;
+  }
+}
+
+.btn_uno {
+  grid-column: 1/-1;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+  .btn_uno {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn_uno {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.btn-volver {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.boton_cotizar {
+  cursor: pointer;
+}
+
+.disabled-link {
+  pointer-events: none;
+  display: none;
+}
+
+.boton_reservar {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.disabled-reserva.texto_reserva {
+  pointer-events: none;
+  display: none;
+}
+
+.texto_reserva {
+  display: inline-block;
+}
+
+.formulario__input-error__tres {
+  display: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.formulario__input-error-activo__tres {
+  display: block;
+}
+
+/* Formulario de Reserva */
+.formulario__tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 400px) {
+  .formulario__tres {
+    justify-content: center;
+  }
+}
+
+.formulario__reservar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.titulo_reservar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .titulo_reservar {
+    text-align: center;
+  }
+}
+
+.formulario__label__dos {
+  display: block;
+  cursor: pointer;
+}
+
+.formulario__grupo-input__dos {
+  position: relative;
+}
+
+.formulario__input__dos:focus {
+  outline: none;
+}
+
+.formulario__input-error__dos {
+  display: none;
+}
+
+.formulario__input-error-activo__dos {
+  display: block;
+}
+
+.formulario__validacion-estado__dos {
+  position: absolute;
+}
+
+.btn__tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 400px) {
+  .btn__tres {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+.btn_salir,
+.formulario__btn__dos {
+  display: inline-block;
+  cursor: pointer;
 }
 
 /*** Medidas del sitio ***/
@@ -320,20 +630,30 @@ body {
 .titulo-reserva {
   margin-top: 100px;
 }
+@media screen and (max-width: 767px) {
+  .titulo-reserva {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo-reserva {
+    margin-top: 30px;
+  }
+}
 
 .parrafo-reserva {
   margin-top: 20px;
 }
 @media screen and (max-width: 767px) {
   .parrafo-reserva {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 400px) {
   .parrafo-reserva {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -349,7 +669,7 @@ body {
 }
 
 .servicios {
-  height: 920px;
+  height: 960px;
   padding: 20px;
 }
 @media screen and (max-width: 767px) {
@@ -516,11 +836,16 @@ body {
 }
 
 [class^=footer-item] {
-  margin-left: 50%;
+  margin-left: 47%;
 }
 @media screen and (max-width: 767px) {
   [class^=footer-item] {
-    margin-left: 40%;
+    margin-left: 41%;
+  }
+}
+@media screen and (max-width: 400px) {
+  [class^=footer-item] {
+    margin-left: 48%;
   }
 }
 
@@ -535,6 +860,629 @@ body {
 @media screen and (max-width: 400px) {
   .derechos {
     margin-bottom: 20px;
+  }
+}
+
+/* Formulario de Contacto */
+.formulario__uno {
+  padding: 90px 45px 90px 45px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__uno {
+    padding: 70px 20px 70px 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__uno {
+    padding: 40px 25px 40px 25px;
+  }
+}
+
+.formulario__contactanos {
+  width: 70%;
+  height: auto;
+  padding: 20px 60px 20px 60px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__contactanos {
+    width: 97%;
+    padding: 20px 35px 20px 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__contactanos {
+    width: 100%;
+    padding: 20px 25px 20px 25px;
+  }
+}
+
+.titulo_contactanos {
+  padding: 20px 0 10px 0;
+}
+@media screen and (max-width: 400px) {
+  .titulo_contactanos {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.texto_contactanos {
+  padding-bottom: 10px;
+}
+
+input[type=checkbox]:checked {
+  width: 18px;
+  height: 18px;
+}
+
+.formulario__label {
+  padding: 15px 0 2px 0;
+}
+
+.formulario__input {
+  width: 100%;
+  border-radius: 3px;
+  height: 45px;
+  line-height: 45px;
+  padding: 10px;
+}
+
+.formulario__input-error {
+  margin: 10px 0 5px 0;
+}
+
+.formulario__validacion-estado {
+  margin-left: 5px;
+  z-index: 100;
+  opacity: 0;
+}
+
+.casilla__consulta {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 400px) {
+  .casilla__consulta {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+.btn__dos {
+  padding: 10px 10px 20px 0;
+}
+@media screen and (max-width: 400px) {
+  .btn__dos {
+    padding: 10px 20px 10px 0;
+  }
+}
+
+.btn_volver {
+  height: 45px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  .btn_volver {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+.formulario__btn {
+  height: 45px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  .formulario__btn {
+    height: 40px;
+    margin: 10px 20px 0 20px;
+  }
+}
+
+/* Formulario de Cotización */
+.formulario__dos {
+  padding: 90px 40px 90px 40px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__dos {
+    padding: 70px 20px 70px 20px;
+  }
+}
+
+.formulario {
+  height: auto;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+@media screen and (max-width: 400px) {
+  .formulario {
+    padding: 20px 5px 20px 5px;
+    min-width: 265px;
+  }
+}
+
+.titulo_cotizacion {
+  grid-column: 1/-1;
+  padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .titulo_cotizacion {
+    padding: 20px 20px 0 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo_cotizacion {
+    padding: 20px 25px 0 25px;
+  }
+}
+
+.texto_cotizacion {
+  padding: 0 10px 0 10px;
+}
+@media screen and (max-width: 767px) {
+  .texto_cotizacion {
+    padding: 0 30px 0 30px;
+  }
+}
+
+#opciones {
+  margin-right: 30px;
+  padding-top: 30px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+  #opciones {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #opciones {
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 20px 20px;
+  }
+}
+
+.opciones_evento > input {
+  margin: 0 8px 0 20px;
+}
+@media screen and (max-width: 767px) {
+  .opciones_evento > input {
+    margin: 0 6px 0 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .opciones_evento > input {
+    margin: 20px 0 5px 0;
+  }
+}
+
+.texto-turnos {
+  margin-left: 5px;
+}
+@media screen and (max-width: 767px) {
+  .texto-turnos {
+    margin-right: 6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto-turnos {
+    margin-right: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+.turnos > input {
+  margin: 0 7px 0 10px;
+}
+@media screen and (max-width: 767px) {
+  .turnos > input {
+    margin: 0 5px 20px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .turnos > input {
+    margin: 0 5px 10px 10px;
+  }
+}
+
+.palabra_servicio {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .palabra_servicio {
+    margin-right: 13px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .palabra_servicio {
+    margin: 0 13px 5px 0;
+  }
+}
+
+.servicios_salon {
+  margin: 0 7px 0 10px;
+}
+
+.servicio {
+  width: 100px;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .servicio {
+    width: 132px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .servicio {
+    width: 132px;
+  }
+}
+
+.opciones_tres {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 767px) {
+  .opciones_tres {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .opciones_tres {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+}
+
+.fecha_evento {
+  margin-right: 10px;
+  margin-left: 17px;
+}
+@media screen and (max-width: 767px) {
+  .fecha_evento {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fecha_evento {
+    margin-left: 10px;
+  }
+}
+
+.cantidad_horas {
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .cantidad_horas {
+    margin-left: 9px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cantidad_horas {
+    margin-left: 9px;
+  }
+}
+
+.cantidad_personas {
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .cantidad_personas {
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cantidad_personas {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+.fecha {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 15px 0 10px;
+  padding: 5px;
+}
+@media screen and (max-width: 767px) {
+  .fecha {
+    width: 141px;
+    margin: 5px 0 10px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fecha {
+    width: 141px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.numHoras {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .numHoras {
+    width: 122px;
+    margin: 5px 0 10px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .numHoras {
+    width: 122px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.numPersonas {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .numPersonas {
+    width: 106px;
+    margin: 5px 0 10px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .numPersonas {
+    width: 106px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.btn_uno {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .btn_uno {
+    padding: 10px 0 10px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn_uno {
+    padding: 0 0 10px 0;
+  }
+}
+
+.btn-volver {
+  height: 45px;
+  width: 70px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .btn-volver {
+    width: 90px;
+    margin: 0 10px 10px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn-volver {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+.boton_cotizar {
+  height: 45px;
+  width: 80px;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .boton_cotizar {
+    width: 90px;
+    margin: 0 10px 10px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .boton_cotizar {
+    width: 100%;
+    margin: 0 10px 10px 0;
+  }
+}
+
+.boton_reservar {
+  height: 45px;
+  width: 95px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .boton_reservar {
+    width: 300px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .boton_reservar {
+    width: 67%;
+    margin-left: 9px;
+    margin-bottom: 10px;
+  }
+}
+
+.result {
+  margin: 0 0 0 15px;
+}
+@media screen and (max-width: 767px) {
+  .result {
+    margin: 10px 0 10px 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .result {
+    margin: 10px 0 10px 19px;
+  }
+}
+
+.result_reserva {
+  margin: 0 15px 0 0;
+}
+@media screen and (max-width: 767px) {
+  .result_reserva {
+    margin: 10px 15px 10px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .result_reserva {
+    margin: 10px 15px 10px 0;
+  }
+}
+
+.texto_reserva {
+  margin: 0 10px 0 15px;
+}
+@media screen and (max-width: 767px) {
+  .texto_reserva {
+    margin: 20px 31px 20px 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto_reserva {
+    margin: 20px 2px 20px 2px;
+  }
+}
+
+.formulario__input-error__tres {
+  margin-top: 5px;
+}
+
+/* Formulario de Reserva */
+.formulario__tres {
+  padding: 90px 45px 90px 45px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__tres {
+    padding: 70px 20px 70px 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__tres {
+    padding: 40px 25px 40px 25px;
+  }
+}
+
+.formulario__reservar {
+  width: 70%;
+  height: auto;
+  padding: 20px 60px 20px 60px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__reservar {
+    width: 97%;
+    padding: 20px 35px 20px 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__reservar {
+    width: 100%;
+    padding: 20px 25px 20px 25px;
+  }
+}
+
+.titulo_reservar {
+  padding: 20px 0 30px 0;
+}
+
+.texto_reservar_dos {
+  padding-top: 30px;
+}
+
+.formulario__label__dos {
+  padding: 15px 0 2px 0;
+}
+
+.formulario__input__dos {
+  border-radius: 3px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding: 20px;
+}
+
+.formulario__input-error__dos {
+  margin: 10px 0 5px 0;
+}
+
+.formulario__validacion-estado__dos {
+  margin-left: 5px;
+  z-index: 100;
+}
+
+.btn__tres {
+  padding: 30px 8px 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .btn__tres {
+    padding: 30px 7px 20px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn__tres {
+    padding: 30px 20px 10px 0;
+  }
+}
+
+.btn_salir {
+  height: 45px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 17px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .btn_salir {
+    margin: 0 17px 0 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn_salir {
+    height: 40px;
+  }
+}
+
+.formulario__btn__dos {
+  height: 45px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__btn__dos {
+    margin: 0 17px 0 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__btn__dos {
+    height: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -738,6 +1686,319 @@ body {
   }
 }
 
+/* Formulario de Contacto */
+.titulo_contactanos {
+  font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+  .titulo_contactanos {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo_contactanos {
+    font-size: 22px;
+  }
+}
+
+.texto_contactanos {
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .texto_contactanos {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto_contactanos {
+    font-size: 15px;
+  }
+}
+
+.formulario__label {
+  font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__label {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario__label {
+    font-size: 14px;
+  }
+}
+
+.formulario__input {
+  font-family: "Kalam", cursive;
+}
+
+.formulario__input-error {
+  font-size: 13px;
+}
+
+.formulario__validacion-estado {
+  font-size: 15px;
+}
+
+.btn_volver,
+.formulario__btn {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .btn_volver,
+.formulario__btn {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn_volver,
+.formulario__btn {
+    font-size: 15px;
+  }
+}
+
+/* Formulario de Cotización */
+.titulo_cotizacion {
+  font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+  .titulo_cotizacion {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo_cotizacion {
+    font-size: 22px;
+  }
+}
+
+.texto_cotizacion {
+  font-size: 19px;
+}
+@media screen and (max-width: 767px) {
+  .texto_cotizacion {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto_cotizacion {
+    font-size: 17px;
+  }
+}
+
+.palabra_servicio,
+.palabra_fecha,
+.palabra_horas,
+.palabra_invitados {
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  .palabra_servicio,
+.palabra_fecha,
+.palabra_horas,
+.palabra_invitados {
+    font-size: 15px;
+  }
+}
+
+.opciones_evento {
+  font-size: 20px;
+  font-family: "Kalam", cursive;
+}
+@media screen and (max-width: 767px) {
+  .opciones_evento {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .opciones_evento {
+    font-size: 18px;
+  }
+}
+
+.texto-turnos {
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .texto-turnos {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .texto-turnos {
+    font-size: 15px;
+  }
+}
+
+.turnos {
+  font-family: "Kalam", cursive;
+}
+
+.servicios_salon {
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  .servicios_salon {
+    font-size: 15px;
+  }
+}
+
+.servicio {
+  font-size: 14px;
+  font-family: "Kalam", cursive;
+}
+
+.fecha {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.numHoras {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.numPersonas {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+}
+
+.btn-volver {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+
+.boton_cotizar {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  .boton_cotizar {
+    font-size: 15px;
+  }
+}
+
+.boton_reservar {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+@media screen and (max-width: 400px) {
+  .boton_reservar {
+    font-size: 15px;
+  }
+}
+
+.result {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+}
+@media screen and (max-width: 400px) {
+  .result {
+    font-size: 16px;
+  }
+}
+
+.result_reserva {
+  font-family: "Kalam", cursive;
+  font-size: 18px;
+}
+@media screen and (max-width: 400px) {
+  .result_reserva {
+    font-size: 16px;
+  }
+}
+
+.texto_reserva {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+}
+@media screen and (max-width: 400px) {
+  .texto_reserva {
+    font-size: 17px;
+  }
+}
+
+.formulario__input-error__tres {
+  font-size: 13px;
+}
+/* Formulario de Reserva */
+.titulo_reservar {
+  font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+  .titulo_reservar {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .titulo_reservar {
+    font-size: 22px;
+  }
+}
+
+.texto_reservar_uno,
+.texto_reservar_dos {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .texto_reservar_uno,
+.texto_reservar_dos {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .texto_reservar_uno,
+.texto_reservar_dos {
+    font-size: 17px;
+  }
+}
+
+.formulario__label__dos {
+  font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  .formulario__label__dos {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .formulario__label__dos {
+    font-size: 14px;
+  }
+}
+
+.formulario__input__dos {
+  font-family: "Kalam", cursive;
+}
+
+.formulario__input-error__dos {
+  font-size: 13px;
+}
+
+.formulario__validacion-estado__dos {
+  font-size: 15px;
+}
+
+.btn_salir,
+.formulario__btn__dos {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .btn_salir,
+.formulario__btn__dos {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btn_salir,
+.formulario__btn__dos {
+    font-size: 15px;
+  }
+}
+
 /*** Colores del sitio ***/
 .navbar > .container {
   background-color: #000000 !important;
@@ -745,7 +2006,7 @@ body {
 
 .button-uno {
   background-color: #cd6032;
-  box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+  box-shadow: 5px 10px 30px rgba(163, 163, 163, 0.4);
 }
 
 .bg-light,
@@ -792,11 +2053,209 @@ body {
 
 .img,
 .img-empresa {
-  box-shadow: 5px 10px 18px #151515;
+  box-shadow: 5px 20px 18px #151515;
 }
 
 .img-servicios {
-  box-shadow: 5px 8px 15px rgba(163, 163, 163, 0.4);
+  box-shadow: 5px 10px 15px rgba(163, 163, 163, 0.4);
+}
+
+/* Formulario de Contacto */
+.formulario__contactanos {
+  background-color: #fff;
+}
+
+.formulario__contactanos {
+  border-color: #cd6032;
+  border-style: solid;
+  box-shadow: 5px 20px 18px #151515;
+}
+
+.formulario__input {
+  background: #fff;
+  border: 1px solid;
+}
+
+.formulario__input:focus {
+  border: 2px solid #0075ff;
+  box-shadow: 3px 10px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error {
+  color: #bb2929;
+}
+
+.formulario__validacion-estado {
+  opacity: 0;
+}
+
+.casilla__consulta {
+  border: 1px solid;
+}
+
+.casilla__consulta:focus {
+  border: 3px solid #0075ff;
+  box-shadow: 3px 10px 30px rgba(163, 163, 163, 0.4);
+}
+
+.btn_volver,
+.formulario__btn {
+  background-color: #000000;
+  color: #fff;
+  box-shadow: 5px 10px 15px #2c2c2c;
+}
+
+.formulario__btn:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+.btn_volver:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+/*  Estilos para Validacion - formulario de contacto */
+.formulario__grupo-correcto .formulario__validacion-estado {
+  color: #29c436;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+  color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+  color: #bb2929;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+  border: 2px solid #bb2929;
+}
+
+/* Formulario de Cotización */
+.formulario {
+  background-color: #fff;
+  border-color: #cd6032;
+  border-style: solid;
+  box-shadow: 5px 20px 18px #151515;
+}
+
+.btn-volver {
+  background-color: #000000;
+  color: #fff;
+}
+
+.boton_cotizar {
+  background-color: #000000;
+  color: #fff;
+}
+
+.boton_reservar {
+  background-color: #cd6032;
+  color: #fff;
+  border-color: #cd6032;
+}
+
+.texto_reserva {
+  color: #cd6032;
+}
+
+.btn-volver,
+.boton_reservar,
+.boton_cotizar {
+  box-shadow: 5px 10px 15px #2c2c2c;
+}
+
+.btn-volver:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+.boton_reservar:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+.boton_cotizar:hover {
+  box-shadow: 5px 8px 15px #cd6032;
+}
+
+.formulario__input-error__tres {
+  color: #bb2929;
+}
+
+/* Formulario de Reserva */
+.formulario__reservar {
+  background-color: #fff;
+}
+
+.formulario__reservar {
+  border-color: #cd6032;
+  border-style: solid;
+  box-shadow: 5px 20px 18px #151515;
+}
+
+.formulario__input__dos {
+  background: #fff;
+  border: 1px solid;
+}
+
+.formulario__input__dos:focus {
+  border: 2px solid #0075ff;
+  box-shadow: 3px 10px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error__dos {
+  color: #bb2929;
+}
+
+input:disabled {
+  background-color: rgba(240, 236, 236, 0.6431372549);
+  color: #000000;
+}
+
+.formulario__validacion-estado__dos {
+  opacity: 0;
+}
+
+.btn_salir {
+  background-color: #000000;
+  color: #fff;
+}
+
+.formulario__btn__dos {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn_salir,
+.formulario__btn__dos {
+  box-shadow: 5px 10px 15px #2c2c2c;
+}
+
+.btn_salir:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+.formulario__btn__dos:hover {
+  box-shadow: 5px 10px 15px #cd6032;
+}
+
+/* Estilos para Validacion - formulario de reserva */
+.formulario__grupo-correcto__dos .formulario__validacion-estado__dos {
+  color: #29c436;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto__dos .formulario__label__dos {
+  color: #bb2929;
+}
+
+.formulario__grupo-incorrecto__dos .formulario__validacion-estado__dos {
+  color: #bb2929;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto__dos .formulario__input__dos {
+  border: 2px solid #bb2929;
 }
 
 /*** Animaciones del sitio ***/
@@ -805,7 +2264,38 @@ body {
 }
 
 .button-uno {
-  cursor: pointer;
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Contacto */
+input[type=checkbox] {
+  transition: all 0.4s;
+}
+
+.formulario__input,
+.casilla__consulta {
+  transition: 0.3s ease all;
+}
+
+.btn_volver,
+.formulario__btn {
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Cotización */
+.btn-volver,
+.boton_cotizar,
+.boton_reservar {
+  transition: 0.2s ease all;
+}
+
+/* Formulario de Reserva */
+.formulario__input__dos {
+  transition: 0.3s ease all;
+}
+
+.btn_salir,
+.formulario__btn__dos {
   transition: 0.2s ease all;
 }
 
@@ -1127,7 +2617,7 @@ body {
 
 [class^=footer-item] {
   grid-column: span 4;
-  margin-left: 50%;
+  margin-left: 47%;
 }
 
 .derechos {
@@ -1327,7 +2817,7 @@ body {
   }
   [class^=footer-item] {
     grid-column: span 4;
-    margin-left: 40%;
+    margin-left: 41%;
   }
   .derechos {
     font-size: 13px;
@@ -1509,7 +2999,7 @@ body {
   }
   [class^=footer-item] {
     grid-column: span 2;
-    margin-left: 50%;
+    margin-left: 48%;
   }
   .derechos {
     font-size: 11px;
@@ -1679,7 +3169,7 @@ input[type=checkbox] {
   box-shadow: 5px 10px 15px #cd6032;
 }
 
-/* -----  Estilos para Validacion ----- */
+/* Estilos para Validacion - formulario de contacto */
 .formulario__grupo-correcto .formulario__validacion-estado {
   color: #29c436;
   opacity: 1;
@@ -1921,7 +3411,7 @@ input[type=checkbox] {
   border-radius: 5px;
   font-size: 14px;
   margin: 5px 15px 0 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .numHoras {
@@ -2079,7 +3569,6 @@ input[type=checkbox] {
   .texto_cotizacion {
     font-size: 17px;
     grid-column: 1/-1;
-    text-align: center;
     text-align: justify;
     padding: 0 30px 0 30px;
   }
@@ -2114,7 +3603,7 @@ input[type=checkbox] {
   }
   .texto-turnos {
     font-size: 16px;
-    margin-right: 13px;
+    margin-right: 6px;
   }
   .turnos {
     display: inline-block;
@@ -2161,7 +3650,7 @@ input[type=checkbox] {
     border-radius: 5px;
     font-size: 14px;
     margin: 5px 0 10px 10px;
-    padding: 10px;
+    padding: 5px;
   }
   .numHoras {
     width: 122px;
@@ -2334,7 +3823,7 @@ input[type=checkbox] {
     border-radius: 5px;
     font-size: 14px;
     margin: 5px 0 10px 10px;
-    padding: 10px;
+    padding: 5px;
   }
   .numHoras {
     width: 122px;
@@ -2544,7 +4033,7 @@ input:disabled {
   box-shadow: 5px 10px 15px #cd6032;
 }
 
-/* -----  Estilos para Validacion de formulario de reserva ----- */
+/* Estilos para Validacion - formulario de reserva */
 .formulario__grupo-correcto__dos .formulario__validacion-estado__dos {
   color: #29c436;
   opacity: 1;

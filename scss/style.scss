@@ -327,7 +327,7 @@ body {
 
 [class^="footer-item"] {
   grid-column: span 4;
-  margin-left: 50%;
+  margin-left: 47%;
 }
 
 .derechos {
@@ -575,7 +575,7 @@ body {
 
   [class^="footer-item"] {
     grid-column: span 4;
-    margin-left: 40%;
+    margin-left: 41%;
   }
 
   .derechos {
@@ -805,7 +805,7 @@ body {
 
   [class^="footer-item"] {
     grid-column: span 2;
-    margin-left: 50%;
+    margin-left: 48%;
   }
 
   .derechos {
@@ -978,7 +978,7 @@ input[type="checkbox"] {
   box-shadow: 5px 10px 15px #cd6032;
 }
 
-/* -----  Estilos para Validacion ----- */
+/* Estilos para Validacion - formulario de contacto */
 
 .formulario__grupo-correcto .formulario__validacion-estado {
   color: #29c436;
@@ -1241,7 +1241,7 @@ input[type="checkbox"] {
   border-radius: 5px;
   font-size: 14px;
   margin: 5px 15px 0 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .numHoras {
@@ -1402,7 +1402,6 @@ input[type="checkbox"] {
   .texto_cotizacion {
     font-size: 17px;
     grid-column: 1/-1;
-    text-align: center;
     text-align: justify;
     padding: 0 30px 0 30px;
   }
@@ -1443,7 +1442,7 @@ input[type="checkbox"] {
 
   .texto-turnos {
     font-size: 16px;
-    margin-right: 13px;
+    margin-right: 6px;
   }
 
   .turnos {
@@ -1500,7 +1499,7 @@ input[type="checkbox"] {
     border-radius: 5px;
     font-size: 14px;
     margin: 5px 0 10px 10px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .numHoras {
@@ -1704,7 +1703,7 @@ input[type="checkbox"] {
     border-radius: 5px;
     font-size: 14px;
     margin: 5px 0 10px 10px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .numHoras {
@@ -1924,7 +1923,7 @@ input:disabled {
   box-shadow: 5px 10px 15px #cd6032;
 }
 
-/* -----  Estilos para Validacion de formulario de reserva ----- */
+/* Estilos para Validacion - formulario de reserva */
 
 .formulario__grupo-correcto__dos .formulario__validacion-estado__dos {
   color: #29c436;
