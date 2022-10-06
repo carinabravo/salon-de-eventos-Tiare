@@ -187,6 +187,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .texto_contactanos {
@@ -608,6 +609,7 @@ body {
 @media screen and (max-width: 400px) {
   .button-uno {
     width: 95px;
+    padding: 5px;
   }
 }
 
@@ -623,7 +625,6 @@ body {
 @media screen and (max-width: 400px) {
   .reservas {
     height: auto;
-    padding: 10px 0;
   }
 }
 
@@ -638,6 +639,7 @@ body {
 @media screen and (max-width: 400px) {
   .titulo-reserva {
     margin-top: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -1542,7 +1544,7 @@ body {
 .titulo-servicios,
 .titulo-reserva,
 .titulo-empresa {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -1592,7 +1594,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .subtitulo-servicio {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -1639,7 +1641,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .titulo-footer {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
@@ -2876,13 +2878,13 @@ body {
     height: 40px;
     width: 95px;
     font-size: 14px;
+    padding: 5px;
   }
   /* Main - Reservas */
   .reservas {
     background: #151515;
     color: #fff;
     height: auto;
-    padding: 10px 0;
   }
   .texto-reservas {
     grid-column: 1/-1;
@@ -2898,8 +2900,9 @@ body {
     margin: 20px;
   }
   .titulo-reserva {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 30px;
+    margin-bottom: 0;
   }
   .parrafo-reserva {
     font-size: 15px;
@@ -2920,7 +2923,7 @@ body {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -2943,7 +2946,7 @@ body {
     box-shadow: 5px 10px 15px #2c2c2c;
   }
   .subtitulo-servicio {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -2961,7 +2964,7 @@ body {
     padding: 20px 0;
   }
   .titulo-empresa {
-    font-size: 20px;
+    font-size: 22px;
   }
   .parrafo-empresa {
     text-align: justify;
@@ -2989,7 +2992,7 @@ body {
     margin: 10px 0 5px 10px;
   }
   .titulo-footer {
-    font-size: 19px;
+    font-size: 20px;
   }
   .subtitulo-footer {
     font-size: 13px;
@@ -3037,6 +3040,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   font-size: 30px;
   padding: 20px 0 10px 0;
 }
@@ -3203,6 +3207,7 @@ input[type=checkbox] {
   .titulo_contactanos {
     font-size: 28px;
     padding: 20px 0 10px 0;
+    text-align: center;
   }
   .texto_contactanos {
     font-size: 17px;
@@ -3244,6 +3249,7 @@ input[type=checkbox] {
   .titulo_contactanos {
     font-size: 22px;
     padding: 10px 0 10px 0;
+    text-align: center;
   }
   .texto_contactanos {
     font-size: 15px;

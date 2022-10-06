@@ -157,6 +157,7 @@ $justifyContent-terciario: flex-end;
   display: flex;
   flex-direction: column;
   align-items: $alineacionItem-primario;
+  text-align: $textAlineacion-primaria;
 }
 
 .texto_contactanos {
