@@ -124,17 +124,23 @@
 
 .titulo-reserva {
   margin-top: 100px;
+  @media screen and (max-width: 767px) {
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-top: 30px;
+  }
 }
 
 .parrafo-reserva {
   margin-top: 20px;
   @media screen and (max-width: 767px) {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  @media screen and (max-width: 400px) {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -148,7 +154,7 @@
 }
 
 .servicios {
-  height: 920px;
+  height: 960px;
   padding: 20px;
   @media screen and (max-width: 767px) {
     height: auto;
@@ -298,5 +304,504 @@
   }
   @media screen and (max-width: 400px) {
     margin-bottom: 20px;
+  }
+}
+
+/* Formulario de Contacto */
+
+.formulario__uno {
+  padding: 90px 45px 90px 45px;
+  @media screen and (max-width: 767px) {
+    padding: 70px 20px 70px 20px;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 40px 25px 40px 25px;
+  }
+}
+
+.formulario__contactanos {
+  width: 70%;
+  height: auto;
+  padding: 20px 60px 20px 60px;
+  border-radius: 10px;
+  border-width: 3px;
+  @media screen and (max-width: 767px) {
+    width: 97%;
+    padding: 20px 35px 20px 35px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    padding: 20px 25px 20px 25px;
+  }
+}
+
+.titulo_contactanos {
+  padding: 20px 0 10px 0;
+  @media screen and (max-width: 400px) {
+    padding: 10px 0 10px 0;
+  }
+}
+
+.texto_contactanos {
+  padding-bottom: 10px;
+}
+
+input[type="checkbox"]:checked {
+  width: 18px;
+  height: 18px;
+}
+
+.formulario__label {
+  padding: 15px 0 2px 0;
+}
+
+.formulario__input {
+  width: 100%;
+
+  border-radius: 3px;
+  height: 45px;
+  line-height: 45px;
+  padding: 10px;
+}
+
+.formulario__input-error {
+  margin: 10px 0 5px 0;
+}
+
+.formulario__validacion-estado {
+  margin-left: 5px;
+  z-index: 100;
+  opacity: 0;
+}
+
+.casilla__consulta {
+  height: 100%;
+  width: 100%;
+  @media screen and (max-width: 400px) {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+.btn__dos {
+  padding: 10px 10px 20px 0;
+  @media screen and (max-width: 400px) {
+    padding: 10px 20px 10px 0;
+  }
+}
+
+.btn_volver {
+  height: 45px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 20px;
+  border-radius: 10px;
+  @media screen and (max-width: 400px) {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+.formulario__btn {
+  height: 45px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  border-radius: 10px;
+  @media screen and (max-width: 400px) {
+    height: 40px;
+    margin: 10px 20px 0 20px;
+  }
+}
+
+/* Formulario de Cotización */
+
+.formulario__dos {
+  padding: 90px 40px 90px 40px;
+  @media screen and (max-width: 767px) {
+    padding: 70px 20px 70px 20px;
+  }
+}
+
+.formulario {
+  height: auto;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  border-width: 3px;
+  @media screen and (max-width: 400px) {
+    padding: 20px 5px 20px 5px;
+    min-width: 265px;
+  }
+}
+
+.titulo_cotizacion {
+  grid-column: 1/-1;
+  padding-top: 20px;
+  @media screen and (max-width: 767px) {
+    padding: 20px 20px 0 20px;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 20px 25px 0 25px;
+  }
+}
+
+.texto_cotizacion {
+  padding: 0 10px 0 10px;
+  @media screen and (max-width: 767px) {
+    padding: 0 30px 0 30px;
+  }
+}
+
+#opciones {
+  margin-right: 30px;
+  padding-top: 30px;
+  margin-bottom: 15px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 0 10px 0 10px;
+    padding: 10px 20px 20px 20px;
+  }
+}
+
+.opciones_evento > input {
+  margin: 0 8px 0 20px;
+  @media screen and (max-width: 767px) {
+    margin: 0 6px 0 25px;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 20px 0 5px 0;
+  }
+}
+
+.texto-turnos {
+  margin-left: 5px;
+  @media screen and (max-width: 767px) {
+    margin-right: 6px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-right: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+.turnos > input {
+  margin: 0 7px 0 10px;
+  @media screen and (max-width: 767px) {
+    margin: 0 5px 20px 10px;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 0 5px 10px 10px;
+  }
+}
+
+.palabra_servicio {
+  margin-left: 20px;
+  margin-right: 10px;
+  @media screen and (max-width: 767px) {
+    margin-right: 13px;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 0 13px 5px 0;
+  }
+}
+
+.servicios_salon {
+  margin: 0 7px 0 10px;
+}
+
+.servicio {
+  width: 100px;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+  @media screen and (max-width: 767px) {
+    width: 132px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 132px;
+  }
+}
+
+.opciones_tres {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  @media screen and (max-width: 767px) {
+    padding-top: 0;
+  }
+  @media screen and (max-width: 400px) {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+}
+
+.fecha_evento {
+  margin-right: 10px;
+  margin-left: 17px;
+  @media screen and (max-width: 767px) {
+    margin-left: 10px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 10px;
+  }
+}
+
+.cantidad_horas {
+  margin-right: 10px;
+  @media screen and (max-width: 767px) {
+    margin-left: 9px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 9px;
+  }
+}
+
+.cantidad_personas {
+  margin-right: 10px;
+  @media screen and (max-width: 767px) {
+    margin-left: 8px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+.fecha {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 15px 0 10px;
+  padding: 5px;
+  @media screen and (max-width: 767px) {
+    width: 141px;
+    margin: 5px 0 10px 10px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 141px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.numHoras {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+  @media screen and (max-width: 767px) {
+    width: 122px;
+    margin: 5px 0 10px 10px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 122px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.numPersonas {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 5px 15px 0 10px;
+  padding: 10px;
+  @media screen and (max-width: 767px) {
+    width: 106px;
+    margin: 5px 0 10px 10px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 106px;
+    margin: 5px 0 10px 10px;
+  }
+}
+
+.btn_uno {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media screen and (max-width: 767px) {
+    padding: 10px 0 10px 0;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 0 0 10px 0;
+  }
+}
+
+.btn-volver {
+  height: 45px;
+  width: 70px;
+  border-radius: 10px;
+  @media screen and (max-width: 767px) {
+    width: 90px;
+    margin: 0 10px 10px 10px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+.boton_cotizar {
+  height: 45px;
+  width: 80px;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+  @media screen and (max-width: 767px) {
+    width: 90px;
+    margin: 0 10px 10px 0;
+  }
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    margin: 0 10px 10px 0;
+  }
+}
+
+.boton_reservar {
+  height: 45px;
+  width: 95px;
+  margin-right: 8px;
+  border-radius: 10px;
+  @media screen and (max-width: 767px) {
+    width: 300px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 67%;
+    margin-left: 9px;
+    margin-bottom: 10px;
+  }
+}
+
+.result {
+  margin: 0 0 0 15px;
+  @media screen and (max-width: 767px) {
+    margin: 10px 0 10px 25px;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 10px 0 10px 19px;
+  }
+}
+
+.result_reserva {
+  margin: 0 15px 0 0;
+  @media screen and (max-width: 767px) {
+    margin: 10px 15px 10px 0;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 10px 15px 10px 0;
+  }
+}
+
+.texto_reserva {
+  margin: 0 10px 0 15px;
+  @media screen and (max-width: 767px) {
+    margin: 20px 31px 20px 25px;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 20px 2px 20px 2px;
+  }
+}
+
+.formulario__input-error__tres {
+  margin-top: 5px;
+}
+
+/* Formulario de Reserva */
+
+.formulario__tres {
+  padding: 90px 45px 90px 45px;
+  @media screen and (max-width: 767px) {
+    padding: 70px 20px 70px 20px;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 40px 25px 40px 25px;
+  }
+}
+
+.formulario__reservar {
+  width: 70%;
+  height: auto;
+  padding: 20px 60px 20px 60px;
+  border-radius: 10px;
+  border-width: 3px;
+  @media screen and (max-width: 767px) {
+    width: 97%;
+    padding: 20px 35px 20px 35px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    padding: 20px 25px 20px 25px;
+  }
+}
+
+.titulo_reservar {
+  padding: 20px 0 30px 0;
+}
+
+.texto_reservar_dos {
+  padding-top: 30px;
+}
+
+.formulario__label__dos {
+  padding: 15px 0 2px 0;
+}
+
+.formulario__input__dos {
+  border-radius: 3px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding: 20px;
+}
+
+.formulario__input-error__dos {
+  margin: 10px 0 5px 0;
+}
+
+.formulario__validacion-estado__dos {
+  margin-left: 5px;
+  z-index: 100;
+}
+
+.btn__tres {
+  padding: 30px 8px 20px 0;
+  @media screen and (max-width: 767px) {
+    padding: 30px 7px 20px 0;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 30px 20px 10px 0;
+  }
+}
+
+.btn_salir {
+  height: 45px;
+  width: 90%;
+  padding: 5px;
+  margin: 0 20px 0 17px;
+  border-radius: 10px;
+  @media screen and (max-width: 767px) {
+    margin: 0 17px 0 17px;
+  }
+  @media screen and (max-width: 400px) {
+    height: 40px;
+  }
+}
+
+.formulario__btn__dos {
+  height: 45px;
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  @media screen and (max-width: 767px) {
+    margin: 0 17px 0 18px;
+  }
+  @media screen and (max-width: 400px) {
+    height: 40px;
+    margin-bottom: 10px;
   }
 }
