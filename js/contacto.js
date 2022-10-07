@@ -94,7 +94,6 @@ form_contactanos.addEventListener("submit", (e) => {
   };
 
   localStorage.setItem("form_contactanos", JSON.stringify(camposParaGuardar));
-
   if (campos.nombre && campos.correo && campos.telefono && campos.consulta) {
     /** Api para formulario de contacto. */
     fetch("https://formspree.io/f/xrgdqqpr", {
@@ -154,6 +153,8 @@ function recuperarDatos() {
 
 /** Retorna limpieza de formulario de contacto */
 function limpiarFormContacto() {
+  localStorage.removeItem("form_contactanos");
+
   document.getElementById("formulario__contactanos").reset();
 
   /** Limpia campo e íconos del formulario de contacto */
