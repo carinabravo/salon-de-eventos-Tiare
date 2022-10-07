@@ -176,7 +176,7 @@ body {
 }
 
 .button-dos:hover {
-  box-shadow: 5px 8px 15px #4a4949;
+  box-shadow: 5px 8px 15px #d1724990;
 }
 
 .opcion-de-reserva {
@@ -342,6 +342,10 @@ body {
 
 @media screen and (max-width: 767px) {
   /* Navbar */
+
+  .navbar {
+    padding: 0 10px 0 0;
+  }
 
   .navbar > .container {
     height: 80px;
@@ -589,6 +593,10 @@ body {
 @media screen and (max-width: 400px) {
   /* Navbar */
 
+  .navbar {
+    padding: 0 10px 0 0;
+  }
+
   .navbar > .container {
     height: 70px;
   }
@@ -815,8 +823,6 @@ body {
   }
 }
 
-/*** FORMULARIOS ***/
-
 /* Formulario de Contacto */
 
 .formulario__uno {
@@ -882,13 +888,14 @@ input[type="checkbox"] {
 
 .formulario__input {
   font-family: "Kalam", cursive;
+  font-size: 16px;
   width: 100%;
   background: #fff;
   border: 1px solid;
   border-radius: 3px;
   height: 45px;
   line-height: 45px;
-  padding: 10px;
+  padding-left:10px;
   transition: 0.3s ease all;
 }
 
@@ -1050,6 +1057,10 @@ input[type="checkbox"] {
     padding: 5px;
     font-size: 15px;
   }
+
+  .formulario__input {
+    font-size: 15px;
+  }
 }
 
 /* Vista para MOBILE */
@@ -1107,6 +1118,10 @@ input[type="checkbox"] {
     margin: 10px 20px 0 20px;
     padding: 5px;
     font-size: 15px;
+  }
+
+  .formulario__input {
+    font-size: 14px;
   }
 }
 
@@ -1837,13 +1852,14 @@ input[type="checkbox"] {
 
 .formulario__input__dos {
   font-family: "Kalam", cursive;
+  font-size: 16px;
   background: #fff;
   border: 1px solid;
   border-radius: 3px;
   width: 100%;
   height: 45px;
   line-height: 45px;
-  padding: 20px;
+  padding: 10px;
   transition: 0.3s ease all;
 }
 
@@ -2000,6 +2016,10 @@ input:disabled {
     padding: 5px;
     font-size: 15px;
   }
+
+.formulario__input__dos {
+  font-size: 15px;
+}
 }
 
 /* Vista para MOBILE */
@@ -2058,5 +2078,9 @@ input:disabled {
     margin-bottom: 10px;
     padding: 5px;
     font-size: 15px;
+  }
+
+  .formulario__input__dos {
+    font-size: 1px;
   }
 }
