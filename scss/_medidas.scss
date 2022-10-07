@@ -13,7 +13,7 @@
 .img-logo {
   width: 100px;
   height: auto;
-  margin-left: 35px;
+  margin-left: 2.188rem;
   @media screen and (max-width: 767px) {
     width: 90px;
   }
@@ -28,26 +28,26 @@
 }
 
 .navbar-nav {
-  padding-bottom: 5px;
+  padding-bottom: 0.313rem;
 }
 
 .nav-link:hover {
-  padding: 5px;
-  border-radius: 5px;
+  padding: 0.313rem;
+  border-radius: 0.313rem;
 }
 
 .nav-link {
   @media screen and (max-width: 767px) {
-    margin: 2px 10px;
+    margin: 0.125rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 2px 10px;
+    margin: 0.125rem 0.625rem;
   }
 }
 
 .navbar-collapse {
   @media screen and (max-width: 767px) {
-    padding: 5px;
+    padding: 0.313rem;
   }
 }
 
@@ -58,7 +58,7 @@
   }
   @media screen and (max-width: 400px) {
     height: auto;
-    padding: 20px 0;
+    padding: 1.25rem 0;
   }
 }
 
@@ -69,7 +69,7 @@
 }
 
 .parrafo-tiare {
-  margin-bottom: 20px;
+  margin-bottom: 0.625rem;
 }
 
 .img {
@@ -79,35 +79,35 @@
   border-radius: 10px;
   @media screen and (max-width: 767px) {
     max-width: 90%;
-    margin: 0 20px 40px 20px;
+    margin: 0 1.25rem 2.5rem 1.25rem;
   }
   @media screen and (max-width: 400px) {
     max-width: 80%;
-    margin: 0 20px 30px 30px;
+    margin: 0 1.25rem 1.875rem 1.875rem;
   }
 }
 
 .textos-tiare {
-  margin-left: 30px;
+  margin-left: 1.875rem;
   @media screen and (max-width: 767px) {
-    margin: 20px;
+    margin: 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 20px;
+    margin: 1.25rem;
   }
 }
 
 .button-uno {
   width: 130px;
-  height: 45;
+  height: 45px;
   border-radius: 5px;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   @media screen and (max-width: 767px) {
     width: 120px;
   }
   @media screen and (max-width: 400px) {
     width: 95px;
-    padding: 5px;
+    padding: 0.313rem;
   }
 }
 
@@ -115,7 +115,7 @@
   height: 490px;
   @media screen and (max-width: 767px) {
     height: auto;
-    padding: 10px;
+    padding: 0.625rem;
   }
   @media screen and (max-width: 400px) {
     height: auto;
@@ -123,40 +123,40 @@
 }
 
 .titulo-reserva {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   @media screen and (max-width: 767px) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   @media screen and (max-width: 400px) {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     margin-bottom: 0;
   }
 }
 
 .parrafo-reserva {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   @media screen and (max-width: 767px) {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.313rem;
+    margin-right: 0.313rem;
   }
 }
 
 .opcion-de-reserva {
   @media screen and (max-width: 767px) {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 20px;
+    margin: 1.25rem;
   }
 }
 
 .servicios {
   height: 960px;
-  padding: 20px;
+  padding: 1.25rem;
   @media screen and (max-width: 767px) {
     height: auto;
   }
@@ -165,8 +165,8 @@
   }
 }
 .titulo-servicios {
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin-top: 6.25rem;
+  margin-bottom: 1.875rem;
 }
 
 .items {
@@ -186,105 +186,105 @@
 }
 
 .subtitulo-servicio {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .texto-servicio {
-  margin-top: 10px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin-top: 0.625rem;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
   @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
-    padding-left: 55px;
-    padding-right: 55px;
+    margin-bottom: 1.875rem;
+    padding-left: 3.438rem;
+    padding-right: 3.438rem;
   }
   @media screen and (max-width: 400px) {
-    margin-bottom: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-bottom: 1.875rem;
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
   }
 }
 
 .nuestra-empresa {
   height: 850px;
-  padding: 20px;
+  padding: 1.25rem;
   @media screen and (max-width: 767px) {
     height: auto;
   }
   @media screen and (max-width: 400px) {
     height: auto;
-    padding: 20px 0;
+    padding: 1.25rem 0;
   }
 }
 
 .textos-nuestra-empresa {
   @media screen and (max-width: 767px) {
-    margin-right: 30px;
+    margin-right: 1.875rem;
   }
   @media screen and (max-width: 400px) {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 1.875rem;
+    margin-left: 1.25rem;
   }
 }
 
 .parrafo-empresa {
   @media screen and (max-width: 767px) {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 }
 
 .img-empresa {
   width: 100%;
   height: auto;
-  margin-right: 30px;
+  margin-right: 1.875rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
     width: 80%;
-    margin: 0 10px 20px 10px;
+    margin: 0 0.625rem 1.25rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 80%;
-    margin: 0 20px 20px 30px;
+    margin: 0 1.25rem 1.25rem 1.875rem;
   }
 }
 
 .float {
-  right: 25px;
-  bottom: 25px;
+  right: 1.563rem;
+  bottom: 1.563rem;
 }
 
 .footer {
   height: 320px;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   @media screen and (max-width: 767px) {
     height: auto;
-    padding: 20px;
+    padding: 1.25rem;
   }
   @media screen and (max-width: 400px) {
     height: auto;
-    padding: 10px;
+    padding: 0.625rem;
   }
 }
 
 .texto-footer {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 10px 0 5px 10px;
+    margin: 0.625rem 0 0.313rem 0.625rem;
   }
 }
 
 .titulo-footer {
-  margin: 20px 10px 0 10px;
+  margin: 1.25rem 0.625rem 0 0.625rem;
 }
 
 .subtitulo-footer {
-  margin: 10px 20px 10px 20px;
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   @media screen and (max-width: 767px) {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
   }
 }
 
@@ -299,52 +299,52 @@
 }
 
 .derechos {
-  margin: 30px 0 10px 0;
+  margin: 1.875rem 0 0.625rem 0;
   @media screen and (max-width: 767px) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }
 
 /* Formulario de Contacto */
 
 .formulario__uno {
-  padding: 90px 45px 90px 45px;
+  padding: 5.625rem 2.813rem 5.625rem 2.813rem;
   @media screen and (max-width: 767px) {
-    padding: 70px 20px 70px 20px;
+    padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    padding: 40px 25px 40px 25px;
+    padding: 2.5rem 1.563rem 2.5rem 1.563rem;
   }
 }
 
 .formulario__contactanos {
   width: 70%;
   height: auto;
-  padding: 20px 60px 20px 60px;
+  padding: 1.25rem 3.75rem 1.25rem 3.75rem;
   border-radius: 10px;
   border-width: 3px;
   @media screen and (max-width: 767px) {
     width: 97%;
-    padding: 20px 35px 20px 35px;
+    padding: 1.25rem 2.188rem 1.25rem 2.188rem;
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    padding: 20px 25px 20px 25px;
+    padding: 1.25rem 1.563rem 1.25rem 1.563rem;
   }
 }
 
 .titulo_contactanos {
-  padding: 20px 0 10px 0;
+  padding: 1.25rem 0 0.625rem 0;
   @media screen and (max-width: 400px) {
-    padding: 10px 0 10px 0;
+    padding: 0.625rem 0 0.625rem 0;
   }
 }
 
 .texto_contactanos {
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 input[type="checkbox"]:checked {
@@ -353,24 +353,23 @@ input[type="checkbox"]:checked {
 }
 
 .formulario__label {
-  padding: 15px 0 2px 0;
+  padding: 0.938rem 0 0.125rem 0;
 }
 
 .formulario__input {
   width: 100%;
-
   border-radius: 3px;
   height: 45px;
-  line-height: 45px;
-  padding: 10px;
+  line-height: 2.813rem;
+  padding-left: 0.625rem;
 }
 
 .formulario__input-error {
-  margin: 10px 0 5px 0;
+  margin: 0.625rem 0 0.313rem 0;
 }
 
 .formulario__validacion-estado {
-  margin-left: 5px;
+  margin-left: 0.313rem;
   z-index: 100;
   opacity: 0;
 }
@@ -385,138 +384,138 @@ input[type="checkbox"]:checked {
 }
 
 .btn__dos {
-  padding: 10px 10px 20px 0;
+  padding: 0.625rem 0.625rem 1.25rem 0;
   @media screen and (max-width: 400px) {
-    padding: 10px 20px 10px 0;
+    padding: 0.625rem 1.25rem 0.625rem 0;
   }
 }
 
 .btn_volver {
   height: 45px;
   width: 90%;
-  padding: 5px;
-  margin: 0 20px 0 20px;
+  padding: 0.313rem;
+  margin: 0 1.25rem 0 1.25rem;
   border-radius: 10px;
   @media screen and (max-width: 400px) {
     height: 40px;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 }
 
 .formulario__btn {
   height: 45px;
   width: 90%;
-  margin: 0 20px 0 20px;
-  padding: 5px;
+  margin: 0 1.25rem 0 1.25rem;
+  padding: 0.313rem;
   border-radius: 10px;
   @media screen and (max-width: 400px) {
     height: 40px;
-    margin: 10px 20px 0 20px;
+    margin: 0.625rem 1.25rem 0 1.25rem;
   }
 }
 
 /* Formulario de Cotización */
 
 .formulario__dos {
-  padding: 90px 40px 90px 40px;
+  padding: 5.625rem 2.5rem 5.625rem 2.5rem;
   @media screen and (max-width: 767px) {
-    padding: 70px 20px 70px 20px;
+    padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
 }
 
 .formulario {
   height: auto;
-  padding: 20px 10px 20px 10px;
+  padding: 1.25rem 0.625rem 1.25rem 0.625rem;
   border-radius: 10px;
   border-width: 3px;
   @media screen and (max-width: 400px) {
-    padding: 20px 5px 20px 5px;
+    padding: 1.25rem 0.313rem 1.25rem 0.313rem;
     min-width: 265px;
   }
 }
 
 .titulo_cotizacion {
   grid-column: 1/-1;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   @media screen and (max-width: 767px) {
-    padding: 20px 20px 0 20px;
+    padding: 1.25rem 1.25rem 0 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    padding: 20px 25px 0 25px;
+    padding: 1.25rem 1.563rem 0 1.563rem;
   }
 }
 
 .texto_cotizacion {
-  padding: 0 10px 0 10px;
+  padding: 0 0.625rem 0 0.625rem;
   @media screen and (max-width: 767px) {
-    padding: 0 30px 0 30px;
+    padding: 0 1.875rem 0 1.875rem;
   }
 }
 
 #opciones {
-  margin-right: 30px;
-  padding-top: 30px;
-  margin-bottom: 15px;
+  margin-right: 1.875rem;
+  padding-top: 1.875rem;
+  margin-bottom: 0.938rem;
   @media screen and (max-width: 767px) {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 0 10px 0 10px;
-    padding: 10px 20px 20px 20px;
+    margin: 0 0.625rem 0 0.625rem;
+    padding: 0.625rem 1.25rem 1.25rem 1.25rem;
   }
 }
 
 .opciones_evento > input {
-  margin: 0 8px 0 20px;
+  margin: 0 0.5rem 0 1.25rem;
   @media screen and (max-width: 767px) {
-    margin: 0 6px 0 25px;
+    margin: 0 0.375rem 0 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 20px 0 5px 0;
+    margin: 1.25rem 0 0.313rem 0;
   }
 }
 
 .texto-turnos {
-  margin-left: 5px;
+  margin-left: 0.313rem;
   @media screen and (max-width: 767px) {
-    margin-right: 6px;
+    margin-right: 0.375rem;
   }
   @media screen and (max-width: 400px) {
-    margin-right: 13px;
-    margin-bottom: 10px;
+    margin-right: 0.813rem;
+    margin-bottom: 0.625rem;
   }
 }
 
 .turnos > input {
-  margin: 0 7px 0 10px;
+  margin: 0 0.438rem 0 0.625rem;
   @media screen and (max-width: 767px) {
-    margin: 0 5px 20px 10px;
+    margin: 0 0.313rem 1.25rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 0 5px 10px 10px;
+    margin: 0 0.313rem 0.625rem 0.625rem;
   }
 }
 
 .palabra_servicio {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 1.25rem;
+  margin-right: 0.625rem;
   @media screen and (max-width: 767px) {
-    margin-right: 13px;
+    margin-right: 0.813rem;
     margin-left: 0;
   }
   @media screen and (max-width: 400px) {
-    margin: 0 13px 5px 0;
+    margin: 0 0.813rem 0.313rem 0;
   }
 }
 
 .servicios_salon {
-  margin: 0 7px 0 10px;
+  margin: 0 0.438rem 0 0.625rem;
 }
 
 .servicio {
   width: 100px;
   height: 30px;
-  padding-left: 5px;
+  padding-left: 0.313rem;
   border-radius: 5px;
   @media screen and (max-width: 767px) {
     width: 132px;
@@ -527,46 +526,46 @@ input[type="checkbox"]:checked {
 }
 
 .opciones_tres {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
   @media screen and (max-width: 767px) {
     padding-top: 0;
   }
   @media screen and (max-width: 400px) {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     padding-top: 0;
   }
 }
 
 .fecha_evento {
-  margin-right: 10px;
-  margin-left: 17px;
+  margin-right: 0.625rem;
+  margin-left: 1.063rem;
   @media screen and (max-width: 767px) {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
 }
 
 .cantidad_horas {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   @media screen and (max-width: 767px) {
-    margin-left: 9px;
+    margin-left: 0.563rem;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 9px;
+    margin-left: 0.563rem;
   }
 }
 
 .cantidad_personas {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   @media screen and (max-width: 767px) {
-    margin-left: 8px;
+    margin-left: 0.5rem;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 8px;
-    margin-bottom: 10px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.625rem;
   }
 }
 
@@ -574,15 +573,15 @@ input[type="checkbox"]:checked {
   width: 120px;
   height: 30px;
   border-radius: 5px;
-  margin: 5px 15px 0 10px;
-  padding: 5px;
+  margin: 0.313rem 0.938rem 0 0.625rem;
+  padding: 0.313rem;
   @media screen and (max-width: 767px) {
     width: 141px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 141px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
 
@@ -590,15 +589,15 @@ input[type="checkbox"]:checked {
   width: 70px;
   height: 30px;
   border-radius: 5px;
-  margin: 5px 15px 0 10px;
-  padding: 10px;
+  margin: 0.313rem 0.938rem 0 0.625rem;
+  padding: 0.625rem;
   @media screen and (max-width: 767px) {
     width: 122px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 122px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
 
@@ -606,27 +605,26 @@ input[type="checkbox"]:checked {
   width: 90px;
   height: 30px;
   border-radius: 5px;
-  font-size: 14px;
-  margin: 5px 15px 0 10px;
-  padding: 10px;
+  margin: 0.313rem 0.938rem 0 0.625rem;
+  padding: 0.625rem;
   @media screen and (max-width: 767px) {
     width: 106px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 106px;
-    margin: 5px 0 10px 10px;
+    margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
 
 .btn_uno {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   @media screen and (max-width: 767px) {
-    padding: 10px 0 10px 0;
+    padding: 0.625rem 0 0.625rem 0;
   }
   @media screen and (max-width: 400px) {
-    padding: 0 0 10px 0;
+    padding: 0 0 0.625rem 0;
   }
 }
 
@@ -636,118 +634,118 @@ input[type="checkbox"]:checked {
   border-radius: 10px;
   @media screen and (max-width: 767px) {
     width: 90px;
-    margin: 0 10px 10px 10px;
+    margin: 0 0.625rem 0.625rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0 0 0.625rem 0;
   }
 }
 
 .boton_cotizar {
   height: 45px;
   width: 80px;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0.625rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
     width: 90px;
-    margin: 0 10px 10px 0;
+    margin: 0 0.625rem 0.625rem 0;
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    margin: 0 10px 10px 0;
+    margin: 0 0.625rem 0.625rem 0;
   }
 }
 
 .boton_reservar {
   height: 45px;
   width: 95px;
-  margin-right: 8px;
+  margin-right: 0.5rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
     width: 300px;
-    margin-left: 8px;
-    margin-bottom: 10px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.625rem;
   }
   @media screen and (max-width: 400px) {
     width: 67%;
-    margin-left: 9px;
-    margin-bottom: 10px;
+    margin-left: 0.563rem;
+    margin-bottom: 0.625rem;
   }
 }
 
 .result {
-  margin: 0 0 0 15px;
+  margin: 0 0 0 0.938rem;
   @media screen and (max-width: 767px) {
-    margin: 10px 0 10px 25px;
+    margin: 0.625rem 0 0.625rem 1.563rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 10px 0 10px 19px;
+    margin: 0.625rem 0 0.625rem 1.188rem;
   }
 }
 
 .result_reserva {
-  margin: 0 15px 0 0;
+  margin: 0 0.938rem 0 0;
   @media screen and (max-width: 767px) {
-    margin: 10px 15px 10px 0;
+    margin: 0.625rem 0.638rem 0.625rem 0;
   }
   @media screen and (max-width: 400px) {
-    margin: 10px 15px 10px 0;
+    margin: 0.625rem 0.938rem 0.625rem 0;
   }
 }
 
 .texto_reserva {
-  margin: 0 10px 0 15px;
+  margin: 0 0.625rem 0 0.938rem;
   @media screen and (max-width: 767px) {
-    margin: 20px 31px 20px 25px;
+    margin: 1.25rem 1.938rem 1.25rem 1.563rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 20px 2px 20px 2px;
+    margin: 1.25rem 0.125rem 1.25rem 0.125rem;
   }
 }
 
 .formulario__input-error__tres {
-  margin-top: 5px;
+  margin-top: 0.313rem;
 }
 
 /* Formulario de Reserva */
 
 .formulario__tres {
-  padding: 90px 45px 90px 45px;
+  padding: 5.625rem 2.813rem 5.625rem 2.813rem;
   @media screen and (max-width: 767px) {
-    padding: 70px 20px 70px 20px;
+    padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    padding: 40px 25px 40px 25px;
+    padding: 2.5rem 1.563rem 2.5rem 1.563rem;
   }
 }
 
 .formulario__reservar {
   width: 70%;
   height: auto;
-  padding: 20px 60px 20px 60px;
+  padding: 1.25rem 3.75rem 1.25rem 3.75rem;
   border-radius: 10px;
   border-width: 3px;
   @media screen and (max-width: 767px) {
     width: 97%;
-    padding: 20px 35px 20px 35px;
+    padding: 1.25rem 2.188rem 1.25rem 2.188rem;
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    padding: 20px 25px 20px 25px;
+    padding: 1.25rem 1.563rem 1.25rem 1.563rem;
   }
 }
 
 .titulo_reservar {
-  padding: 20px 0 30px 0;
+  padding: 1.25rem 0 1.875rem 0;
 }
 
 .texto_reservar_dos {
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .formulario__label__dos {
-  padding: 15px 0 2px 0;
+  padding: 0.938rem 0 0.125rem 0;
 }
 
 .formulario__input__dos {
@@ -755,36 +753,36 @@ input[type="checkbox"]:checked {
   width: 100%;
   height: 45px;
   line-height: 45px;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .formulario__input-error__dos {
-  margin: 10px 0 5px 0;
+  margin: 0.625rem 0 0.313rem 0;
 }
 
 .formulario__validacion-estado__dos {
-  margin-left: 5px;
+  margin-left: 0.313rem;
   z-index: 100;
 }
 
 .btn__tres {
-  padding: 30px 8px 20px 0;
+  padding: 1.875rem 0.5rem 1.25rem 0;
   @media screen and (max-width: 767px) {
-    padding: 30px 7px 20px 0;
+    padding: 1.875rem 0.438rem 1.25rem 0;
   }
   @media screen and (max-width: 400px) {
-    padding: 30px 20px 10px 0;
+    padding: 1.875rem 1.25rem 0.625rem 0;
   }
 }
 
 .btn_salir {
   height: 45px;
   width: 90%;
-  padding: 5px;
-  margin: 0 20px 0 17px;
+  padding: 0.313rem;
+  margin: 0 1.25rem 0 1.063rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
-    margin: 0 17px 0 17px;
+    margin: 0 1.063rem 0 1.063rem;
   }
   @media screen and (max-width: 400px) {
     height: 40px;
@@ -794,15 +792,14 @@ input[type="checkbox"]:checked {
 .formulario__btn__dos {
   height: 45px;
   width: 90%;
-  margin: 0 20px 0 20px;
-  padding: 5px;
-  font-size: 16px;
+  margin: 0 1.25rem 0 1.25rem;
+  padding: 0.313rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
-    margin: 0 17px 0 18px;
+    margin: 0 1.063rem 0 1.125rem;
   }
   @media screen and (max-width: 400px) {
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 }
