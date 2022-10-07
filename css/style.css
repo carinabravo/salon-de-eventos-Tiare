@@ -1407,7 +1407,7 @@ input[type=checkbox]:checked {
 }
 
 .titulo_reservar {
-  padding: 1.25rem 0 1.875rem 0;
+  padding: 1.25rem 0 0.625rem 0;
 }
 
 .texto_reservar_dos {
@@ -3066,6 +3066,7 @@ body {
 }
 
 .titulo_contactanos {
+  font-family: "Kalam", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3341,6 +3342,7 @@ input[type=checkbox] {
 }
 
 .titulo_cotizacion {
+  font-family: "Kalam", cursive;
   grid-column: 1/-1;
   font-size: 30px;
   text-align: center;
@@ -3953,10 +3955,11 @@ input[type=checkbox] {
 }
 
 .titulo_reservar {
+  font-family: "Kalam", cursive;
   display: flex;
   flex-direction: column;
   font-size: 30px;
-  padding: 20px 0 30px 0;
+  padding: 20px 0 10px 0;
   align-items: center;
 }
 
@@ -4109,7 +4112,7 @@ input:disabled {
   }
   .titulo_reservar {
     font-size: 28px;
-    padding: 20px 0 30px 0;
+    padding: 20px 0 10px 0;
     align-items: center;
     text-align: center;
   }
@@ -4157,7 +4160,7 @@ input:disabled {
   }
   .titulo_reservar {
     font-size: 22px;
-    padding: 20px 0 30px 0;
+    padding: 20px 0 10px 0;
     align-items: center;
   }
   .texto_reservar_uno {
