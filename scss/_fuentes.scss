@@ -180,6 +180,13 @@ body {
 
 .formulario__input {
   font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
+  }
 }
 
 .formulario__input-error {
@@ -372,6 +379,13 @@ body {
 
 .formulario__input__dos {
   font-family: "Kalam", cursive;
+  font-size: 16px;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .formulario__input-error__dos {
