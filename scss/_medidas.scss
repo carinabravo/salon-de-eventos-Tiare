@@ -4,9 +4,11 @@
   height: 90px;
   @media screen and (max-width: 767px) {
     height: 80px;
+    padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
     height: 70px;
+    padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
 }
 

@@ -482,11 +482,13 @@ body {
 @media screen and (max-width: 767px) {
   .navbar > .container {
     height: 80px;
+    padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
 }
 @media screen and (max-width: 400px) {
   .navbar > .container {
     height: 70px;
+    padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
 }
 
@@ -2657,7 +2659,7 @@ body {
 @media screen and (max-width: 767px) {
   /* Navbar */
   .navbar {
-    padding: 0 10px 0 0;
+    padding: 5px 10px 5px 10px;
   }
   .navbar > .container {
     height: 80px;
@@ -2668,7 +2670,7 @@ body {
     height: 15px;
   }
   .img-logo {
-    width: 90px;
+    width: 80px;
     height: auto;
   }
   .nav-link {
@@ -2857,7 +2859,7 @@ body {
 @media screen and (max-width: 400px) {
   /* Navbar */
   .navbar {
-    padding: 0 10px 0 0;
+    padding: 5px 10px 5px 10px;
   }
   .navbar > .container {
     height: 70px;
