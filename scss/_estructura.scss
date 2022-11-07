@@ -74,8 +74,11 @@ $justifyContent-terciario: flex-end;
 }
 
 .texto-reservas {
-  grid-column: 1/-1;
+  grid-column: 2/-2;
   text-align: $textAlineacion-primaria;
+  @media screen and (max-width: 400px) {
+    grid-column: 1/-1;
+  }
 }
 
 .opcion-de-reserva {
