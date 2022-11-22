@@ -15,7 +15,6 @@
 .img-logo {
   width: 100px;
   height: auto;
-  margin-left: 2.188rem;
   @media screen and (max-width: 767px) {
     width: 90px;
   }
@@ -44,12 +43,6 @@
   }
   @media screen and (max-width: 400px) {
     margin: 0.125rem 0.625rem;
-  }
-}
-
-.navbar-collapse {
-  @media screen and (max-width: 767px) {
-    padding: 0.313rem;
   }
 }
 

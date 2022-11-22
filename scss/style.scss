@@ -41,9 +41,7 @@ body {
 }
 
 .img-logo {
-  width: 100px;
   height: auto;
-  margin-left: 35px;
 }
 
 .navbar-toggler {
@@ -344,10 +342,6 @@ body {
 @media screen and (max-width: 767px) {
   /* Navbar */
 
-  .navbar {
-    padding: 5px 10px 5px 10px;
-  }
-
   .navbar > .container {
     height: 80px;
   }
@@ -375,8 +369,7 @@ body {
 
   .navbar-collapse {
     background-color: #000000;
-    font-size: 15px;
-    padding: 5px;
+    font-size: 16px;
   }
 
   /* Header */
@@ -594,10 +587,6 @@ body {
 
 @media screen and (max-width: 400px) {
   /* Navbar */
-
-  .navbar {
-    padding: 5px 10px 5px 10px;
-  }
 
   .navbar > .container {
     height: 70px;

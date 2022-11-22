@@ -500,7 +500,6 @@ body {
 .img-logo {
   width: 100px;
   height: auto;
-  margin-left: 2.188rem;
 }
 @media screen and (max-width: 767px) {
   .img-logo {
@@ -535,12 +534,6 @@ body {
 @media screen and (max-width: 400px) {
   .nav-link {
     margin: 0.125rem 0.625rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .navbar-collapse {
-    padding: 0.313rem;
   }
 }
 
@@ -2370,9 +2363,7 @@ body {
 }
 
 .img-logo {
-  width: 100px;
   height: auto;
-  margin-left: 35px;
 }
 
 .navbar-toggler {
@@ -2664,9 +2655,6 @@ body {
 /* Vista para TABLET */
 @media screen and (max-width: 767px) {
   /* Navbar */
-  .navbar {
-    padding: 5px 10px 5px 10px;
-  }
   .navbar > .container {
     height: 80px;
   }
@@ -2689,8 +2677,7 @@ body {
   }
   .navbar-collapse {
     background-color: #000000;
-    font-size: 15px;
-    padding: 5px;
+    font-size: 16px;
   }
   /* Header */
   .header {
@@ -2865,9 +2852,6 @@ body {
 /* Vista para MOBILE */
 @media screen and (max-width: 400px) {
   /* Navbar */
-  .navbar {
-    padding: 5px 10px 5px 10px;
-  }
   .navbar > .container {
     height: 70px;
   }
