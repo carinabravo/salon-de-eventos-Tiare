@@ -2076,7 +2076,7 @@ body {
 }
 
 .button-dos:hover {
-  box-shadow: 5px 8px 15px rgba(209, 114, 73, 0.5647058824);
+  box-shadow: 5px 8px 15px rgba(80, 78, 78, 0.5764705882);
 }
 
 .textos-tiare,
@@ -2503,7 +2503,7 @@ body {
 }
 
 .button-dos:hover {
-  box-shadow: 5px 8px 15px rgba(209, 114, 73, 0.5647058824);
+  box-shadow: 5px 8px 10px rgba(80, 78, 78, 0.5764705882);
 }
 
 .opcion-de-reserva {
@@ -2639,6 +2639,7 @@ body {
 }
 
 .subtitulo-footer {
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   margin: 10px 20px 10px 20px;
 }
@@ -2844,6 +2845,7 @@ body {
     font-size: 28px;
   }
   .subtitulo-footer {
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     margin-left: 30px;
     margin-right: 30px;
@@ -3032,6 +3034,7 @@ body {
     font-size: 20px;
   }
   .subtitulo-footer {
+    font-family: "Raleway", sans-serif;
     font-size: 13px;
   }
   [class^=footer-item] a {
