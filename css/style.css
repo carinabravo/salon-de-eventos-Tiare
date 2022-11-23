@@ -1527,7 +1527,7 @@ body {
 .titulo-reserva,
 .titulo-empresa {
   font-family: "Kalam", cursive;
-  font-size: 35px;
+  font-size: 32px;
 }
 @media screen and (max-width: 767px) {
   .titulo-tiare,
@@ -2405,7 +2405,7 @@ body {
 }
 
 .titulo-tiare {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -2466,7 +2466,7 @@ body {
 }
 
 .titulo-reserva {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -2487,7 +2487,7 @@ body {
 .button-dos {
   font-family: "Kalam", cursive;
   height: 50px;
-  width: 300px;
+  width: 280px;
   background-color: #cd6032;
   color: #fff;
   font-size: 22px;
@@ -2526,7 +2526,7 @@ body {
   color: #fff;
   display: flex;
   justify-content: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 90px;
   margin-bottom: 30px;
@@ -2579,7 +2579,7 @@ body {
 }
 
 .titulo-empresa {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -2629,7 +2629,7 @@ body {
 }
 
 .titulo-footer {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
   margin: 20px 10px 0 10px;
 }
