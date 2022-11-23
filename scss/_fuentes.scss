@@ -36,12 +36,12 @@ body {
 .titulo-reserva,
 .titulo-empresa {
   font-family: "Kalam", cursive;
-  font-size: 40px;
+  font-size: 35px;
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -59,9 +59,9 @@ body {
 
 .button-uno {
   font-family: "Kalam", cursive;
-  font-size: 18px;
+  font-size: 16px;
   @media screen and (max-width: 767px) {
-    font-size: 16px;
+    font-size: 15px;
   }
   @media screen and (max-width: 400px) {
     font-size: 13px;
@@ -70,12 +70,12 @@ body {
 
 .subtitulo-servicio {
   font-family: "Kalam", cursive;
-  font-size: 22px;
+  font-size: 20px;
   @media screen and (max-width: 767px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -107,10 +107,10 @@ body {
   font-family: "Kalam", cursive;
   font-size: 35px;
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -150,10 +150,10 @@ body {
 .titulo_contactanos {
   font-size: 30px;
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -168,6 +168,7 @@ body {
 }
 
 .formulario__label {
+  font-family: "Kalam", cursive;
   font-size: 15px;
 
   @media screen and (max-width: 767px) {
@@ -214,10 +215,10 @@ body {
 .titulo_cotizacion {
   font-size: 30px;
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -235,6 +236,7 @@ body {
 .palabra_fecha,
 .palabra_horas,
 .palabra_invitados {
+  font-family: "Kalam", cursive;
   font-size: 16px;
   @media screen and (max-width: 400px) {
     font-size: 15px;
@@ -253,6 +255,7 @@ body {
 }
 
 .texto-turnos {
+  font-family: "Kalam", cursive;
   font-size: 16px;
   @media screen and (max-width: 767px) {
     font-size: 16px;
@@ -295,22 +298,22 @@ body {
 
 .btn-volver {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .boton_cotizar {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
   @media screen and (max-width: 400px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 .boton_reservar {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
   @media screen and (max-width: 400px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -349,25 +352,27 @@ body {
 .titulo_reservar {
   font-size: 30px;
   @media screen and (max-width: 767px) {
-    font-size: 28px;
+    font-size: 25px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
 .texto_reservar_uno,
 .texto_reservar_dos {
-  font-size: 20px;
+  font-family: "Kalam", cursive;
+  font-size: 16px;
   @media screen and (max-width: 767px) {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
 .formulario__label__dos {
+  font-family: "Kalam", cursive;
   font-size: 15px;
   @media screen and (max-width: 767px) {
     font-size: 14px;
@@ -399,11 +404,11 @@ body {
 .btn_salir,
 .formulario__btn__dos {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
   @media screen and (max-width: 767px) {
-    font-size: 15px;
+    font-size: 14px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }

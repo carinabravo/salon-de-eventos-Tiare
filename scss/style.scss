@@ -111,7 +111,7 @@ body {
   width: 130px;
   background-color: #000000;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -141,7 +141,7 @@ body {
 }
 
 .titulo-reserva {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -165,7 +165,7 @@ body {
   width: 300px;
   background-color: #cd6032;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 10px;
   border-color: #cd6032;
   display: inline-block;
@@ -229,7 +229,7 @@ body {
 }
 
 .subtitulo-servicio {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -388,7 +388,7 @@ body {
   }
 
   .titulo-tiare {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 10px;
   }
 
@@ -403,7 +403,7 @@ body {
 
   .button-uno {
     width: 130px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   /* Main - Reservas */
@@ -420,7 +420,7 @@ body {
   }
 
   .titulo-reserva {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 30px;
   }
 
@@ -434,9 +434,9 @@ body {
   }
 
   .button-dos {
-    height: 50px;
-    width: 240px;
-    font-size: 22px;
+    height: 45px;
+    width: 220px;
+    font-size: 20px;
   }
 
   .opcion-de-reserva {
@@ -461,7 +461,7 @@ body {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -488,7 +488,7 @@ body {
   }
 
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -519,7 +519,7 @@ body {
   }
 
   .titulo-empresa {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .parrafo-empresa {
@@ -558,7 +558,7 @@ body {
   }
 
   .titulo-footer {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .subtitulo-footer {
@@ -599,7 +599,7 @@ body {
   }
 
   .img-logo {
-    width: 75px;
+    width: 70px;
     height: auto;
   }
 
@@ -610,7 +610,7 @@ body {
 
   .navbar-collapse {
     background-color: #000000;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /* Header */
@@ -625,7 +625,7 @@ body {
   }
 
   .titulo-tiare {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .textos-tiare {
@@ -648,8 +648,8 @@ body {
 
   .button-uno {
     height: 40px;
-    width: 95px;
-    font-size: 14px;
+    width: 105px;
+    font-size: 13px;
     padding: 5px;
   }
 
@@ -668,7 +668,7 @@ body {
   .button-dos {
     height: 40px;
     width: 180px;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .opcion-de-reserva {
@@ -678,7 +678,7 @@ body {
   }
 
   .titulo-reserva {
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 30px;
     margin-bottom: 0;
   }
@@ -706,7 +706,7 @@ body {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -733,7 +733,7 @@ body {
   }
 
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -755,7 +755,7 @@ body {
   }
 
   .titulo-empresa {
-    font-size: 22px;
+    font-size: 19px;
   }
 
   .parrafo-empresa {
@@ -792,7 +792,7 @@ body {
   }
 
   .titulo-footer {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .subtitulo-footer {
@@ -945,7 +945,7 @@ input[type="checkbox"] {
   margin: 0 20px 0 20px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -960,7 +960,7 @@ input[type="checkbox"] {
   padding: 5px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -1016,7 +1016,7 @@ input[type="checkbox"] {
   }
 
   .titulo_contactanos {
-    font-size: 28px;
+    font-size: 25px;
     padding: 20px 0 10px 0;
     text-align: center;
   }
@@ -1040,7 +1040,7 @@ input[type="checkbox"] {
     width: 90%;
     padding: 5px;
     margin: 0 20px 0 20px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__btn {
@@ -1048,7 +1048,7 @@ input[type="checkbox"] {
     width: 90%;
     margin: 0 20px 0 20px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__input {
@@ -1071,7 +1071,7 @@ input[type="checkbox"] {
   }
 
   .titulo_contactanos {
-    font-size: 22px;
+    font-size: 19px;
     padding: 10px 0 10px 0;
     text-align: center;
   }
@@ -1102,7 +1102,7 @@ input[type="checkbox"] {
     width: 90%;
     padding: 5px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__btn {
@@ -1110,7 +1110,7 @@ input[type="checkbox"] {
     width: 90%;
     margin: 10px 20px 0 20px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__input {
@@ -1291,11 +1291,11 @@ input[type="checkbox"] {
 .btn-volver {
   display: inline-block;
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 70px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s ease all;
@@ -1303,12 +1303,12 @@ input[type="checkbox"] {
 
 .boton_cotizar {
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 80px;
   margin: 0 0 0 10px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s ease all;
@@ -1322,12 +1322,12 @@ input[type="checkbox"] {
 .boton_reservar {
   display: inline-block;
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 95px;
   margin-right: 8px;
   background-color: #cd6032;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   border-color: #cd6032;
   cursor: pointer;
@@ -1407,7 +1407,7 @@ input[type="checkbox"] {
 
   .titulo_cotizacion {
     grid-column: 1/-1;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
     padding: 20px 20px 0 20px;
   }
@@ -1545,17 +1545,17 @@ input[type="checkbox"] {
 
   .btn-volver {
     display: inline-block;
-    height: 45px;
+    height: 50px;
     width: 90px;
     margin: 0 10px 10px 10px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .boton_cotizar {
-    height: 45px;
+    height: 50px;
     width: 90px;
     margin: 0 10px 10px 0;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .result {
@@ -1577,7 +1577,7 @@ input[type="checkbox"] {
   .boton_reservar {
     height: 45px;
     width: 300px;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 8px;
     margin-bottom: 10px;
   }
@@ -1608,7 +1608,7 @@ input[type="checkbox"] {
 
   .titulo_cotizacion {
     grid-column: 1/-1;
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
     padding: 20px 25px 0 25px;
   }
@@ -1752,14 +1752,14 @@ input[type="checkbox"] {
     height: 45px;
     width: 100%;
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .boton_cotizar {
     height: 45px;
     width: 100%;
     margin: 0 10px 10px 0;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .result {
@@ -1781,7 +1781,7 @@ input[type="checkbox"] {
   .boton_reservar {
     height: 45px;
     width: 67%;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 9px;
     margin-bottom: 10px;
   }
@@ -1823,12 +1823,12 @@ input[type="checkbox"] {
   align-items: center;
 }
 .texto_reservar_uno {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .texto_reservar_dos {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-top: 30px;
 }
@@ -1903,7 +1903,7 @@ input:disabled {
   margin: 0 20px 0 17px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -1974,17 +1974,17 @@ input:disabled {
   }
 
   .titulo_reservar {
-    font-size: 28px;
+    font-size: 25px;
     padding: 20px 0 10px 0;
     align-items: center;
     text-align: center;
   }
   .texto_reservar_uno {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .texto_reservar_dos {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 30px;
   }
 
@@ -2001,7 +2001,7 @@ input:disabled {
     width: 90%;
     padding: 5px;
     margin: 0 17px 0 17px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__btn__dos {
@@ -2032,17 +2032,17 @@ input:disabled {
   }
 
   .titulo_reservar {
-    font-size: 22px;
+    font-size: 19px;
     padding: 20px 0 10px 0;
     align-items: center;
   }
   .texto_reservar_uno {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
   }
 
   .texto_reservar_dos {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     padding-top: 30px;
   }
@@ -2063,7 +2063,7 @@ input:disabled {
     height: 40px;
     width: 90%;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__btn__dos {
@@ -2072,7 +2072,7 @@ input:disabled {
     width: 90%;
     margin-bottom: 10px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .formulario__input__dos {

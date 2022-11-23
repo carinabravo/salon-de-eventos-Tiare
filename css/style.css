@@ -1527,14 +1527,14 @@ body {
 .titulo-reserva,
 .titulo-empresa {
   font-family: "Kalam", cursive;
-  font-size: 40px;
+  font-size: 35px;
 }
 @media screen and (max-width: 767px) {
   .titulo-tiare,
 .titulo-servicios,
 .titulo-reserva,
 .titulo-empresa {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1542,7 +1542,7 @@ body {
 .titulo-servicios,
 .titulo-reserva,
 .titulo-empresa {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -1568,11 +1568,11 @@ body {
 
 .button-uno {
   font-family: "Kalam", cursive;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media screen and (max-width: 767px) {
   .button-uno {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1583,16 +1583,16 @@ body {
 
 .subtitulo-servicio {
   font-family: "Kalam", cursive;
-  font-size: 22px;
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 400px) {
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -1634,12 +1634,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo-footer {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 400px) {
   .titulo-footer {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -1692,12 +1692,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo_contactanos {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 400px) {
   .titulo_contactanos {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -1716,6 +1716,7 @@ body {
 }
 
 .formulario__label {
+  font-family: "Kalam", cursive;
   font-size: 15px;
 }
 @media screen and (max-width: 767px) {
@@ -1776,12 +1777,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo_cotizacion {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 400px) {
   .titulo_cotizacion {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
@@ -1803,6 +1804,7 @@ body {
 .palabra_fecha,
 .palabra_horas,
 .palabra_invitados {
+  font-family: "Kalam", cursive;
   font-size: 16px;
 }
 @media screen and (max-width: 400px) {
@@ -1830,6 +1832,7 @@ body {
 }
 
 .texto-turnos {
+  font-family: "Kalam", cursive;
   font-size: 16px;
 }
 @media screen and (max-width: 767px) {
@@ -1878,26 +1881,26 @@ body {
 
 .btn-volver {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .boton_cotizar {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
 }
 @media screen and (max-width: 400px) {
   .boton_cotizar {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 .boton_reservar {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
 }
 @media screen and (max-width: 400px) {
   .boton_reservar {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -1940,33 +1943,35 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo_reservar {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 767px) {
   .titulo_reservar {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
 .texto_reservar_uno,
 .texto_reservar_dos {
-  font-size: 20px;
+  font-family: "Kalam", cursive;
+  font-size: 16px;
 }
 @media screen and (max-width: 767px) {
   .texto_reservar_uno,
 .texto_reservar_dos {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 767px) {
   .texto_reservar_uno,
 .texto_reservar_dos {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
 .formulario__label__dos {
+  font-family: "Kalam", cursive;
   font-size: 15px;
 }
 @media screen and (max-width: 767px) {
@@ -2006,18 +2011,18 @@ body {
 .btn_salir,
 .formulario__btn__dos {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 15px;
 }
 @media screen and (max-width: 767px) {
   .btn_salir,
 .formulario__btn__dos {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 767px) {
   .btn_salir,
 .formulario__btn__dos {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -2432,7 +2437,7 @@ body {
   width: 130px;
   background-color: #000000;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -2461,7 +2466,7 @@ body {
 }
 
 .titulo-reserva {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -2485,7 +2490,7 @@ body {
   width: 300px;
   background-color: #cd6032;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 10px;
   border-color: #cd6032;
   display: inline-block;
@@ -2548,7 +2553,7 @@ body {
 }
 
 .subtitulo-servicio {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -2691,7 +2696,7 @@ body {
     margin: 0 20px 40px 20px;
   }
   .titulo-tiare {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 10px;
   }
   .parrafo-tiare {
@@ -2703,7 +2708,7 @@ body {
   }
   .button-uno {
     width: 130px;
-    font-size: 16px;
+    font-size: 15px;
   }
   /* Main - Reservas */
   .reservas {
@@ -2716,7 +2721,7 @@ body {
     grid-column: 1/-1;
   }
   .titulo-reserva {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 30px;
   }
   .parrafo-reserva {
@@ -2728,9 +2733,9 @@ body {
     padding-right: 20px;
   }
   .button-dos {
-    height: 50px;
-    width: 240px;
-    font-size: 22px;
+    height: 45px;
+    width: 220px;
+    font-size: 20px;
   }
   .opcion-de-reserva {
     grid-column: 2/-2;
@@ -2750,7 +2755,7 @@ body {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -2773,7 +2778,7 @@ body {
     box-shadow: 5px 10px 15px #2c2c2c;
   }
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -2799,7 +2804,7 @@ body {
     margin-right: 30px;
   }
   .titulo-empresa {
-    font-size: 28px;
+    font-size: 25px;
   }
   .parrafo-empresa {
     text-align: justify;
@@ -2829,7 +2834,7 @@ body {
     text-align: center;
   }
   .titulo-footer {
-    font-size: 28px;
+    font-size: 25px;
   }
   .subtitulo-footer {
     font-family: "Raleway", sans-serif;
@@ -2861,7 +2866,7 @@ body {
     height: 15px;
   }
   .img-logo {
-    width: 75px;
+    width: 70px;
     height: auto;
   }
   .nav-link {
@@ -2870,7 +2875,7 @@ body {
   }
   .navbar-collapse {
     background-color: #000000;
-    font-size: 13px;
+    font-size: 14px;
   }
   /* Header */
   .grid {
@@ -2881,7 +2886,7 @@ body {
     padding: 20px 0;
   }
   .titulo-tiare {
-    font-size: 20px;
+    font-size: 19px;
   }
   .textos-tiare {
     grid-column: 2/-2;
@@ -2899,8 +2904,8 @@ body {
   }
   .button-uno {
     height: 40px;
-    width: 95px;
-    font-size: 14px;
+    width: 105px;
+    font-size: 13px;
     padding: 5px;
   }
   /* Main - Reservas */
@@ -2915,7 +2920,7 @@ body {
   .button-dos {
     height: 40px;
     width: 180px;
-    font-size: 18px;
+    font-size: 17px;
   }
   .opcion-de-reserva {
     grid-column: 1/-1;
@@ -2923,7 +2928,7 @@ body {
     margin: 20px;
   }
   .titulo-reserva {
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 30px;
     margin-bottom: 0;
   }
@@ -2946,7 +2951,7 @@ body {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -2969,7 +2974,7 @@ body {
     box-shadow: 5px 10px 15px #2c2c2c;
   }
   .subtitulo-servicio {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -2987,7 +2992,7 @@ body {
     padding: 20px 0;
   }
   .titulo-empresa {
-    font-size: 22px;
+    font-size: 19px;
   }
   .parrafo-empresa {
     text-align: justify;
@@ -3015,7 +3020,7 @@ body {
     margin: 10px 0 5px 10px;
   }
   .titulo-footer {
-    font-size: 20px;
+    font-size: 19px;
   }
   .subtitulo-footer {
     font-family: "Raleway", sans-serif;
@@ -3163,7 +3168,7 @@ input[type=checkbox] {
   margin: 0 20px 0 20px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -3178,7 +3183,7 @@ input[type=checkbox] {
   padding: 5px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -3230,7 +3235,7 @@ input[type=checkbox] {
     padding: 20px 35px 20px 35px;
   }
   .titulo_contactanos {
-    font-size: 28px;
+    font-size: 25px;
     padding: 20px 0 10px 0;
     text-align: center;
   }
@@ -3250,14 +3255,14 @@ input[type=checkbox] {
     width: 90%;
     padding: 5px;
     margin: 0 20px 0 20px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__btn {
     height: 45px;
     width: 90%;
     margin: 0 20px 0 20px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__input {
     font-size: 15px;
@@ -3275,7 +3280,7 @@ input[type=checkbox] {
     padding: 20px 25px 20px 25px;
   }
   .titulo_contactanos {
-    font-size: 22px;
+    font-size: 19px;
     padding: 10px 0 10px 0;
     text-align: center;
   }
@@ -3301,14 +3306,14 @@ input[type=checkbox] {
     width: 90%;
     padding: 5px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__btn {
     height: 40px;
     width: 90%;
     margin: 10px 20px 0 20px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__input {
     font-size: 14px;
@@ -3486,11 +3491,11 @@ input[type=checkbox] {
 .btn-volver {
   display: inline-block;
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 70px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s ease all;
@@ -3498,12 +3503,12 @@ input[type=checkbox] {
 
 .boton_cotizar {
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 80px;
   margin: 0 0 0 10px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s ease all;
@@ -3517,12 +3522,12 @@ input[type=checkbox] {
 .boton_reservar {
   display: inline-block;
   font-family: "Kalam", cursive;
-  height: 45px;
+  height: 48px;
   width: 95px;
   margin-right: 8px;
   background-color: #cd6032;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   border-color: #cd6032;
   cursor: pointer;
@@ -3600,7 +3605,7 @@ input[type=checkbox] {
   }
   .titulo_cotizacion {
     grid-column: 1/-1;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
     padding: 20px 20px 0 20px;
   }
@@ -3717,16 +3722,16 @@ input[type=checkbox] {
   }
   .btn-volver {
     display: inline-block;
-    height: 45px;
+    height: 50px;
     width: 90px;
     margin: 0 10px 10px 10px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .boton_cotizar {
-    height: 45px;
+    height: 50px;
     width: 90px;
     margin: 0 10px 10px 0;
-    font-size: 16px;
+    font-size: 14px;
   }
   .result {
     font-size: 18px;
@@ -3744,7 +3749,7 @@ input[type=checkbox] {
   .boton_reservar {
     height: 45px;
     width: 300px;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 8px;
     margin-bottom: 10px;
   }
@@ -3770,7 +3775,7 @@ input[type=checkbox] {
   }
   .titulo_cotizacion {
     grid-column: 1/-1;
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
     padding: 20px 25px 0 25px;
   }
@@ -3893,13 +3898,13 @@ input[type=checkbox] {
     height: 45px;
     width: 100%;
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: 14px;
   }
   .boton_cotizar {
     height: 45px;
     width: 100%;
     margin: 0 10px 10px 0;
-    font-size: 15px;
+    font-size: 14px;
   }
   .result {
     font-size: 16px;
@@ -3917,7 +3922,7 @@ input[type=checkbox] {
   .boton_reservar {
     height: 45px;
     width: 67%;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 9px;
     margin-bottom: 10px;
   }
@@ -3958,12 +3963,12 @@ input[type=checkbox] {
 }
 
 .texto_reservar_uno {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .texto_reservar_dos {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-top: 30px;
 }
@@ -4038,7 +4043,7 @@ input:disabled {
   margin: 0 20px 0 17px;
   background-color: #000000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   display: inline-block;
   cursor: pointer;
@@ -4105,16 +4110,16 @@ input:disabled {
     padding: 20px 35px 20px 35px;
   }
   .titulo_reservar {
-    font-size: 28px;
+    font-size: 25px;
     padding: 20px 0 10px 0;
     align-items: center;
     text-align: center;
   }
   .texto_reservar_uno {
-    font-size: 18px;
+    font-size: 16px;
   }
   .texto_reservar_dos {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 30px;
   }
   .formulario__label__dos {
@@ -4128,7 +4133,7 @@ input:disabled {
     width: 90%;
     padding: 5px;
     margin: 0 17px 0 17px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__btn__dos {
     height: 45px;
@@ -4153,16 +4158,16 @@ input:disabled {
     padding: 20px 25px 20px 25px;
   }
   .titulo_reservar {
-    font-size: 22px;
+    font-size: 19px;
     padding: 20px 0 10px 0;
     align-items: center;
   }
   .texto_reservar_uno {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
   }
   .texto_reservar_dos {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     padding-top: 30px;
   }
@@ -4180,7 +4185,7 @@ input:disabled {
     height: 40px;
     width: 90%;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__btn__dos {
     font-family: "Kalam", cursive;
@@ -4188,7 +4193,7 @@ input:disabled {
     width: 90%;
     margin-bottom: 10px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .formulario__input__dos {
     font-size: 1px;
