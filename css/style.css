@@ -2182,7 +2182,7 @@ body {
   border-color: #cd6032;
 }
 
-.texto_reserva {
+.texto_reserva, .result_reserva {
   color: #cd6032;
 }
 
@@ -2861,12 +2861,12 @@ body {
     height: 15px;
   }
   .img-logo {
-    width: 70px;
+    width: 75px;
     height: auto;
   }
   .nav-link {
     color: #fff !important;
-    margin: 2px 10px;
+    margin: 2px;
   }
   .navbar-collapse {
     background-color: #000000;
