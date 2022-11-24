@@ -383,13 +383,13 @@ body {
   }
 
   .img {
-    max-width: 90%;
+    max-width: 89%;
     margin: 0 20px 40px 20px;
   }
 
   .titulo-tiare {
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .parrafo-tiare {
@@ -421,16 +421,16 @@ body {
 
   .titulo-reserva {
     font-size: 22px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
   }
 
   .parrafo-reserva {
     font-size: 18px;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 0;
   }
 
   .button-dos {
@@ -464,7 +464,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .items {
@@ -508,7 +508,7 @@ body {
     background-color: #fff;
     flex-wrap: wrap;
     height: auto;
-    padding: 20px;
+    padding:20px;
   }
 
   .textos-nuestra-empresa {
@@ -520,6 +520,7 @@ body {
 
   .titulo-empresa {
     font-size: 22px;
+    padding-top: 10px;
   }
 
   .parrafo-empresa {
@@ -626,6 +627,7 @@ body {
 
   .titulo-tiare {
     font-size: 19px;
+    margin-top: 0;
   }
 
   .textos-tiare {
@@ -688,6 +690,7 @@ body {
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 10px;
   }
 
   .opcion {
@@ -708,8 +711,8 @@ body {
     justify-content: center;
     font-size: 19px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
   .items {
@@ -756,6 +759,7 @@ body {
 
   .titulo-empresa {
     font-size: 19px;
+    margin-bottom: 10px;
   }
 
   .parrafo-empresa {
