@@ -2684,6 +2684,9 @@ body {
     background-color: #000000;
     font-size: 16px;
   }
+  .navbar-nav {
+    padding-top: 20px;
+  }
   /* Header */
   .header {
     height: auto;
