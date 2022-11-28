@@ -36,12 +36,12 @@ body {
 .titulo-reserva,
 .titulo-empresa {
   font-family: "Kalam", cursive;
-  font-size: 32px;
+  font-size: 30px;
   @media screen and (max-width: 767px) {
     font-size: 22px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
