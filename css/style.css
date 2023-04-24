@@ -614,7 +614,7 @@ body {
 }
 
 .reservas {
-  height: 490px;
+  height: 49z0px;
 }
 @media screen and (max-width: 767px) {
   .reservas {
@@ -2452,9 +2452,9 @@ body {
 
 /* Main - Reservas */
 .reservas {
-  background: #000000;
+  background: #151515;
   color: #fff;
-  height: 500px;
+  height: 470px;
 }
 
 .texto-reservas {
@@ -2612,7 +2612,7 @@ body {
 .footer {
   background-color: #000000;
   color: #fff;
-  height: 320px;
+  height: 340px;
   padding: 20px 0;
 }
 
@@ -2625,7 +2625,7 @@ body {
 
 .titulo-footer {
   font-size: 30px;
-  margin: 20px 10px 0 10px;
+  margin: 40px 10px 0 10px;
 }
 
 .subtitulo-footer {
@@ -2690,7 +2690,7 @@ body {
   }
   .img {
     max-width: 89%;
-    margin: 0 20px 40px 20px;
+    margin: 0 20px 60px 20px;
   }
   .titulo-tiare {
     font-size: 22px;
@@ -2709,7 +2709,7 @@ body {
   }
   /* Main - Reservas */
   .reservas {
-    background: #000000;
+    background: #151515;
     color: #fff;
     height: auto;
     padding: 10px;
@@ -2754,7 +2754,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
   }
   .items {
@@ -2802,7 +2802,7 @@ body {
   }
   .titulo-empresa {
     font-size: 22px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
   .parrafo-empresa {
     text-align: justify;
@@ -2816,7 +2816,7 @@ body {
   .img-empresa {
     width: 80%;
     height: auto;
-    margin: 0 10px 20px 10px;
+    margin: 0 10px 40px 10px;
   }
   /* Scroll */
   .scroll a {
@@ -2881,7 +2881,7 @@ body {
   }
   .header {
     height: auto;
-    padding: 20px 0;
+    padding: 10px 0;
   }
   .titulo-tiare {
     font-size: 18px;
@@ -2909,7 +2909,7 @@ body {
   }
   /* Main - Reservas */
   .reservas {
-    background: #000000;
+    background: #151515;
     color: #fff;
     height: auto;
   }
@@ -2924,7 +2924,8 @@ body {
   .opcion-de-reserva {
     grid-column: 1/-1;
     display: flex;
-    margin: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
   }
   .titulo-reserva {
     font-size: 18px;
@@ -2941,6 +2942,7 @@ body {
   .opcion {
     font-size: 15px;
     text-align: justify;
+    margin-bottom: 10px;
   }
   /* Main - Servicios */
   .servicios {
@@ -2952,7 +2954,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 18px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
   .items {
@@ -2987,11 +2989,12 @@ body {
   /* Main - Nuestra Empresa */
   .nuestra-empresa {
     height: auto;
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
   }
   .titulo-empresa {
     font-size: 18px;
     margin-bottom: 10px;
+    padding-top: 10px;
   }
   .parrafo-empresa {
     text-align: justify;
@@ -3020,6 +3023,7 @@ body {
   }
   .titulo-footer {
     font-size: 18px;
+    margin: 15px 10px 0 10px;
   }
   .subtitulo-footer {
     font-family: "Raleway", sans-serif;
@@ -3763,6 +3767,9 @@ input[type=checkbox] {
 @media screen and (max-width: 400px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  .formulario__dos {
+    padding: 40px 25px 40px 25px;
   }
   .formulario {
     grid-column: 1/-1;
