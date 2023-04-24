@@ -2452,7 +2452,7 @@ body {
 
 /* Main - Reservas */
 .reservas {
-  background: #151515;
+  background: #000000;
   color: #fff;
   height: 500px;
 }
@@ -2709,7 +2709,7 @@ body {
   }
   /* Main - Reservas */
   .reservas {
-    background: #151515;
+    background: #000000;
     color: #fff;
     height: auto;
     padding: 10px;
@@ -2909,7 +2909,7 @@ body {
   }
   /* Main - Reservas */
   .reservas {
-    background: #151515;
+    background: #000000;
     color: #fff;
     height: auto;
   }
