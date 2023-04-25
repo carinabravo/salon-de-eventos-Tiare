@@ -159,9 +159,10 @@ body {
 
 .button-dos {
   font-family: "Kalam", cursive;
-  height: 50px;
-  width: 280px;
+  height: 45px;
+  width: 260px;
   background-color: #cd6032;
+  padding-top: 5px;
   color: #fff;
   font-size: 22px;
   border-radius: 10px;
@@ -309,7 +310,7 @@ body {
 }
 
 .subtitulo-footer {
-  font-family:"Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   margin: 10px 20px 10px 20px;
 }
@@ -370,7 +371,6 @@ body {
   .navbar-nav {
     padding-top: 20px;
   }
-  
 
   /* Header */
 
@@ -507,7 +507,7 @@ body {
     background-color: #fff;
     flex-wrap: wrap;
     height: auto;
-    padding:20px;
+    padding: 20px;
     margin-top: 10px;
   }
 
@@ -563,7 +563,7 @@ body {
   }
 
   .subtitulo-footer {
-    font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     margin-left: 30px;
     margin-right: 30px;
@@ -802,7 +802,7 @@ body {
   }
 
   .subtitulo-footer {
-    font-family:"Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 13px;
   }
 
@@ -2066,7 +2066,6 @@ input:disabled {
     width: 90%;
     padding: 3px;
     font-size: 14px;
- 
   }
 
   .formulario__btn__dos {
