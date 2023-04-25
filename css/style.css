@@ -2660,6 +2660,7 @@ body {
   }
   .navbar-light .navbar-toggler {
     color: #fff !important;
+    background-color: #fff;
     width: 33px;
     height: 18px;
   }
