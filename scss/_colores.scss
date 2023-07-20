@@ -3,11 +3,11 @@
 $basePrimaria-color: #000000;
 $baseSecundaria-color: #fff;
 $baseTerciaria-color: #cd6032;
-$fuenteSombra-primaria-color: #151515;
-$fuenteSombra-secundaria-color: #a3a3a366;
-$fuenteSombra-terciaria-color: #2c2c2c;
-$fuenteSombra-cuaternaria-color:#504e4e93;
-$base-color-input: #f0ececa4;
+$fuenteSombra-primaria-color: #1515159a;
+$fuenteSombra-secundaria-color: #a3a3a343;
+$fuenteSombra-terciaria-color: #2c2c2c91;
+$fuenteSombra-cuaternaria-color: #504e4e6d;
+$base-color-input: #edecf0a4;
 $base-validacion: #29c436;
 $base-focus: #0075ff;
 $base-error: #bb2929;
@@ -16,19 +16,27 @@ $base-error: #bb2929;
   background-color: $basePrimaria-color !important;
 }
 
-.button-uno {
-  background-color: $baseTerciaria-color;
-  box-shadow: 5px 10px 30px $fuenteSombra-secundaria-color;
+.navbar-collapse {
+  background-color: $basePrimaria-color;
 }
 
-.bg-light,
+.button-uno,
+.button-dos {
+  background-color: $basePrimaria-color;
+  box-shadow: 5px 5px 10px $fuenteSombra-terciaria-color;
+  color: $baseSecundaria-color;
+}
+
+.bg-light {
+  background-color: $basePrimaria-color !important;
+}
 .servicios,
-.reservas,
 .footer {
   background-color: $basePrimaria-color;
 }
 
 .header,
+.reservas,
 .nuestra-empresa {
   background-color: $baseSecundaria-color;
 }
@@ -44,22 +52,32 @@ $base-error: #bb2929;
 
 .navbar-toggler,
 .navbar-light,
-.reservas,
 .nav-link {
   color: $baseSecundaria-color !important;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-light .navbar-toggler {
+    color: $baseSecundaria-color !important;
+    background-color: $baseSecundaria-color;
+  }
 }
 
 .button-uno,
 .titulo-servicios,
 .item,
-.texto-reservas,
 .footer,
 .texto-footer {
   color: $baseSecundaria-color;
 }
 
-.button-dos:hover {
-  box-shadow: 5px 8px 15px $fuenteSombra-cuaternaria-color;
+.texto-reservas,
+.reservas {
+  color: $basePrimaria-color;
+}
+
+.button-uno:hover {
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 .textos-tiare,
@@ -69,11 +87,15 @@ $base-error: #bb2929;
 
 .img,
 .img-empresa {
-  box-shadow: 5px 20px 18px $fuenteSombra-primaria-color;
+  box-shadow: 5px 10px 20px $fuenteSombra-primaria-color;
 }
 
-.img-servicios {
-  box-shadow: 5px 10px 15px $fuenteSombra-secundaria-color;
+.img-servicio {
+  box-shadow: 10px 10px 10px $fuenteSombra-terciaria-color;
+}
+
+.item {
+  color: $baseSecundaria-color;
 }
 
 /* Formulario de Contacto */
@@ -85,7 +107,7 @@ $base-error: #bb2929;
 .formulario__contactanos {
   border-color: $baseTerciaria-color;
   border-style: solid;
-  box-shadow: 5px 20px 18px $fuenteSombra-primaria-color;
+  box-shadow: 5px 10px 20px $fuenteSombra-primaria-color;
 }
 
 .formulario__input {
@@ -119,15 +141,15 @@ $base-error: #bb2929;
 .formulario__btn {
   background-color: $basePrimaria-color;
   color: $baseSecundaria-color;
-  box-shadow: 5px 10px 15px $fuenteSombra-terciaria-color;
+  box-shadow: 5px 5px 10px $fuenteSombra-terciaria-color;
 }
 
 .formulario__btn:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 .btn_volver:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 /*  Estilos para Validacion - formulario de contacto */
@@ -156,7 +178,7 @@ $base-error: #bb2929;
   background-color: $baseSecundaria-color;
   border-color: $baseTerciaria-color;
   border-style: solid;
-  box-shadow: 5px 20px 18px $fuenteSombra-primaria-color;
+  box-shadow: 5px 10px 20px $fuenteSombra-primaria-color;
 }
 
 .btn-volver {
@@ -169,32 +191,35 @@ $base-error: #bb2929;
   color: $baseSecundaria-color;
 }
 
-.boton_reservar {
+.boton_reservar,
+.button-dos {
   background-color: $baseTerciaria-color;
   color: $baseSecundaria-color;
 
   border-color: $baseTerciaria-color;
 }
 
-.texto_reserva, .result_reserva {
+.texto_reserva,
+.result_reserva {
   color: $baseTerciaria-color;
 }
 .btn-volver,
 .boton_reservar,
 .boton_cotizar {
-  box-shadow: 5px 10px 15px $fuenteSombra-terciaria-color;
+  box-shadow: 5px 5px 10px $fuenteSombra-terciaria-color;
 }
 
 .btn-volver:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
-.boton_reservar:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+.boton_reservar:hover,
+.button-dos:hover {
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 .boton_cotizar:hover {
-  box-shadow: 5px 8px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 .formulario__input-error__tres {
@@ -210,7 +235,7 @@ $base-error: #bb2929;
 .formulario__reservar {
   border-color: $baseTerciaria-color;
   border-style: solid;
-  box-shadow: 5px 20px 18px $fuenteSombra-primaria-color;
+  box-shadow: 5px 10px 20px $fuenteSombra-primaria-color;
 }
 
 .formulario__input__dos {
@@ -248,15 +273,15 @@ input:disabled {
 
 .btn_salir,
 .formulario__btn__dos {
-  box-shadow: 5px 10px 15px $fuenteSombra-terciaria-color;
+  box-shadow: 5px 5px 10px $fuenteSombra-terciaria-color;
 }
 
 .btn_salir:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 .formulario__btn__dos:hover {
-  box-shadow: 5px 10px 15px $baseTerciaria-color;
+  box-shadow: 5px 5px 10px $baseTerciaria-color;
 }
 
 /* Estilos para Validacion - formulario de reserva */

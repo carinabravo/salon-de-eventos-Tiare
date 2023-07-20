@@ -40,13 +40,22 @@ $justifyContent-terciario: flex-end;
 
 .parrafo-tiare,
 .texto-servicio,
-.opcion,
+.opcion {
+  text-align: $textAlineacion-secundaria;
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+  }
+}
+
 .parrafo-empresa {
   text-align: $textAlineacion-secundaria;
 }
 
 .textos-tiare {
   grid-column: 2/6;
+  @media screen and (max-width: 767px) {
+    grid-column: 2/-2;
+  }
 }
 
 .button-uno {
@@ -69,8 +78,23 @@ $justifyContent-terciario: flex-end;
   justify-content: $justifyContent-primario;
   text-align: $textAlineacion-primaria;
   @media screen and (max-width: 767px) {
+    grid-column: 1/-1;
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
+}
+
+.button-cotizar {
+  grid-column: 1/-1;
+  text-align: $textAlineacion-primaria;
+}
+
+.button-dos {
+  display: inline-block;
+  justify-content: $justifyContent-primario;
+  cursor: pointer;
 }
 
 .texto-reservas {
@@ -148,6 +172,10 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
+  @media screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .formulario__contactanos {
@@ -207,9 +235,6 @@ $justifyContent-terciario: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: $justifyContent-terciario;
-  @media screen and (max-width: 400px) {
-    flex-direction: column-reverse;
-  }
 }
 
 .btn_volver {

@@ -1,9 +1,8 @@
 /*** Medidas del sitio ***/
 
 .navbar > .container {
-  height: 90px;
+  height: 80px;
   @media screen and (max-width: 767px) {
-    height: 80px;
     padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
@@ -16,7 +15,7 @@
   width: 100px;
   height: auto;
   @media screen and (max-width: 767px) {
-    width: 90px;
+    width: 80px;
   }
   @media screen and (max-width: 400px) {
     width: 70px;
@@ -26,10 +25,21 @@
 .navbar-light .navbar-toggler {
   width: 30px;
   height: 15px;
+  @media screen and (max-width: 767px) {
+    width: 42px;
+    height: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 36px;
+    height: 17px;
+  }
 }
 
 .navbar-nav {
-  padding-bottom: 0.313rem;
+  padding-bottom: 5px;
+  @media screen and (max-width: 767px) {
+    padding-top: 20px;
+  }
 }
 
 .nav-link:hover {
@@ -38,33 +48,37 @@
 }
 
 .nav-link {
+  margin-top: 20px;
   @media screen and (max-width: 767px) {
     margin: 0.125rem 0.625rem;
   }
   @media screen and (max-width: 400px) {
-    margin: 0.125rem 0.625rem;
+    margin: 2px;
   }
 }
 
 .header {
-  height: 700px;
+  padding-top: 70px;
+  padding-bottom: 40px;
   @media screen and (max-width: 767px) {
-    height: auto;
+    padding: 40px 0;
   }
   @media screen and (max-width: 400px) {
-    height: auto;
-    padding: 1.25rem 0;
+    padding: 20px 0;
   }
 }
 
 .titulo-tiare {
   @media screen and (max-width: 767px) {
     margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 .parrafo-tiare {
-  margin-bottom: 0.625rem;
+  margin-bottom: 15px;
 }
 
 .img {
@@ -72,71 +86,90 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  margin-bottom: 30px;
   @media screen and (max-width: 767px) {
-    max-width: 90%;
-    margin: 0 1.25rem 2.5rem 1.25rem;
+    max-width: 95%;
+    margin-bottom: 25px;
+    margin-left: 19px;
   }
   @media screen and (max-width: 400px) {
-    max-width: 80%;
-    margin: 0 1.25rem 1.875rem 1.875rem;
+    max-width: 84%;
+    margin-left: 34px;
   }
 }
 
 .textos-tiare {
   margin-left: 1.875rem;
   @media screen and (max-width: 767px) {
-    margin: 1.25rem;
+    margin: 20px;
   }
   @media screen and (max-width: 400px) {
-    margin: 1.25rem;
+    margin: 20px 35px;
   }
 }
 
 .button-uno {
   width: 130px;
   height: 45px;
-  border-radius: 5px;
-  padding: 0.625rem 0;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
   @media screen and (max-width: 767px) {
-    width: 120px;
+    width: 130px;
   }
   @media screen and (max-width: 400px) {
-    width: 95px;
-    padding: 0.313rem;
-  }
-}
-
-.reservas {
-  height: 490px;
-  @media screen and (max-width: 767px) {
-    height: auto;
-    padding: 0.625rem;
-  }
-  @media screen and (max-width: 400px) {
-    height: auto;
-  }
-}
-
-.titulo-reserva {
-  margin-top: 6.25rem;
-  @media screen and (max-width: 767px) {
-    margin-top: 1.875rem;
-  }
-  @media screen and (max-width: 400px) {
-    margin-top: 1.875rem;
+    height: 40px;
+    width: 110px;
     margin-bottom: 0;
   }
 }
 
-.parrafo-reserva {
-  margin-top: 1.25rem;
+.reservas {
+  height: auto;
+  padding-bottom: 50px;
   @media screen and (max-width: 767px) {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    padding: 10px 0 40px 0;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 0.313rem;
-    margin-right: 0.313rem;
+    padding-bottom: 25px;
+  }
+}
+
+.titulo-reserva {
+  padding-top: 10px;
+  @media screen and (max-width: 767px) {
+    padding-top: 0;
+  }
+  @media screen and (max-width: 400px) {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+}
+
+.parrafo-reserva {
+  @media screen and (max-width: 767px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.button-dos {
+  height: auto;
+  width: 450px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  @media screen and (max-width: 767px) {
+    width: 320px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 300px;
   }
 }
 
@@ -144,24 +177,23 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 0.625rem;
   }
-  @media screen and (max-width: 400px) {
-    margin: 1.25rem;
-  }
+}
+
+.opcion {
+  margin-bottom: 5px;
 }
 
 .servicios {
-  height: 960px;
-  padding: 1.25rem;
-  @media screen and (max-width: 767px) {
-    height: auto;
-  }
-  @media screen and (max-width: 400px) {
-    height: auto;
-  }
+  height: auto;
+  padding: 50px 20px;
 }
+
 .titulo-servicios {
-  margin-top: 6.25rem;
-  margin-bottom: 1.875rem;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 10px;
+  }
 }
 
 .items {
@@ -170,76 +202,91 @@
 }
 
 .img-servicio {
-  width: 44%;
+  width: 50%;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
-    width: 30%;
-  }
-  @media screen and (max-width: 400px) {
-    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 40%;
   }
 }
 
 .subtitulo-servicio {
-  margin-top: 1.875rem;
+  margin-top: 40px;
+  @media screen and (max-width: 767px) {
+    margin-top: 30px;
+  }
 }
 
 .texto-servicio {
   margin-top: 0.625rem;
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 15px;
   @media screen and (max-width: 767px) {
-    margin-bottom: 1.875rem;
-    padding-left: 3.438rem;
-    padding-right: 3.438rem;
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-bottom: 10px;
   }
   @media screen and (max-width: 400px) {
-    margin-bottom: 1.875rem;
-    padding-left: 0.313rem;
-    padding-right: 0.313rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+}
+
+.titulo-empresa {
+  padding-top: 20px;
+  @media screen and (max-width: 400px) {
+    margin-bottom: 10px;
+    padding-top: 10px;
   }
 }
 
 .nuestra-empresa {
-  height: 850px;
-  padding: 1.25rem;
+  padding: 60px 20px;
   @media screen and (max-width: 767px) {
-    height: auto;
+    padding: 40px 20px;
   }
   @media screen and (max-width: 400px) {
-    height: auto;
-    padding: 1.25rem 0;
   }
 }
 
 .textos-nuestra-empresa {
   @media screen and (max-width: 767px) {
-    margin-right: 1.875rem;
+    margin-right: 15px;
   }
   @media screen and (max-width: 400px) {
-    margin-right: 1.875rem;
-    margin-left: 1.25rem;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
 .parrafo-empresa {
   @media screen and (max-width: 767px) {
     margin-top: 0.625rem;
+    padding-right: 30px;
   }
 }
 
 .img-empresa {
   width: 100%;
   height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-right: 1.875rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
-    width: 80%;
-    margin: 0 0.625rem 1.25rem 0.625rem;
+    width: 92%;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
   }
   @media screen and (max-width: 400px) {
-    width: 80%;
-    margin: 0 1.25rem 1.25rem 1.875rem;
+    width: 90%;
+    margin: 0 20px 20px 17px;
   }
 }
 
@@ -249,15 +296,14 @@
 }
 
 .footer {
-  height: 320px;
-  padding: 1.25rem 0;
+  height: 330px;
+  padding: 40px 0 10px 0;
   @media screen and (max-width: 767px) {
-    height: auto;
-    padding: 1.25rem;
+    padding: 45px 20px;
   }
   @media screen and (max-width: 400px) {
-    height: auto;
-    padding: 0.625rem;
+    height: 350px;
+    padding: 35px 10px 20px 10px;
   }
 }
 
@@ -278,8 +324,8 @@
 .subtitulo-footer {
   margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   @media screen and (max-width: 767px) {
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
@@ -294,12 +340,10 @@
 }
 
 .derechos {
-  margin: 1.875rem 0 0.625rem 0;
+  margin-top: 45px;
+  margin-bottom: 10px;
   @media screen and (max-width: 767px) {
-    margin-bottom: 1.25rem;
-  }
-  @media screen and (max-width: 400px) {
-    margin-bottom: 1.25rem;
+    margin-bottom: 10px;
   }
 }
 
@@ -311,7 +355,8 @@
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    padding: 2.5rem 1.563rem 2.5rem 1.563rem;
+    padding: 60px 20px;
+    min-width: 380px;
   }
 }
 
@@ -324,10 +369,6 @@
   @media screen and (max-width: 767px) {
     width: 97%;
     padding: 1.25rem 2.188rem 1.25rem 2.188rem;
-  }
-  @media screen and (max-width: 400px) {
-    width: 100%;
-    padding: 1.25rem 1.563rem 1.25rem 1.563rem;
   }
 }
 
@@ -348,7 +389,7 @@ input[type="checkbox"]:checked {
 }
 
 .formulario__label {
-  padding: 0.938rem 0 0.125rem 0;
+  padding: 15px 0 2px 0;
 }
 
 .formulario__input {
@@ -372,16 +413,12 @@ input[type="checkbox"]:checked {
 .casilla__consulta {
   height: 100%;
   width: 100%;
-  @media screen and (max-width: 400px) {
-    height: 80%;
-    width: 100%;
-  }
 }
 
 .btn__dos {
   padding: 0.625rem 0.625rem 1.25rem 0;
   @media screen and (max-width: 400px) {
-    padding: 0.625rem 1.25rem 0.625rem 0;
+    padding: 10px 10px 20px 0;
   }
 }
 
@@ -392,8 +429,10 @@ input[type="checkbox"]:checked {
   margin: 0 1.25rem 0 1.25rem;
   border-radius: 10px;
   @media screen and (max-width: 400px) {
-    height: 40px;
-    margin-top: 0.625rem;
+    height: 45px;
+    width: 90%;
+    padding: 0;
+    margin: 0 20px 0 20px;
   }
 }
 
@@ -404,8 +443,8 @@ input[type="checkbox"]:checked {
   padding: 0.313rem;
   border-radius: 10px;
   @media screen and (max-width: 400px) {
-    height: 40px;
-    margin: 0.625rem 1.25rem 0 1.25rem;
+    margin: 0 20px 0 20px;
+    padding: 5px;
   }
 }
 
@@ -416,6 +455,10 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
+  @media screen and (max-width: 400px) {
+    padding: 60px 20px;
+    min-width: 380px;
+  }
 }
 
 .formulario {
@@ -424,8 +467,7 @@ input[type="checkbox"]:checked {
   border-radius: 10px;
   border-width: 3px;
   @media screen and (max-width: 400px) {
-    padding: 1.25rem 0.313rem 1.25rem 0.313rem;
-    min-width: 265px;
+    width: 100%;
   }
 }
 
@@ -619,7 +661,7 @@ input[type="checkbox"]:checked {
     padding: 0.625rem 0 0.625rem 0;
   }
   @media screen and (max-width: 400px) {
-    padding: 0 0 0.625rem 0;
+    padding: 0 10px;
   }
 }
 
@@ -633,7 +675,7 @@ input[type="checkbox"]:checked {
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    margin: 0 0 0.625rem 0;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -711,7 +753,8 @@ input[type="checkbox"]:checked {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
   @media screen and (max-width: 400px) {
-    padding: 2.5rem 1.563rem 2.5rem 1.563rem;
+    padding: 60px 20px;
+    min-width: 380px;
   }
 }
 
@@ -727,7 +770,6 @@ input[type="checkbox"]:checked {
   }
   @media screen and (max-width: 400px) {
     width: 100%;
-    padding: 1.25rem 1.563rem 1.25rem 1.563rem;
   }
 }
 

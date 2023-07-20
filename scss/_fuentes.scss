@@ -27,7 +27,7 @@ body {
     font-size: 15px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -38,7 +38,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 30px;
   @media screen and (max-width: 767px) {
-    font-size: 22px;
+    font-size: 25px;
   }
   @media screen and (max-width: 400px) {
     font-size: 18px;
@@ -68,14 +68,31 @@ body {
   }
 }
 
-.subtitulo-servicio {
+.button-dos {
   font-family: "Kalam", cursive;
-  font-size: 20px;
+  font-size: 22px;
   @media screen and (max-width: 767px) {
-    font-size: 18px;
+    font-size: 20px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 16px;
+    font-size: 18px;
+  }
+}
+
+.titulo-servicios {
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+}
+
+.subtitulo-servicio {
+  font-family: "Kalam", cursive;
+  font-size: 22px;
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
   }
 }
 
@@ -100,23 +117,23 @@ body {
 }
 
 .scroll a {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .titulo-footer {
   font-family: "Kalam", cursive;
-  font-size: 35px;
+  font-size: 30px;
   @media screen and (max-width: 767px) {
-    font-size: 25px;
+    font-size: 22px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
 .subtitulo-footer {
   font-family: "Kalam", cursive;
-  font-size: 20px;
+  font-size: 18px;
   @media screen and (max-width: 767px) {
     font-size: 15px;
   }
@@ -148,6 +165,7 @@ body {
 /* Formulario de Contacto */
 
 .titulo_contactanos {
+  font-family: "Kalam", cursive;
   font-size: 30px;
   @media screen and (max-width: 767px) {
     font-size: 25px;
@@ -163,7 +181,7 @@ body {
     font-size: 17px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -175,7 +193,7 @@ body {
     font-size: 14px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
@@ -186,7 +204,7 @@ body {
     font-size: 15px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -203,16 +221,14 @@ body {
   font-family: "Kalam", cursive;
   font-size: 16px;
   @media screen and (max-width: 767px) {
-    font-size: 15px;
-  }
-  @media screen and (max-width: 400px) {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
 /* Formulario de Cotización */
 
 .titulo_cotizacion {
+  font-family: "Kalam", cursive;
   font-size: 30px;
   @media screen and (max-width: 767px) {
     font-size: 25px;
@@ -349,6 +365,7 @@ body {
 /* Formulario de Reserva */
 
 .titulo_reservar {
+  font-family: "Kalam", cursive;
   font-size: 30px;
   @media screen and (max-width: 767px) {
     font-size: 25px;
