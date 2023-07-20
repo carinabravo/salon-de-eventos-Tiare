@@ -79,6 +79,17 @@
 
 .parrafo-tiare {
   margin-bottom: 15px;
+  @media screen and (max-width: 767px) {
+  
+    padding-left: 5px;
+ 
+  }
+
+  
+  @media screen and (max-width: 400px) {
+    padding-right: 2px;
+  }
+ 
 }
 
 .img {
@@ -93,7 +104,7 @@
     margin-left: 19px;
   }
   @media screen and (max-width: 400px) {
-    max-width: 84%;
+    max-width: 83%;
     margin-left: 34px;
   }
 }
@@ -232,7 +243,7 @@
   @media screen and (max-width: 400px) {
     margin-top: 10px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 25px;
     padding-bottom: 0;
   }
 }
@@ -250,8 +261,7 @@
   @media screen and (max-width: 767px) {
     padding: 40px 20px;
   }
-  @media screen and (max-width: 400px) {
-  }
+
 }
 
 .textos-nuestra-empresa {
@@ -259,8 +269,7 @@
     margin-right: 15px;
   }
   @media screen and (max-width: 400px) {
-    padding-left: 30px;
-    padding-right: 30px;
+ padding:10px 0 10px 20px;
   }
 }
 
@@ -269,6 +278,9 @@
     margin-top: 0.625rem;
     padding-right: 30px;
   }
+  @media screen and (max-width: 400px) {
+    padding-right: 10px;
+     }
 }
 
 .img-empresa {

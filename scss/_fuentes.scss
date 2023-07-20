@@ -171,7 +171,7 @@ body {
     font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -181,7 +181,7 @@ body {
     font-size: 17px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -191,9 +191,6 @@ body {
 
   @media screen and (max-width: 767px) {
     font-size: 14px;
-  }
-  @media screen and (max-width: 400px) {
-    font-size: 17px;
   }
 }
 
@@ -234,7 +231,7 @@ body {
     font-size: 25px;
   }
   @media screen and (max-width: 400px) {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -314,6 +311,9 @@ body {
 .btn-volver {
   font-family: "Kalam", cursive;
   font-size: 15px;
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+  }
 }
 
 .boton_cotizar {
@@ -371,7 +371,7 @@ body {
     font-size: 25px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -383,7 +383,7 @@ body {
     font-size: 16px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -425,6 +425,6 @@ body {
     font-size: 14px;
   }
   @media screen and (max-width: 767px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

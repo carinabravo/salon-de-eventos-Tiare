@@ -614,6 +614,16 @@ body {
 .parrafo-tiare {
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .parrafo-tiare {
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .parrafo-tiare {
+    padding-right: 2px;
+  }
+}
 
 .img {
   width: 100%;
@@ -631,7 +641,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .img {
-    max-width: 84%;
+    max-width: 83%;
     margin-left: 34px;
   }
 }
@@ -802,7 +812,7 @@ body {
   .texto-servicio {
     margin-top: 10px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 25px;
     padding-bottom: 0;
   }
 }
@@ -825,6 +835,7 @@ body {
     padding: 40px 20px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .textos-nuestra-empresa {
     margin-right: 15px;
@@ -832,8 +843,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .textos-nuestra-empresa {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 0 10px 20px;
   }
 }
 
@@ -841,6 +851,11 @@ body {
   .parrafo-empresa {
     margin-top: 0.625rem;
     padding-right: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .parrafo-empresa {
+    padding-right: 10px;
   }
 }
 
@@ -1790,7 +1805,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .titulo_contactanos {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -1804,7 +1819,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .texto_contactanos {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -1815,11 +1830,6 @@ body {
 @media screen and (max-width: 767px) {
   .formulario__label {
     font-size: 14px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .formulario__label {
-    font-size: 17px;
   }
 }
 
@@ -1870,7 +1880,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .titulo_cotizacion {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -1970,6 +1980,11 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
 }
+@media screen and (max-width: 400px) {
+  .btn-volver {
+    font-size: 12px;
+  }
+}
 
 .boton_cotizar {
   font-family: "Kalam", cursive;
@@ -2036,7 +2051,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo_reservar {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -2054,7 +2069,7 @@ body {
 @media screen and (max-width: 767px) {
   .texto_reservar_uno,
 .texto_reservar_dos {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -2110,7 +2125,7 @@ body {
 @media screen and (max-width: 767px) {
   .btn_salir,
 .formulario__btn__dos {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
