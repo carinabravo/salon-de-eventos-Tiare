@@ -80,16 +80,12 @@
 .parrafo-tiare {
   margin-bottom: 15px;
   @media screen and (max-width: 767px) {
-  
-    padding-left: 5px;
- 
+    padding-left: 0;
   }
-
-  
   @media screen and (max-width: 400px) {
     padding-right: 2px;
+    padding-left: 0;
   }
- 
 }
 
 .img {
@@ -101,7 +97,7 @@
   @media screen and (max-width: 767px) {
     max-width: 95%;
     margin-bottom: 25px;
-    margin-left: 19px;
+    margin-left: 12px;
   }
   @media screen and (max-width: 400px) {
     max-width: 83%;
@@ -172,15 +168,19 @@
 .button-dos {
   height: auto;
   width: 450px;
-  padding: 5px 20px;
+  padding: 7px 20px;
   border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
   @media screen and (max-width: 767px) {
     width: 320px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   @media screen and (max-width: 400px) {
     width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -261,7 +261,6 @@
   @media screen and (max-width: 767px) {
     padding: 40px 20px;
   }
-
 }
 
 .textos-nuestra-empresa {
@@ -269,18 +268,18 @@
     margin-right: 15px;
   }
   @media screen and (max-width: 400px) {
- padding:10px 0 10px 20px;
+    padding: 10px 0 10px 20px;
   }
 }
 
 .parrafo-empresa {
   @media screen and (max-width: 767px) {
-    margin-top: 0.625rem;
-    padding-right: 30px;
+    margin-top: 10px;
+    padding-right: 14px;
   }
   @media screen and (max-width: 400px) {
     padding-right: 10px;
-     }
+  }
 }
 
 .img-empresa {
@@ -291,9 +290,9 @@
   margin-right: 1.875rem;
   border-radius: 10px;
   @media screen and (max-width: 767px) {
-    width: 92%;
+    width: 95%;
+    align-items: center;;
     margin-top: 0;
-    margin-right: 20px;
     margin-bottom: 30px;
   }
   @media screen and (max-width: 400px) {
@@ -442,9 +441,9 @@ input[type="checkbox"]:checked {
   border-radius: 10px;
   @media screen and (max-width: 400px) {
     height: 45px;
-    width: 90%;
+    width: 87%;
     padding: 0;
-    margin: 0 20px 0 20px;
+    margin: 0 16px 0 20px;
   }
 }
 

@@ -218,6 +218,9 @@ body {
   font-family: "Kalam", cursive;
   font-size: 16px;
   @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 400px) {
     font-size: 12px;
   }
 }
@@ -320,7 +323,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
   @media screen and (max-width: 400px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -328,7 +331,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
   @media screen and (max-width: 400px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -370,7 +373,7 @@ body {
   @media screen and (max-width: 767px) {
     font-size: 25px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     font-size: 18px;
   }
 }
@@ -382,7 +385,7 @@ body {
   @media screen and (max-width: 767px) {
     font-size: 16px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     font-size: 14px;
   }
 }
@@ -393,7 +396,7 @@ body {
   @media screen and (max-width: 767px) {
     font-size: 14px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     font-size: 14px;
   }
 }
@@ -404,7 +407,7 @@ body {
   @media screen and (max-width: 767px) {
     font-size: 15px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     font-size: 14px;
   }
 }
@@ -414,7 +417,7 @@ body {
 }
 
 .formulario__validacion-estado__dos {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .btn_salir,
@@ -424,7 +427,7 @@ body {
   @media screen and (max-width: 767px) {
     font-size: 14px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 400px) {
     font-size: 12px;
   }
 }

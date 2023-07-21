@@ -138,6 +138,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     grid-column: 2/-1;
     grid-row: 2/3;
+    align-items: $alineacionItem-primario;
   }
 }
 
