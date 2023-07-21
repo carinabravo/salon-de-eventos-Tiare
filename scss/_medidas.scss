@@ -320,7 +320,7 @@
     padding: 45px 20px;
   }
   @media screen and (max-width: 450px) {
-    height: 350px;
+    height: 340px;
     padding: 35px 10px 20px 10px;
   }
 }
@@ -362,6 +362,9 @@
   margin-bottom: 10px;
   @media screen and (max-width: 767px) {
     margin-bottom: 10px;
+  }
+  @media screen and (max-width: 450px) {
+    margin-top: 25px;
   }
 }
 
@@ -555,11 +558,12 @@ input[type="checkbox"]:checked {
   margin-left: 1.25rem;
   margin-right: 0.625rem;
   @media screen and (max-width: 767px) {
+    margin-top: 1.25rem;
     margin-right: 0.813rem;
     margin-left: 0;
   }
   @media screen and (max-width: 450px) {
-    margin: 0 0.813rem 0.313rem 0;
+    margin: 1.25rem 0.813rem 0.313rem 0;
   }
 }
 
@@ -635,7 +639,7 @@ input[type="checkbox"]:checked {
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
   @media screen and (max-width: 450px) {
-    width: 141px;
+    width: 138px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
