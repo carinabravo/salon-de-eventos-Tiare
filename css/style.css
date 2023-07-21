@@ -25,7 +25,7 @@ body {
   align-items: center;
   overflow: hidden;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
@@ -44,7 +44,7 @@ body {
     grid-column: 2/-2;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .img-salon-eventos {
     grid-column: 2/-2;
   }
@@ -62,8 +62,8 @@ body {
 }
 @media screen and (max-width: 767px) {
   .parrafo-tiare,
-.texto-servicio,
-.opcion {
+  .texto-servicio,
+  .opcion {
     justify-content: center;
   }
 }
@@ -126,7 +126,7 @@ body {
   grid-column: 2/-2;
   text-align: center;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-reservas {
     grid-column: 1/-1;
   }
@@ -141,7 +141,7 @@ body {
     grid-column: 2/-2;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opcion-de-reserva {
     grid-column: 1/-1;
   }
@@ -159,7 +159,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .textos-nuestra-empresa {
-    grid-column: 2/-1;
+    grid-column: 2/-2;
     grid-row: 1/2;
     text-align: justify;
   }
@@ -171,7 +171,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .img-nuestra-empresa {
-    grid-column: 2/-1;
+    grid-column: 2/-2;
     grid-row: 2/3;
     align-items: center;
   }
@@ -192,11 +192,11 @@ body {
   text-align: center;
 }
 
-[class^=footer-item] {
+[class^="footer-item"] {
   grid-column: span 4;
 }
-@media screen and (max-width: 400px) {
-  [class^=footer-item] {
+@media screen and (max-width: 450px) {
+  [class^="footer-item"] {
     grid-column: span 2;
   }
 }
@@ -212,7 +212,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__uno {
     display: flex;
     flex-direction: row;
@@ -316,7 +316,7 @@ body {
     text-align: justify;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_cotizacion {
     text-align: justify;
   }
@@ -330,7 +330,7 @@ body {
 .opciones_evento {
   display: inline-block;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opciones_evento {
     display: flex;
     flex-direction: column;
@@ -351,7 +351,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .servicios_dos {
     flex-direction: column;
   }
@@ -374,7 +374,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opciones_tres {
     flex-direction: column;
   }
@@ -394,7 +394,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_uno {
     justify-content: center;
     flex-direction: column;
@@ -446,7 +446,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__tres {
     justify-content: center;
   }
@@ -499,7 +499,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn__tres {
     flex-direction: column-reverse;
     justify-content: center;
@@ -521,7 +521,7 @@ body {
     padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .navbar > .container {
     height: 70px;
     padding: 0.313rem 0.625rem 0.313rem 0.625rem;
@@ -535,11 +535,28 @@ body {
 @media screen and (max-width: 767px) {
   .img-logo {
     width: 80px;
+    margin-left: 5px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .img-logo {
     width: 70px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .px-5 {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .px-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
   }
 }
 
@@ -553,7 +570,7 @@ body {
     height: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .navbar-light .navbar-toggler {
     width: 36px;
     height: 17px;
@@ -582,7 +599,7 @@ body {
     margin: 0.125rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .nav-link {
     margin: 2px;
   }
@@ -594,10 +611,10 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header {
-    padding: 40px 0;
+    padding: 40px 30px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .header {
     padding: 20px 0;
   }
@@ -607,22 +624,15 @@ body {
   .titulo-tiare {
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
 .parrafo-tiare {
   margin-bottom: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .parrafo-tiare {
-    padding-left: 0;
-  }
-}
-@media screen and (max-width: 400px) {
-  .parrafo-tiare {
-    padding-right: 2px;
+    padding-right: 5px;
     padding-left: 0;
   }
 }
@@ -636,15 +646,17 @@ body {
 }
 @media screen and (max-width: 767px) {
   .img {
-    max-width: 95%;
+    max-width: 100%;
     margin-bottom: 25px;
-    margin-left: 12px;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .img {
     max-width: 83%;
     margin-left: 34px;
+    margin-right: 0;
   }
 }
 
@@ -653,12 +665,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .textos-tiare {
-    margin: 20px;
+    margin: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .textos-tiare {
-    margin: 20px 35px;
+    margin: 20px 34px;
   }
 }
 
@@ -675,7 +687,7 @@ body {
     width: 130px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .button-uno {
     height: 40px;
     width: 110px;
@@ -692,7 +704,7 @@ body {
     padding: 10px 0 40px 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .reservas {
     padding-bottom: 25px;
   }
@@ -706,23 +718,26 @@ body {
     padding-top: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo-reserva {
     margin-bottom: 0;
     padding-bottom: 5px;
   }
 }
 
+.parrafo-reserva {
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 767px) {
   .parrafo-reserva {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 5px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .parrafo-reserva {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 34px 5px 34px;
   }
 }
 
@@ -736,16 +751,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .button-dos {
-    width: 320px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 322px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .button-dos {
-    width: 300px;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 312px;
   }
 }
 
@@ -809,12 +820,12 @@ body {
 @media screen and (max-width: 767px) {
   .texto-servicio {
     margin-top: 10px;
-    padding-left: 60px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 10px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-servicio {
     margin-top: 10px;
     padding-left: 20px;
@@ -826,7 +837,7 @@ body {
 .titulo-empresa {
   padding-top: 20px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo-empresa {
     margin-bottom: 10px;
     padding-top: 10px;
@@ -838,30 +849,21 @@ body {
 }
 @media screen and (max-width: 767px) {
   .nuestra-empresa {
-    padding: 40px 20px;
+    padding: 40px 35px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   .textos-nuestra-empresa {
-    margin-right: 15px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .textos-nuestra-empresa {
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .parrafo-empresa {
     margin-top: 10px;
-    padding-right: 14px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .parrafo-empresa {
-    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -875,16 +877,18 @@ body {
 }
 @media screen and (max-width: 767px) {
   .img-empresa {
-    width: 95%;
-    align-items: center;
+    margin-right: 0;
     margin-top: 0;
     margin-bottom: 30px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .img-empresa {
-    width: 90%;
-    margin: 0 20px 20px 17px;
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -902,7 +906,7 @@ body {
     padding: 45px 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .footer {
     height: 350px;
     padding: 35px 10px 20px 10px;
@@ -917,7 +921,7 @@ body {
     margin-bottom: 1.875rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-footer {
     margin: 0.625rem 0 0.313rem 0.625rem;
   }
@@ -937,16 +941,16 @@ body {
   }
 }
 
-[class^=footer-item] {
+[class^="footer-item"] {
   margin-left: 47%;
 }
 @media screen and (max-width: 767px) {
-  [class^=footer-item] {
+  [class^="footer-item"] {
     margin-left: 41%;
   }
 }
-@media screen and (max-width: 400px) {
-  [class^=footer-item] {
+@media screen and (max-width: 450px) {
+  [class^="footer-item"] {
     margin-left: 48%;
   }
 }
@@ -970,7 +974,7 @@ body {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__uno {
     padding: 60px 20px;
     min-width: 380px;
@@ -994,7 +998,7 @@ body {
 .titulo_contactanos {
   padding: 1.25rem 0 0.625rem 0;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo_contactanos {
     padding: 0.625rem 0 0.625rem 0;
   }
@@ -1004,7 +1008,7 @@ body {
   padding-bottom: 0.625rem;
 }
 
-input[type=checkbox]:checked {
+input[type="checkbox"]:checked {
   width: 18px;
   height: 18px;
 }
@@ -1039,7 +1043,7 @@ input[type=checkbox]:checked {
 .btn__dos {
   padding: 0.625rem 0.625rem 1.25rem 0;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn__dos {
     padding: 10px 10px 20px 0;
   }
@@ -1052,7 +1056,7 @@ input[type=checkbox]:checked {
   margin: 0 1.25rem 0 1.25rem;
   border-radius: 10px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_volver {
     height: 45px;
     width: 87%;
@@ -1068,7 +1072,7 @@ input[type=checkbox]:checked {
   padding: 0.313rem;
   border-radius: 10px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__btn {
     margin: 0 20px 0 20px;
     padding: 5px;
@@ -1081,10 +1085,10 @@ input[type=checkbox]:checked {
 }
 @media screen and (max-width: 767px) {
   .formulario__dos {
-    padding: 4.375rem 1.25rem 4.375rem 1.25rem;
+    padding: 4.375rem 1.875rem 4.375rem 1.875rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__dos {
     padding: 60px 20px;
     min-width: 380px;
@@ -1095,9 +1099,8 @@ input[type=checkbox]:checked {
   height: auto;
   padding: 1.25rem 0.625rem 1.25rem 0.625rem;
   border-radius: 10px;
-  border-width: 3px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario {
     width: 100%;
   }
@@ -1112,7 +1115,7 @@ input[type=checkbox]:checked {
     padding: 1.25rem 1.25rem 0 1.25rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo_cotizacion {
     padding: 1.25rem 1.563rem 0 1.563rem;
   }
@@ -1137,7 +1140,7 @@ input[type=checkbox]:checked {
     margin-bottom: 1rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   #opciones {
     margin: 0 0.625rem 0 0.625rem;
     padding: 0.625rem 1.25rem 1.25rem 1.25rem;
@@ -1152,7 +1155,7 @@ input[type=checkbox]:checked {
     margin: 0 0.375rem 0 1.25rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opciones_evento > input {
     margin: 1.25rem 0 0.313rem 0;
   }
@@ -1166,7 +1169,7 @@ input[type=checkbox]:checked {
     margin-right: 0.375rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-turnos {
     margin-right: 0.813rem;
     margin-bottom: 0.625rem;
@@ -1181,7 +1184,7 @@ input[type=checkbox]:checked {
     margin: 0 0.313rem 1.25rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .turnos > input {
     margin: 0 0.313rem 0.625rem 0.625rem;
   }
@@ -1197,7 +1200,7 @@ input[type=checkbox]:checked {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .palabra_servicio {
     margin: 0 0.813rem 0.313rem 0;
   }
@@ -1218,7 +1221,7 @@ input[type=checkbox]:checked {
     width: 132px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .servicio {
     width: 132px;
   }
@@ -1233,7 +1236,7 @@ input[type=checkbox]:checked {
     padding-top: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opciones_tres {
     padding-bottom: 0.625rem;
     padding-top: 0;
@@ -1249,7 +1252,7 @@ input[type=checkbox]:checked {
     margin-left: 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .fecha_evento {
     margin-left: 0.625rem;
   }
@@ -1263,7 +1266,7 @@ input[type=checkbox]:checked {
     margin-left: 0.563rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .cantidad_horas {
     margin-left: 0.563rem;
   }
@@ -1277,7 +1280,7 @@ input[type=checkbox]:checked {
     margin-left: 0.5rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .cantidad_personas {
     margin-left: 0.5rem;
     margin-bottom: 0.625rem;
@@ -1297,7 +1300,7 @@ input[type=checkbox]:checked {
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .fecha {
     width: 141px;
     margin: 0.313rem 0 0.625rem 0.625rem;
@@ -1317,7 +1320,7 @@ input[type=checkbox]:checked {
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .numHoras {
     width: 122px;
     margin: 0.313rem 0 0.625rem 0.625rem;
@@ -1337,7 +1340,7 @@ input[type=checkbox]:checked {
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .numPersonas {
     width: 106px;
     margin: 0.313rem 0 0.625rem 0.625rem;
@@ -1353,7 +1356,7 @@ input[type=checkbox]:checked {
     padding: 0.625rem 0 0.625rem 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_uno {
     padding: 0 10px;
   }
@@ -1370,7 +1373,7 @@ input[type=checkbox]:checked {
     margin: 0 0.625rem 0.625rem 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn-volver {
     width: 100%;
     margin: 0 0 10px 0;
@@ -1389,7 +1392,7 @@ input[type=checkbox]:checked {
     margin: 0 0.625rem 0.625rem 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .boton_cotizar {
     width: 100%;
     margin: 0 0.625rem 0.625rem 0;
@@ -1409,7 +1412,7 @@ input[type=checkbox]:checked {
     margin-bottom: 0.625rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .boton_reservar {
     width: 67%;
     margin-left: 0.563rem;
@@ -1425,7 +1428,7 @@ input[type=checkbox]:checked {
     margin: 0.625rem 0 0.625rem 1.563rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .result {
     margin: 0.625rem 0 0.625rem 1.188rem;
   }
@@ -1439,7 +1442,7 @@ input[type=checkbox]:checked {
     margin: 0.625rem 0.638rem 0.625rem 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .result_reserva {
     margin: 0.625rem 0.938rem 0.625rem 0;
   }
@@ -1453,7 +1456,7 @@ input[type=checkbox]:checked {
     margin: 1.25rem 1.938rem 1.25rem 1.563rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_reserva {
     margin: 1.25rem 0.125rem 1.25rem 0.125rem;
   }
@@ -1472,7 +1475,7 @@ input[type=checkbox]:checked {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__tres {
     padding: 60px 20px;
     min-width: 380px;
@@ -1488,11 +1491,11 @@ input[type=checkbox]:checked {
 }
 @media screen and (max-width: 767px) {
   .formulario__reservar {
-    width: 97%;
-    padding: 1.25rem 2.188rem 1.25rem 2.188rem;
+    width: 95%;
+    padding: 1.25rem 1.875rem 1.25rem 1.875rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__reservar {
     width: 100%;
   }
@@ -1535,7 +1538,7 @@ input[type=checkbox]:checked {
     padding: 1.875rem 0.438rem 1.25rem 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn__tres {
     padding: 1.875rem 1.25rem 0.625rem 0;
   }
@@ -1553,7 +1556,7 @@ input[type=checkbox]:checked {
     margin: 0 1.063rem 0 1.063rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_salir {
     height: 40px;
   }
@@ -1571,7 +1574,7 @@ input[type=checkbox]:checked {
     margin: 0 1.063rem 0 1.125rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__btn__dos {
     height: 40px;
     margin-bottom: 0.625rem;
@@ -1608,7 +1611,7 @@ body {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .navbar-collapse {
     font-size: 14px;
   }
@@ -1623,17 +1626,17 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo-tiare,
-.titulo-servicios,
-.titulo-reserva,
-.titulo-empresa {
+  .titulo-servicios,
+  .titulo-reserva,
+  .titulo-empresa {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo-tiare,
-.titulo-servicios,
-.titulo-reserva,
-.titulo-empresa {
+  .titulo-servicios,
+  .titulo-reserva,
+  .titulo-empresa {
     font-size: 18px;
   }
 }
@@ -1645,15 +1648,15 @@ body {
 }
 @media screen and (max-width: 767px) {
   .parrafo-tiare,
-.parrafo-reserva,
-.parrafo-empresa {
+  .parrafo-reserva,
+  .parrafo-empresa {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .parrafo-tiare,
-.parrafo-reserva,
-.parrafo-empresa {
+  .parrafo-reserva,
+  .parrafo-empresa {
     font-size: 15px;
   }
 }
@@ -1667,7 +1670,7 @@ body {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .button-uno {
     font-size: 13px;
   }
@@ -1682,13 +1685,13 @@ body {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .button-dos {
     font-size: 18px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo-servicios {
     font-size: 18px;
   }
@@ -1703,7 +1706,7 @@ body {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .subtitulo-servicio {
     font-size: 18px;
   }
@@ -1717,7 +1720,7 @@ body {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-servicio {
     font-size: 14px;
   }
@@ -1731,7 +1734,7 @@ body {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opcion {
     font-size: 15px;
   }
@@ -1750,7 +1753,7 @@ body {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo-footer {
     font-size: 18px;
   }
@@ -1765,22 +1768,22 @@ body {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .subtitulo-footer {
     font-size: 13px;
   }
 }
 
-[class^=footer-item] a {
+[class^="footer-item"] a {
   font-size: 30px;
 }
 @media screen and (max-width: 767px) {
-  [class^=footer-item] a {
+  [class^="footer-item"] a {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 400px) {
-  [class^=footer-item] a {
+@media screen and (max-width: 450px) {
+  [class^="footer-item"] a {
     font-size: 20px;
   }
 }
@@ -1793,7 +1796,7 @@ body {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .derechos {
     font-size: 11px;
   }
@@ -1809,7 +1812,7 @@ body {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo_contactanos {
     font-size: 18px;
   }
@@ -1823,7 +1826,7 @@ body {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_contactanos {
     font-size: 16px;
   }
@@ -1848,7 +1851,7 @@ body {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__input {
     font-size: 16px;
   }
@@ -1869,13 +1872,13 @@ body {
 }
 @media screen and (max-width: 767px) {
   .btn_volver,
-.formulario__btn {
+  .formulario__btn {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_volver,
-.formulario__btn {
+  .formulario__btn {
     font-size: 12px;
   }
 }
@@ -1890,7 +1893,7 @@ body {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo_cotizacion {
     font-size: 18px;
   }
@@ -1904,7 +1907,7 @@ body {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_cotizacion {
     font-size: 17px;
   }
@@ -1917,11 +1920,11 @@ body {
   font-family: "Kalam", cursive;
   font-size: 16px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .palabra_servicio,
-.palabra_fecha,
-.palabra_horas,
-.palabra_invitados {
+  .palabra_fecha,
+  .palabra_horas,
+  .palabra_invitados {
     font-size: 15px;
   }
 }
@@ -1935,7 +1938,7 @@ body {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .opciones_evento {
     font-size: 18px;
   }
@@ -1949,7 +1952,7 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto-turnos {
     font-size: 15px;
   }
@@ -1962,7 +1965,7 @@ body {
 .servicios_salon {
   font-size: 16px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .servicios_salon {
     font-size: 15px;
   }
@@ -1992,7 +1995,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn-volver {
     font-size: 12px;
   }
@@ -2002,7 +2005,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .boton_cotizar {
     font-size: 12px;
   }
@@ -2012,7 +2015,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 15px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .boton_reservar {
     font-size: 12px;
   }
@@ -2022,7 +2025,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 18px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .result {
     font-size: 16px;
   }
@@ -2032,7 +2035,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 18px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .result_reserva {
     font-size: 16px;
   }
@@ -2042,7 +2045,7 @@ body {
   font-family: "Kalam", cursive;
   font-size: 20px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_reserva {
     font-size: 17px;
   }
@@ -2061,7 +2064,7 @@ body {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .titulo_reservar {
     font-size: 18px;
   }
@@ -2074,13 +2077,13 @@ body {
 }
 @media screen and (max-width: 767px) {
   .texto_reservar_uno,
-.texto_reservar_dos {
+  .texto_reservar_dos {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .texto_reservar_uno,
-.texto_reservar_dos {
+  .texto_reservar_dos {
     font-size: 14px;
   }
 }
@@ -2094,7 +2097,7 @@ body {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__label__dos {
     font-size: 14px;
   }
@@ -2109,7 +2112,7 @@ body {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .formulario__input__dos {
     font-size: 14px;
   }
@@ -2130,13 +2133,13 @@ body {
 }
 @media screen and (max-width: 767px) {
   .btn_salir,
-.formulario__btn__dos {
+  .formulario__btn__dos {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn_salir,
-.formulario__btn__dos {
+  .formulario__btn__dos {
     font-size: 12px;
   }
 }
@@ -2176,7 +2179,7 @@ body {
   background-color: #cd6032 !important;
 }
 
-[class^=footer-item] a,
+[class^="footer-item"] a,
 .scroll a {
   color: #cd6032;
 }
@@ -2440,7 +2443,7 @@ input:disabled {
 }
 
 /* Formulario de Contacto */
-input[type=checkbox] {
+input[type="checkbox"] {
   transition: all 0.4s;
 }
 
