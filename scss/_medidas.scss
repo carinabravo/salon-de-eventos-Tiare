@@ -346,14 +346,15 @@
     margin-right: 40px;
   }
   @media screen and (max-width: 450px) {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 [class^="footer-item"] {
   margin-left: 47%;
   @media screen and (max-width: 767px) {
-    margin-left: 41%;
+    margin-left: 42%;
   }
   @media screen and (max-width: 450px) {
     margin-left: 48%;
