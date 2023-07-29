@@ -940,6 +940,11 @@ body {
     margin-right: 40px;
   }
 }
+@media screen and (max-width: 450px) {
+  .subtitulo-footer {
+    margin: 20px;
+  }
+}
 
 [class^=footer-item] {
   margin-left: 47%;
@@ -1776,7 +1781,7 @@ body {
 }
 @media screen and (max-width: 450px) {
   .subtitulo-footer {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 

@@ -345,6 +345,9 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+  @media screen and (max-width: 450px) {
+    margin: 20px;
+  }
 }
 
 [class^="footer-item"] {
