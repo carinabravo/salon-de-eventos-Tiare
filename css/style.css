@@ -798,7 +798,7 @@ body {
   .img-servicio {
     margin-top: 10px;
     margin-bottom: 0;
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -815,16 +815,16 @@ body {
 @media screen and (max-width: 767px) {
   .texto-servicio {
     margin-top: 10px;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 450px) {
   .texto-servicio {
     margin-top: 10px;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-bottom: 0;
   }
 }
