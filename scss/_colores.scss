@@ -63,8 +63,10 @@ $base-error: #bb2929;
   }
 }
 
-.opciones_evento{
-  color:$baseTerciaria-color;
+.opciones_evento,
+.texto_reservar_dos,
+.texto_reservar_uno {
+  color: $baseTerciaria-color;
 }
 
 .button-uno,
@@ -254,7 +256,7 @@ $base-error: #bb2929;
 
 input:disabled {
   background-color: $base-color-input;
-  color: $basePrimaria-color;
+  color: $baseTerciaria-color;
 }
 
 .formulario__validacion-estado__dos {

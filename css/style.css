@@ -62,8 +62,8 @@ body {
 }
 @media screen and (max-width: 767px) {
   .parrafo-tiare,
-.texto-servicio,
-.opcion {
+  .texto-servicio,
+  .opcion {
     justify-content: center;
   }
 }
@@ -192,11 +192,11 @@ body {
   text-align: center;
 }
 
-[class^=footer-item] {
+[class^="footer-item"] {
   grid-column: span 4;
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
-  [class^=footer-item] {
+  [class^="footer-item"] {
     grid-column: span 2;
   }
 }
@@ -534,7 +534,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .img-logo {
-    width: 70px;
+    width: 75px;
     margin-left: 0;
   }
 }
@@ -942,16 +942,16 @@ body {
   }
 }
 
-[class^=footer-item] {
+[class^="footer-item"] {
   margin-left: 47%;
 }
 @media screen and (max-width: 767px) {
-  [class^=footer-item] {
+  [class^="footer-item"] {
     margin-left: 42%;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
-  [class^=footer-item] {
+  [class^="footer-item"] {
     margin-left: 48%;
   }
 }
@@ -988,7 +988,7 @@ body {
 }
 
 .formulario__contactanos {
-  width: 70%;
+  width: 75%;
   height: auto;
   padding: 1.25rem 3.75rem 1.25rem 3.75rem;
   border-radius: 10px;
@@ -1014,7 +1014,7 @@ body {
   padding-bottom: 0.625rem;
 }
 
-input[type=checkbox]:checked {
+input[type="checkbox"]:checked {
   width: 18px;
   height: 18px;
 }
@@ -1082,7 +1082,7 @@ input[type=checkbox]:checked {
   .formulario__btn {
     margin: 0 20px 0 20px;
     width: 95%;
-    padding: 5px;
+    padding: 5px 3px;
   }
 }
 
@@ -1130,11 +1130,11 @@ input[type=checkbox]:checked {
 }
 
 .texto_cotizacion {
-  padding: 0 0.625rem 0 0.625rem;
+  padding: 0 20px 0 20px;
 }
 @media screen and (max-width: 767px) {
   .texto_cotizacion {
-    padding: 0 20px 5px 20px;
+    padding: 0 35px 5px 35px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
@@ -1213,13 +1213,13 @@ input[type=checkbox]:checked {
 @media screen and (max-width: 767px) {
   .palabra_servicio {
     margin-top: 1.25rem;
-    margin-right: 0.813rem;
+    margin-right: 0.92rem;
     margin-left: 0;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .palabra_servicio {
-    margin: 1.25rem 0.813rem 0.313rem 0;
+    margin: 1.25rem 0.92rem 0.313rem 0;
   }
 }
 
@@ -1520,15 +1520,15 @@ input[type=checkbox]:checked {
 }
 
 .titulo_reservar {
-  padding: 1.25rem 0 0.625rem 0;
+  padding: 1.25rem 0 0.938rem 0;
 }
 
 .texto_reservar_dos {
-  padding-top: 1.875rem;
+  padding-top: 2.5rem;
 }
 
 .formulario__label__dos {
-  padding: 0.938rem 0 0.125rem 0;
+  padding: 0.75rem 0 0.125rem 0;
 }
 
 .formulario__input__dos {
@@ -1558,7 +1558,7 @@ input[type=checkbox]:checked {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .btn__tres {
-    padding: 1.875rem 1.25rem 0.625rem 0;
+    padding: 1.875rem 0 0.625rem 0;
   }
 }
 
@@ -1577,6 +1577,9 @@ input[type=checkbox]:checked {
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .btn_salir {
     height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -1595,7 +1598,9 @@ input[type=checkbox]:checked {
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .formulario__btn__dos {
     height: 40px;
-    margin-bottom: 0.625rem;
+    width: 100%;
+    margin: 0 0 0.625rem 0;
+    padding: 0;
   }
 }
 
@@ -1644,17 +1649,17 @@ body {
 }
 @media screen and (max-width: 767px) {
   .titulo-tiare,
-.titulo-servicios,
-.titulo-reserva,
-.titulo-empresa {
+  .titulo-servicios,
+  .titulo-reserva,
+  .titulo-empresa {
     font-size: 24px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .titulo-tiare,
-.titulo-servicios,
-.titulo-reserva,
-.titulo-empresa {
+  .titulo-servicios,
+  .titulo-reserva,
+  .titulo-empresa {
     font-size: 19px;
   }
 }
@@ -1666,15 +1671,15 @@ body {
 }
 @media screen and (max-width: 767px) {
   .parrafo-tiare,
-.parrafo-reserva,
-.parrafo-empresa {
+  .parrafo-reserva,
+  .parrafo-empresa {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .parrafo-tiare,
-.parrafo-reserva,
-.parrafo-empresa {
+  .parrafo-reserva,
+  .parrafo-empresa {
     font-size: 15px;
   }
 }
@@ -1690,7 +1695,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .button-uno {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -1705,7 +1710,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .button-dos {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -1788,21 +1793,21 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .subtitulo-footer {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
-[class^=footer-item] a {
+[class^="footer-item"] a {
   font-size: 30px;
 }
 @media screen and (max-width: 767px) {
-  [class^=footer-item] a {
+  [class^="footer-item"] a {
     font-size: 30px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
-  [class^=footer-item] a {
-    font-size: 20px;
+  [class^="footer-item"] a {
+    font-size: 22px;
   }
 }
 
@@ -1816,14 +1821,14 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .derechos {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
 /* Formulario de Contacto */
 .titulo_contactanos {
   font-family: "Kalam", cursive;
-  font-size: 30px;
+  font-size: 29px;
 }
 @media screen and (max-width: 767px) {
   .titulo_contactanos {
@@ -1832,7 +1837,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .titulo_contactanos {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 
@@ -1846,7 +1851,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .texto_contactanos {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -1890,14 +1895,14 @@ body {
 }
 @media screen and (max-width: 767px) {
   .btn_volver,
-.formulario__btn {
+  .formulario__btn {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .btn_volver,
-.formulario__btn {
-    font-size: 12px;
+  .formulario__btn {
+    font-size: 13px;
   }
 }
 
@@ -1927,7 +1932,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .texto_cotizacion {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -1940,9 +1945,9 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .palabra_servicio,
-.palabra_fecha,
-.palabra_horas,
-.palabra_invitados {
+  .palabra_fecha,
+  .palabra_horas,
+  .palabra_invitados {
     font-size: 15px;
   }
 }
@@ -2016,7 +2021,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .btn-volver {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -2026,7 +2031,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .boton_cotizar {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -2036,7 +2041,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .boton_reservar {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -2085,24 +2090,24 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .titulo_reservar {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 
 .texto_reservar_uno,
 .texto_reservar_dos {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 17px;
 }
 @media screen and (max-width: 767px) {
   .texto_reservar_uno,
-.texto_reservar_dos {
+  .texto_reservar_dos {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .texto_reservar_uno,
-.texto_reservar_dos {
+  .texto_reservar_dos {
     font-size: 14px;
   }
 }
@@ -2113,12 +2118,12 @@ body {
 }
 @media screen and (max-width: 767px) {
   .formulario__label__dos {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .formulario__label__dos {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -2133,7 +2138,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .formulario__input__dos {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -2152,14 +2157,14 @@ body {
 }
 @media screen and (max-width: 767px) {
   .btn_salir,
-.formulario__btn__dos {
+  .formulario__btn__dos {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .btn_salir,
-.formulario__btn__dos {
-    font-size: 12px;
+  .formulario__btn__dos {
+    font-size: 13px;
   }
 }
 
@@ -2198,7 +2203,7 @@ body {
   background-color: #cd6032 !important;
 }
 
-[class^=footer-item] a,
+[class^="footer-item"] a,
 .scroll a {
   color: #cd6032;
 }
@@ -2215,7 +2220,9 @@ body {
     background-color: #fff;
   }
 }
-.opciones_evento {
+.opciones_evento,
+.texto_reservar_dos,
+.texto_reservar_uno {
   color: #cd6032;
 }
 
@@ -2402,7 +2409,7 @@ body {
 
 input:disabled {
   background-color: rgba(237, 236, 240, 0.6431372549);
-  color: #000000;
+  color: #cd6032;
 }
 
 .formulario__validacion-estado__dos {
@@ -2462,7 +2469,7 @@ input:disabled {
 }
 
 /* Formulario de Contacto */
-input[type=checkbox] {
+input[type="checkbox"] {
   transition: all 0.4s;
 }
 
