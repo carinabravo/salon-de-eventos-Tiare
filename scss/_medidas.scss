@@ -137,11 +137,13 @@
   margin-bottom: 10px;
   @media screen and (max-width: 767px) {
     width: 130px;
+    padding: 12px 0;
   }
   @media screen and (min-width: 380px) and (max-width: 450px) {
     height: 40px;
     width: 120px;
     margin-bottom: 0;
+    padding: 10px 0;
   }
 }
 
