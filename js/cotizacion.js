@@ -183,25 +183,19 @@ function crearRadiosOpcion() {
   let radios = [
     {
       id: "casamiento",
-      value: "Casamiento",
+      value: "casamiento",
       type: "radio",
       name: "opcion",
     },
     {
       id: "cumpleaños",
-      value: "Cumpleaños",
-      type: "radio",
-      name: "opcion",
-    },
-    {
-      id: "despedida",
-      value: "Despedida",
+      value: "cumpleaños",
       type: "radio",
       name: "opcion",
     },
     {
       id: "otro",
-      value: "Otro",
+      value: "otro",
       type: "radio",
       name: "opcion",
     },
@@ -230,13 +224,13 @@ function crearRadiosTurno() {
   let radios = [
     {
       id: "mañana",
-      value: "Mañana",
+      value: "mañana",
       type: "radio",
       name: "turno",
     },
     {
       id: "noche",
-      value: "Noche",
+      value: "noche",
       type: "radio",
       name: "turno",
     },

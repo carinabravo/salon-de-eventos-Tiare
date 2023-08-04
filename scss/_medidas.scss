@@ -5,7 +5,7 @@
   @media screen and (max-width: 767px) {
     padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 70px;
     padding: 0.313rem 0.625rem 0.313rem 0.625rem;
   }
@@ -18,7 +18,7 @@
     width: 80px;
     margin-left: 5px;
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (min-width:380px) and (max-width: 450px) {
     width: 70px;
     margin-left: 0;
   }
@@ -29,7 +29,7 @@
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 5px;
     margin-right: 5px;
     padding-right: 2rem !important;
@@ -44,7 +44,7 @@
     width: 42px;
     height: 15px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 36px;
     height: 17px;
   }
@@ -67,7 +67,7 @@
   @media screen and (max-width: 767px) {
     margin: 0.125rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 2px;
   }
 }
@@ -79,7 +79,7 @@
     padding: 40px 30px;
   }
 
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 20px 0;
   }
 }
@@ -93,7 +93,7 @@
 
 .parrafo-tiare {
   margin-bottom: 15px;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding-right: 5px;
     padding-left: 0;
   }
@@ -111,7 +111,7 @@
     justify-content: center;
     align-items: center;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     max-width: 83%;
     margin-left: 34px;
     margin-right: 0;
@@ -123,7 +123,7 @@
   @media screen and (max-width: 767px) {
     margin: 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 20px 34px;
   }
 }
@@ -138,7 +138,7 @@
   @media screen and (max-width: 767px) {
     width: 130px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 40px;
     width: 110px;
     margin-bottom: 0;
@@ -151,7 +151,7 @@
   @media screen and (max-width: 767px) {
     padding: 10px 0 40px 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding-bottom: 25px;
   }
 }
@@ -161,7 +161,7 @@
   @media screen and (max-width: 767px) {
     padding-top: 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-bottom: 0;
     padding-bottom: 5px;
   }
@@ -174,7 +174,7 @@
     padding-right: 20px;
     margin-bottom: 5px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 0 34px 5px 34px;
   }
 }
@@ -189,8 +189,9 @@
   @media screen and (max-width: 767px) {
     width: 322px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 312px;
+    padding: 6px 20px 4px 20px;
   }
 }
 
@@ -230,7 +231,7 @@
     margin-bottom: 0;
     width: 49%;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 53%;
  }
 }
@@ -250,7 +251,7 @@
     padding-right: 25%;
     padding-bottom: 10px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-top: 10px;
     padding-left: 23%;
     padding-right: 23%;
@@ -260,7 +261,7 @@
 
 .titulo-empresa {
   padding-top: 20px;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-bottom: 10px;
     padding-top: 10px;
   }
@@ -274,7 +275,7 @@
 }
 
 .textos-nuestra-empresa {
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 10px 0 10px 0;
   }
 }
@@ -302,7 +303,7 @@
     justify-content: center;
     align-items: center;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     max-width: 100%;
     margin-bottom: 20px;
   }
@@ -319,7 +320,7 @@
   @media screen and (max-width: 767px) {
     padding: 45px 20px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 340px;
     padding: 35px 10px 20px 10px;
   }
@@ -330,7 +331,7 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 1.875rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 0.625rem 0 0.313rem 0.625rem;
   }
 }
@@ -345,7 +346,7 @@
     margin-left: 40px;
     margin-right: 40px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -356,7 +357,7 @@
   @media screen and (max-width: 767px) {
     margin-left: 42%;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 48%;
   }
 }
@@ -367,7 +368,7 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 10px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-top: 25px;
   }
 }
@@ -379,7 +380,7 @@
   @media screen and (max-width: 767px) {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 60px 20px;
     min-width: 380px;
   }
@@ -399,7 +400,7 @@
 
 .titulo_contactanos {
   padding: 1.25rem 0 0.625rem 0;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 0.625rem 0 0.625rem 0;
   }
 }
@@ -442,7 +443,7 @@ input[type="checkbox"]:checked {
 
 .btn__dos {
   padding: 0.625rem 0.625rem 1.25rem 0;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 10px 10px 20px 0;
   }
 }
@@ -453,11 +454,11 @@ input[type="checkbox"]:checked {
   padding: 0.313rem;
   margin: 0 1.25rem 0 1.25rem;
   border-radius: 10px;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 45px;
-    width: 87%;
-    padding: 0;
-    margin: 0 16px 0 20px;
+    width: 98%;
+   padding: 0;
+    margin: 0 12px 0 16px;
   }
 }
 
@@ -467,8 +468,9 @@ input[type="checkbox"]:checked {
   margin: 0 1.25rem 0 1.25rem;
   padding: 0.313rem;
   border-radius: 10px;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 0 20px 0 20px;
+    width: 95%;
     padding: 5px;
   }
 }
@@ -480,7 +482,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     padding: 4.375rem 1.875rem 4.375rem 1.875rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 60px 20px;
     min-width: 380px;
   }
@@ -491,18 +493,19 @@ input[type="checkbox"]:checked {
   padding: 1.25rem 0.625rem 1.25rem 0.625rem;
   border-radius: 10px;
 
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 100%;
   }
 }
 
 .titulo_cotizacion {
   grid-column: 1/-1;
+  margin-bottom: 5px;
   padding-top: 1.25rem;
   @media screen and (max-width: 767px) {
     padding: 1.25rem 1.25rem 0 1.25rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 1.25rem 1.563rem 0 1.563rem;
   }
 }
@@ -510,20 +513,27 @@ input[type="checkbox"]:checked {
 .texto_cotizacion {
   padding: 0 0.625rem 0 0.625rem;
   @media screen and (max-width: 767px) {
-    padding: 0 1.875rem 0 1.875rem;
+    padding: 0 20px 5px 20px;
+  }
+  @media screen and (min-width:380px) and (max-width: 450px) {
+    padding: 0 20px 0 20px;
   }
 }
 
 #opciones {
   margin-right: 1.875rem;
-  padding-top: 1.875rem;
+  padding-top: 15px;
   margin-bottom: 0.938rem;
   @media screen and (max-width: 767px) {
-    margin-bottom: 1rem;
+    padding-top: 25px;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0 12px 10px 0;
+
   }
-  @media screen and (max-width: 450px) {
-    margin: 0 0.625rem 0 0.625rem;
-    padding: 0.625rem 1.25rem 1.25rem 1.25rem;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    margin: 0;
+    padding: 0 12px 10px 0;
   }
 }
 
@@ -532,19 +542,19 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 0 0.375rem 0 1.25rem;
   }
-  @media screen and (max-width: 450px) {
-    margin: 1.25rem 0 0.313rem 0;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    margin: 15px 5px 5px 12px;
   }
 }
 
 .texto-turnos {
   margin-left: 0.313rem;
   @media screen and (max-width: 767px) {
-    margin-right: 0.375rem;
+    margin-right: 0;
+    margin-bottom: 0;
   }
-  @media screen and (max-width: 450px) {
-    margin-right: 0.813rem;
-    margin-bottom: 0.625rem;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    margin-right: 0;
   }
 }
 
@@ -553,8 +563,8 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 0 0.313rem 1.25rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
-    margin: 0 0.313rem 0.625rem 0.625rem;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    margin: 0 5px 10px 12px;
   }
 }
 
@@ -566,7 +576,7 @@ input[type="checkbox"]:checked {
     margin-right: 0.813rem;
     margin-left: 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 1.25rem 0.813rem 0.313rem 0;
   }
 }
@@ -583,7 +593,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     width: 132px;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 132px;
   }
 }
@@ -594,7 +604,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     padding-top: 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding-bottom: 0.625rem;
     padding-top: 0;
   }
@@ -606,7 +616,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin-left: 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 0.625rem;
   }
 }
@@ -616,7 +626,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin-left: 0.563rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 0.563rem;
   }
 }
@@ -626,9 +636,9 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin-left: 0.5rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin-left: 0.5rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 5px;
   }
 }
 
@@ -642,7 +652,7 @@ input[type="checkbox"]:checked {
     width: 141px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 138px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
@@ -658,7 +668,7 @@ input[type="checkbox"]:checked {
     width: 122px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 122px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
@@ -674,7 +684,7 @@ input[type="checkbox"]:checked {
     width: 106px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 106px;
     margin: 0.313rem 0 0.625rem 0.625rem;
   }
@@ -686,8 +696,8 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     padding: 0.625rem 0 0.625rem 0;
   }
-  @media screen and (max-width: 450px) {
-    padding: 0 10px;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    padding: 0 20px;
   }
 }
 
@@ -699,7 +709,7 @@ input[type="checkbox"]:checked {
     width: 90px;
     margin: 0 0.625rem 0.625rem 0.625rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 100%;
     margin: 0 0 10px 0;
   }
@@ -714,7 +724,7 @@ input[type="checkbox"]:checked {
     width: 90px;
     margin: 0 0.625rem 0.625rem 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 100%;
     margin: 0 0.625rem 0.625rem 0;
   }
@@ -730,9 +740,10 @@ input[type="checkbox"]:checked {
     margin-left: 0.5rem;
     margin-bottom: 0.625rem;
   }
-  @media screen and (max-width: 450px) {
-    width: 67%;
-    margin-left: 0.563rem;
+ @media screen and (min-width:380px) and (max-width: 450px) {
+    width: 100%;
+    height: 43px;
+    margin-left: 0;
     margin-bottom: 0.625rem;
   }
 }
@@ -742,17 +753,19 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 0.625rem 0 0.625rem 1.563rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 0.625rem 0 0.625rem 1.188rem;
   }
 }
+
+/* Formulario de Reserva */
 
 .result_reserva {
   margin: 0 0.938rem 0 0;
   @media screen and (max-width: 767px) {
     margin: 0.625rem 0.638rem 0.625rem 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 0.625rem 0.938rem 0.625rem 0;
   }
 }
@@ -762,7 +775,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 1.25rem 1.938rem 1.25rem 1.563rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     margin: 1.25rem 0.125rem 1.25rem 0.125rem;
   }
 }
@@ -771,14 +784,12 @@ input[type="checkbox"]:checked {
   margin-top: 0.313rem;
 }
 
-/* Formulario de Reserva */
-
 .formulario__tres {
   padding: 5.625rem 2.813rem 5.625rem 2.813rem;
   @media screen and (max-width: 767px) {
     padding: 4.375rem 1.25rem 4.375rem 1.25rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 60px 20px;
     min-width: 380px;
   }
@@ -794,7 +805,7 @@ input[type="checkbox"]:checked {
     width: 95%;
     padding: 1.25rem 1.875rem 1.25rem 1.875rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     width: 100%;
   }
 }
@@ -833,7 +844,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     padding: 1.875rem 0.438rem 1.25rem 0;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     padding: 1.875rem 1.25rem 0.625rem 0;
   }
 }
@@ -847,7 +858,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 0 1.063rem 0 1.063rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 40px;
   }
 }
@@ -861,7 +872,7 @@ input[type="checkbox"]:checked {
   @media screen and (max-width: 767px) {
     margin: 0 1.063rem 0 1.125rem;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     height: 40px;
     margin-bottom: 0.625rem;
   }

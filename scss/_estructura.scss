@@ -13,7 +13,7 @@ $justifyContent-terciario: flex-end;
   grid-gap: 10px;
   align-items: $alineacionItem-primario;
   overflow: hidden;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
@@ -28,7 +28,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     grid-column: 2/-2;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     grid-column: 2/-2;
   }
 }
@@ -100,7 +100,7 @@ $justifyContent-terciario: flex-end;
 .texto-reservas {
   grid-column: 2/-2;
   text-align: $textAlineacion-primaria;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     grid-column: 1/-1;
   }
 }
@@ -111,7 +111,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     grid-column: 2/-2;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     grid-column: 1/-1;
   }
 }
@@ -159,7 +159,7 @@ $justifyContent-terciario: flex-end;
 
 [class^="footer-item"] {
   grid-column: span 4;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     grid-column: span 2;
   }
 }
@@ -173,7 +173,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     display: flex;
     flex-direction: row;
   }
@@ -272,7 +272,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     text-align: $textAlineacion-secundaria;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     text-align: $textAlineacion-secundaria;
   }
 }
@@ -284,11 +284,7 @@ $justifyContent-terciario: flex-end;
 
 .opciones_evento {
   display: inline-block;
-  @media screen and (max-width: 450px) {
-    display: flex;
-    flex-direction: column;
-    text-align: $textAlineacion-primaria;
-  }
+ 
 }
 
 .servicios_dos {
@@ -301,7 +297,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     flex-direction: column;
   }
 }
@@ -321,7 +317,7 @@ $justifyContent-terciario: flex-end;
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     flex-direction: column;
   }
 }
@@ -337,9 +333,10 @@ $justifyContent-terciario: flex-end;
     justify-content: $justifyContent-primario;
     flex-direction: column;
   }
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     justify-content: $justifyContent-primario;
     flex-direction: column;
+    align-items: normal;
   }
 }
 
@@ -388,7 +385,7 @@ $justifyContent-terciario: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: $justifyContent-primario;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     justify-content: $justifyContent-primario;
   }
 }
@@ -437,7 +434,7 @@ $justifyContent-terciario: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: $justifyContent-terciario;
-  @media screen and (max-width: 450px) {
+ @media screen and (min-width:380px) and (max-width: 450px) {
     flex-direction: column-reverse;
     justify-content: $justifyContent-primario;
   }
