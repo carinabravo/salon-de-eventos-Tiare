@@ -650,7 +650,6 @@ body {
   .img {
     max-width: 83%;
     margin-left: 34px;
-    margin-right: 0;
   }
 }
 
@@ -664,7 +663,7 @@ body {
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
   .textos-tiare {
-    margin: 20px 34px;
+    margin: 20px 34px 10px 34px;
   }
 }
 
