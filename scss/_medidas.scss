@@ -11,16 +11,13 @@
   }
 }
 
-.img-logo {
-  width: 100px;
-  height: auto;
+.logo {
+  padding-top: 29px;
   @media screen and (max-width: 767px) {
-    width: 85px;
-    margin-left: 13px;
-  }
-  @media screen and (min-width: 380px) and (max-width: 450px) {
-    width: 75px;
-    margin-left: 0;
+    padding-top: 15px;
+    @media screen and (min-width: 380px) and (max-width: 450px) {
+      padding-top: 14px;
+    }
   }
 }
 
@@ -42,7 +39,7 @@
   height: 15px;
   @media screen and (max-width: 767px) {
     width: 42px;
-    height: 15px;
+    height: 18px;
   }
   @media screen and (min-width: 380px) and (max-width: 450px) {
     width: 36px;

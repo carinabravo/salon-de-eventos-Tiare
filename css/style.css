@@ -522,20 +522,17 @@ body {
   }
 }
 
-.img-logo {
-  width: 100px;
-  height: auto;
+.logo {
+  padding-top: 29px;
 }
 @media screen and (max-width: 767px) {
-  .img-logo {
-    width: 85px;
-    margin-left: 13px;
+  .logo {
+    padding-top: 15px;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 450px) {
-  .img-logo {
-    width: 75px;
-    margin-left: 0;
+@media screen and (max-width: 767px) and (min-width: 380px) and (max-width: 450px) {
+  .logo {
+    padding-top: 14px;
   }
 }
 
@@ -561,7 +558,7 @@ body {
 @media screen and (max-width: 767px) {
   .navbar-light .navbar-toggler {
     width: 42px;
-    height: 15px;
+    height: 18px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
@@ -1623,6 +1620,21 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.logo {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 450px) {
+  .logo {
+    font-size: 28px;
+  }
+}
+
 .navbar-toggler {
   font-size: 12px;
 }
@@ -2177,6 +2189,10 @@ body {
 
 .navbar-collapse {
   background-color: #000000;
+}
+
+.logo {
+  color: #fff;
 }
 
 .button-uno,
