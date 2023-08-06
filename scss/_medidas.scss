@@ -16,9 +16,14 @@
   @media screen and (max-width: 767px) {
     padding-top: 15px;
     @media screen and (min-width: 380px) and (max-width: 450px) {
-      padding-top: 14px;
+      padding-top: 13px;
     }
   }
+}
+
+.py-3 {
+  padding-top: 0rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .px-5 {
@@ -62,7 +67,7 @@
 .nav-link {
   margin-top: 20px;
   @media screen and (max-width: 767px) {
-    margin: 0.125rem 0.625rem;
+    margin: 0.125rem 0.625rem 0.125rem 0;
   }
   @media screen and (min-width: 380px) and (max-width: 450px) {
     margin: 2px;

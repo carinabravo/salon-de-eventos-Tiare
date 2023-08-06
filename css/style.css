@@ -532,8 +532,13 @@ body {
 }
 @media screen and (max-width: 767px) and (min-width: 380px) and (max-width: 450px) {
   .logo {
-    padding-top: 14px;
+    padding-top: 13px;
   }
+}
+
+.py-3 {
+  padding-top: 0rem !important;
+  padding-bottom: 1rem !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -587,7 +592,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .nav-link {
-    margin: 0.125rem 0.625rem;
+    margin: 0.125rem 0.625rem 0.125rem 0;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 450px) {
