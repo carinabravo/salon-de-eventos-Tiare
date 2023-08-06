@@ -2209,10 +2209,6 @@ body {
   color: #fff;
 }
 
-.button-dos:hover {
-  transform: scale(1.1);
-}
-
 .button-uno,
 .button-dos {
   background-color: #000000;
