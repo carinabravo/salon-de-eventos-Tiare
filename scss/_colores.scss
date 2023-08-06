@@ -58,8 +58,6 @@ $base-error: #bb2929;
   color: $baseTerciaria-color;
 }
 
-.navbar-toggler,
-.navbar-light,
 .nav-link {
   color: $baseSecundaria-color !important;
 }
@@ -67,7 +65,6 @@ $base-error: #bb2929;
 @media screen and (max-width: 767px) {
   .navbar-light .navbar-toggler {
     color: $baseSecundaria-color !important;
-    background-color: $baseSecundaria-color;
   }
 }
 

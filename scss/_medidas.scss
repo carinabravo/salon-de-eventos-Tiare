@@ -14,9 +14,9 @@
 .logo {
   padding-top: 29px;
   @media screen and (max-width: 767px) {
-    padding-top: 15px;
+padding-top: 38px;
     @media screen and (min-width: 380px) and (max-width: 450px) {
-      padding-top: 14px;
+padding-top: 33px;
     }
   }
 }
@@ -24,9 +24,6 @@
 .py-3 {
   padding-top: 0rem !important;
   padding-bottom: 1rem !important;
-  @media screen and (max-width: 767px) {
-    padding-top: 1rem !important;
-  }
 }
 
 .px-5 {
@@ -45,14 +42,6 @@
 .navbar-light .navbar-toggler {
   width: 30px;
   height: 15px;
-  @media screen and (max-width: 767px) {
-    width: 42px;
-    height: 18px;
-  }
-  @media screen and (min-width: 380px) and (max-width: 450px) {
-    width: 36px;
-    height: 17px;
-  }
 }
 
 .navbar-nav {

@@ -527,23 +527,18 @@ body {
 }
 @media screen and (max-width: 767px) {
   .logo {
-    padding-top: 15px;
+    padding-top: 38px;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 380px) and (max-width: 450px) {
   .logo {
-    padding-top: 14px;
+    padding-top: 33px;
   }
 }
 
 .py-3 {
   padding-top: 0rem !important;
   padding-bottom: 1rem !important;
-}
-@media screen and (max-width: 767px) {
-  .py-3 {
-    padding-top: 1rem !important;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -564,18 +559,6 @@ body {
 .navbar-light .navbar-toggler {
   width: 30px;
   height: 15px;
-}
-@media screen and (max-width: 767px) {
-  .navbar-light .navbar-toggler {
-    width: 42px;
-    height: 18px;
-  }
-}
-@media screen and (min-width: 380px) and (max-width: 450px) {
-  .navbar-light .navbar-toggler {
-    width: 36px;
-    height: 17px;
-  }
 }
 
 .navbar-nav {
@@ -1646,6 +1629,21 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 450px) {
+  .fa-solid,
+.fas {
+    font-size: 22px;
+  }
+}
+
 .navbar-toggler {
   font-size: 12px;
 }
@@ -2241,8 +2239,6 @@ body {
   color: #cd6032;
 }
 
-.navbar-toggler,
-.navbar-light,
 .nav-link {
   color: #fff !important;
 }
@@ -2250,7 +2246,6 @@ body {
 @media screen and (max-width: 767px) {
   .navbar-light .navbar-toggler {
     color: #fff !important;
-    background-color: #fff;
   }
 }
 .opciones_evento,

@@ -27,6 +27,18 @@ body {
   }
 }
 
+.fa-solid,
+.fas {
+  @media screen and (max-width: 767px) {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 27px;
+  }
+  @media screen and (min-width: 380px) and (max-width: 450px) {
+    font-size: 22px;
+  }
+}
+
 .navbar-toggler {
   font-size: 12px;
 }
