@@ -532,7 +532,7 @@ body {
 }
 @media screen and (max-width: 767px) and (min-width: 380px) and (max-width: 450px) {
   .logo {
-    padding-top: 13px;
+    padding-top: 14px;
   }
 }
 
@@ -583,7 +583,8 @@ body {
 }
 @media screen and (max-width: 767px) {
   .navbar-nav {
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 0;
   }
 }
 

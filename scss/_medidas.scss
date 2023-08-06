@@ -16,7 +16,7 @@
   @media screen and (max-width: 767px) {
     padding-top: 15px;
     @media screen and (min-width: 380px) and (max-width: 450px) {
-      padding-top: 13px;
+      padding-top: 14px;
     }
   }
 }
@@ -58,7 +58,8 @@
 .navbar-nav {
   padding-bottom: 5px;
   @media screen and (max-width: 767px) {
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 0;
   }
 }
 
