@@ -2201,6 +2201,10 @@ body {
   background-color: #000000;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .logo {
   color: #fff;
 }

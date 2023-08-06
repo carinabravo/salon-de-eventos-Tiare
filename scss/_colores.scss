@@ -20,6 +20,10 @@ $base-error: #bb2929;
   background-color: $basePrimaria-color;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .logo {
   color: $baseSecundaria-color;
 }
