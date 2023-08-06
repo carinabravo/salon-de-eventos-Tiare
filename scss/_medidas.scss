@@ -24,6 +24,9 @@
 .py-3 {
   padding-top: 0rem !important;
   padding-bottom: 1rem !important;
+  @media screen and (max-width: 767px) {
+    padding-top: 1rem !important;
+  }
 }
 
 .px-5 {
