@@ -527,17 +527,13 @@ body {
 }
 @media screen and (max-width: 767px) {
   .logo {
-    padding-top: 38px;
-  }
-}
-@media screen and (max-width: 767px) and (min-width: 380px) and (max-width: 450px) {
-  .logo {
-    padding-top: 33px;
+    padding-top: 5px;
+    margin-bottom: 0;
   }
 }
 
 .py-3 {
-  padding-top: 0rem !important;
+  padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 
@@ -556,9 +552,8 @@ body {
   }
 }
 
-.navbar-light .navbar-toggler {
-  width: 30px;
-  height: 15px;
+.navbar-toggler {
+  padding: 0;
 }
 
 .navbar-nav {
@@ -1642,10 +1637,6 @@ body {
 .fas {
     font-size: 22px;
   }
-}
-
-.navbar-toggler {
-  font-size: 12px;
 }
 
 .navbar-collapse {
