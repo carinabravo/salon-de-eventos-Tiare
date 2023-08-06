@@ -451,3 +451,15 @@ body {
     font-size: 13px;
   }
 }
+
+/* Mensaje de error - botón ok */
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}

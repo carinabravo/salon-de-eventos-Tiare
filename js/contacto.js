@@ -133,7 +133,6 @@ form_contactanos.addEventListener("submit", (e) => {
   } else {
     Swal.fire({
       icon: "error",
-      title: "Error",
       text: "Debe completar el formulario correctamente!", //uso de sweet alert
     });
   }

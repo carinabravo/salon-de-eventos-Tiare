@@ -506,6 +506,14 @@ body {
   cursor: pointer;
 }
 
+/* Mensaje de error - botón ok */
+div:where(.swal2-container) div:where(.swal2-popup) {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: minmax(0, 100%);
+}
+
 /*** Medidas del sitio ***/
 .navbar > .container {
   height: 80px;
@@ -1592,6 +1600,28 @@ input[type=checkbox]:checked {
   }
 }
 
+/* Mensaje de error - botón ok */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  border: 0;
+  border-radius: 10px;
+  background: initial;
+  width: 150px;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  margin: 0.315px;
+  padding: 8px;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: 27em;
+  height: auto;
+  max-width: 100%;
+  padding: 0 0 2rem;
+  border: none;
+  border-radius: 10px;
+}
+
 /*** Fuentes del sitio ***/
 .texto-mayor {
   font-weight: bold;
@@ -2182,6 +2212,17 @@ body {
   }
 }
 
+/* Mensaje de error - botón ok */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
 /*** Colores del sitio ***/
 .navbar > .container {
   background-color: #000000 !important;
@@ -2477,6 +2518,21 @@ input:disabled {
   border: 2px solid #bb2929;
 }
 
+/* Mensaje de error - botón ok */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #7066e0;
+  color: #fff;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0);
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  background: #fff;
+  color: #000000;
+}
+
 /*** Animaciones del sitio ***/
 .nav-link:hover {
   transition: 0.5s;
@@ -2517,6 +2573,11 @@ input[type=checkbox] {
 .btn_salir,
 .formulario__btn__dos {
   transition: 0.2s ease all;
+}
+
+/* Mensaje de error - botón ok */
+div:where(.swal2-container) button:where(.swal2-styled) {
+  transition: box-shadow 0.1s;
 }
 
 /*# sourceMappingURL=style.css.map */

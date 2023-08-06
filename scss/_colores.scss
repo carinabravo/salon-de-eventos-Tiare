@@ -11,6 +11,7 @@ $base-color-input: #edecf0a4;
 $base-validacion: #29c436;
 $base-focus: #0075ff;
 $base-error: #bb2929;
+$base-error-mensaje: #7066e0;
 
 .navbar > .container {
   background-color: $basePrimaria-color !important;
@@ -309,4 +310,20 @@ input:disabled {
 
 .formulario__grupo-incorrecto__dos .formulario__input__dos {
   border: 2px solid $base-error;
+}
+
+/* Mensaje de error - botón ok */
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: $base-error-mensaje;
+  color: $baseSecundaria-color;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0);
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  background: $baseSecundaria-color;
+  color: $basePrimaria-color;
 }

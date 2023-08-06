@@ -134,7 +134,6 @@ form_reservar.addEventListener("submit", (e) => {
   } else {
     Swal.fire({
       icon: "error",
-      title: "Error",
       text: "Debe completar el formulario correctamente!", //uso del sweet alert
     });
   }

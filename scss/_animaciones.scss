@@ -43,3 +43,9 @@ input[type="checkbox"] {
 .formulario__btn__dos {
   transition: 0.2s ease all;
 }
+
+/* Mensaje de error - botón ok */
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  transition: box-shadow .1s;
+}
