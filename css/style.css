@@ -588,7 +588,7 @@ body {
 }
 
 .nav-link:hover {
-  padding: 0.313rem;
+  padding: 7px 5px 3px 5px;
   border-radius: 0.313rem;
 }
 
