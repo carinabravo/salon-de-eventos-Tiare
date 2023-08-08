@@ -18,9 +18,9 @@ body {
 
 .logo {
   font-family: "Kalam", cursive;
-  font-size: 40px;
+  font-size: 35px;
   @media screen and (max-width: 767px) {
-    font-size: 35px;
+    font-size: 34px;
   }
   @media screen and (min-width: 380px) and (max-width: 450px) {
     font-size: 28px;
@@ -41,7 +41,7 @@ body {
 
 .navbar-collapse {
   font-family: "Kalam", cursive;
-  font-size: 17px;
+  font-size: 18px;
   @media screen and (max-width: 767px) {
     font-size: 17px;
   }
