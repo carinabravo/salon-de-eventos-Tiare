@@ -662,7 +662,7 @@ div:where(.swal2-container) div:where(.swal2-popup) {
 }
 
 .button-uno {
-  width: 130px;
+  width: 140px;
   height: 45px;
   border-radius: 10px;
   padding: 10px 0;
@@ -1730,7 +1730,7 @@ body {
 
 .button-uno {
   font-family: "Kalam", cursive;
-  font-size: 16px;
+  font-size: 17px;
 }
 @media screen and (max-width: 767px) {
   .button-uno {
