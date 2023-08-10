@@ -1689,7 +1689,7 @@ body {
 .titulo-reserva,
 .titulo-empresa {
   font-family: "Kalam", cursive;
-  font-size: 29px;
+  font-size: 28px;
 }
 @media screen and (max-width: 767px) {
   .titulo-tiare,
@@ -1813,7 +1813,7 @@ body {
 
 .titulo-footer {
   font-family: "Kalam", cursive;
-  font-size: 29px;
+  font-size: 28px;
 }
 @media screen and (max-width: 767px) {
   .titulo-footer {
@@ -1872,7 +1872,7 @@ body {
 /* Formulario de Contacto */
 .titulo_contactanos {
   font-family: "Kalam", cursive;
-  font-size: 29px;
+  font-size: 28px;
 }
 @media screen and (max-width: 767px) {
   .titulo_contactanos {
@@ -1953,7 +1953,7 @@ body {
 /* Formulario de Cotización */
 .titulo_cotizacion {
   font-family: "Kalam", cursive;
-  font-size: 29px;
+  font-size: 28px;
 }
 @media screen and (max-width: 767px) {
   .titulo_cotizacion {
@@ -2125,7 +2125,7 @@ body {
 /* Formulario de Reserva */
 .titulo_reservar {
   font-family: "Kalam", cursive;
-  font-size: 29px;
+  font-size: 28px;
 }
 @media screen and (max-width: 767px) {
   .titulo_reservar {
