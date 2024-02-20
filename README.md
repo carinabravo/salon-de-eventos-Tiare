@@ -1,5 +1,5 @@
 
-# Salon de eventos Tiare
+# Salon de eventos 
 
 ## Descripción 
 
